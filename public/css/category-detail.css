@@ -1,0 +1,111 @@
+.btn-global-category, .box-header-category .btn-tag-follow span,
+.box-header-category .btn-tag-follow form button,
+.box-header-category .btn-post-follow span, {
+  font-size: 14px;
+  color: #333;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 10px;
+}
+.box-header-category {
+  padding: 20px 0;
+  font-weight: 400;
+  z-index: -1;
+}
+.box-header-category .btn-tag-follow {
+  float: left;
+}
+.box-header-category .btn-tag-follow span {
+  margin-right: 5px;
+}
+.box-header-category .btn-tag-follow form {
+  display: inline-block;
+}
+.box-header-category .btn-tag-follow form button {
+  font-size: 10px;
+  border-radius: 0;
+  margin: 0 10px 0 0;
+  text-transform: uppercase;
+}
+.box-header-category .btn-tag-follow form button:focus {
+  outline: none;
+}
+.box-header-category .btn-post-follow:after {
+  content: "";
+  height: 26px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.box-header-category .btn-post-follow span:first-child {
+  padding-left: 0;
+}
+.box-header-category .btn-post-follow span.text-counter {
+  padding-right: 0;
+}
+.box-header-category .btn-post-follow span.text-unit {
+  padding-left: 0;
+}
+.box-header-category .btn-post-follow span.text-delimiter {
+  color: #ccc;
+  margin: 0 3px;
+}
+.box-header-category .btn-tag-follow .btn-post {
+  background: url(../img/theme-btn-post.png) 10px no-repeat #000;
+  padding: 3px 15px 3px 26px;
+  color: #e1df19;
+  font-size: 13px;
+  margin: 5px 10px;
+  line-height: 0;
+  position: relative;
+  top: 3px;
+}
+.category-follow-span {
+  margin-right: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  text-transform: uppercase;
+  float: left;
+}
+.category-follow-span-theme {
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
+  text-transform: uppercase;
+  float: left;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.category-follow-span-theme a {
+  color: #000;
+}
+div .container .box-title {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  display: inline-block;
+  width: 100%;
+}
+.btn-follow-mini {
+  border: solid 1px #e1df19;
+  padding: 6px 15px;
+  background: none;
+  color: #000;
+}
+.btn-follow-mini:hover {
+  background: none;
+  background-color: #e1df19;
+  color: #000;
+}
+.btn-following {
+  background: none;
+  background-color: #e1df19 !important;
+  border: 0;
+  color: #000;
+}
+.btn-following:hover {
+  background: none;
+  background-color: #e1df19;
+  border: 0;
+  color: #000;
+}

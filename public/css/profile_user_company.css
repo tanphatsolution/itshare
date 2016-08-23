@@ -1,0 +1,255 @@
+.box-profile {
+  margin-top: 45px;
+  margin-bottom: 35px;
+  font-size: 14px;
+}
+.box-profile .row {
+  padding-left: 15px;
+}
+.box-profile .row img.avar-profile {
+  display: inline-block;
+  height: 180px;
+  border-radius: 3px;
+  background-position: center center !important;
+  background-size: cover !important;
+}
+.box-profile .row .content-profile {
+  padding-left: 25px;
+  font-size: 13px;
+  color: #5b5b5b;
+}
+.box-profile .row .content-profile .name-profile {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+}
+.box-profile .row .content-profile .social-profile {
+  margin-bottom: 10px;
+}
+.box-profile .row .content-profile .social-profile a {
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+}
+.box-profile .row .content-profile .social-profile a img {
+  width: 25px;
+  height: 25px;
+  background-size: cover !important;
+  background-position: center center;
+}
+.box-profile .row .content-profile .social-profile a .facebook {
+  background: url(../img/icon-facebook-mini.png);
+}
+.box-profile .row .content-profile .social-profile a .icon-twit {
+  background: url(../img/icon-twiter-mini.png);
+}
+.box-profile .row .content-profile .social-profile a .google {
+  background: url(../img/icon-g-mini.png);
+}
+.box-profile .row .content-profile .social-profile a .icon-rss {
+  background: url(../img/icon-rss-mini.png);
+}
+.box-profile .row .content-profile .social-profile a .github {
+  background: url(../img/icon-github-global.png);
+}
+.box-profile .row .content-profile .social-profile a:hover .facebook {
+  background: url(../img/icon-facebook-mini-hover.png) center !important;
+}
+.box-profile .row .content-profile .social-profile a:hover .icon-twit {
+  background: url(../img/icon-twiter-mini-hover.png) center !important;
+}
+.box-profile .row .content-profile .social-profile a:hover .google {
+  background: url(../img/icon-g-mini-hover.png) center !important;
+}
+.box-profile .row .content-profile .social-profile a:hover .icon-rss {
+  background: url(../img/icon-rss-mini-hover.png) center !important;
+}
+.box-profile .row .content-profile .social-profile a:hover .github {
+  background: url(../img/icon-github-mini-hover.png) center !important;
+}
+.box-profile .row .content-profile .social-profile .btn-follow-mini {
+  float: right;
+}
+.box-profile .row .content-profile .social-profile .unfollow-btn {
+  background: url(../img/icon-unfollow.png) no-repeat center left 15px;
+  background-color: #999;
+}
+.box-profile .row .content-profile .social-profile .unfollow-btn:hover {
+  background: url(../img/icon-unfollow.png) no-repeat center left 15px;
+  background-color: #d9534f;
+  color: #fff;
+}
+.box-profile .row .content-profile .position {
+  margin-bottom: 5px;
+  font-weight: 700;
+  color: #e20b64;
+}
+.box-profile .row .content-profile .position a {
+  color: #000;
+}
+.box-profile .row .content-profile .position a:hover {
+  text-decoration: underline;
+}
+.box-profile .row .content-profile .description {
+  margin-bottom: 5px;
+  font-style: italic;
+}
+.box-profile .row .content-profile .link-website {
+  color: #57b9b8;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.box-profile .row .content-profile .link-website:hover {
+  text-decoration: underline;
+}
+.box-profile .row .info-list-like {
+  padding: 20px 15px 15px 15px;
+  background-color: #f6f6f6;
+  border-radius: 3px;
+}
+.box-profile .row .info-list-like a {
+  display: block;
+  font-size: 14px;
+  color: #000;
+}
+.box-profile .row .info-list-like a p {
+  margin-bottom: 5px;
+}
+.box-profile .row .info-list-like a:hover p {
+  color: inherit;
+}
+.box-profile .row .info-list-like a .number {
+  font-weight: 700;
+  text-align: center;
+}
+.box-statistical .row div.content-skill {
+  padding-left: 0px;
+}
+.box-statistical .row div div.tendency-of-posts {
+  border-radius: 3px;
+  padding-top: 20px;
+}
+.box-statistical .row div div.tendency-of-posts h4 {
+  padding-left: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+}
+.box-statistical .row div div.tendency-of-posts .text-warning {
+  text-align: center;
+  padding-top: 90px;
+  height: 250px;
+}
+.box-statistical .row #piechart {
+  padding-top: 0;
+  height: 250px;
+}
+.box-statistical .content-skill {
+  padding-left: 0px;
+}
+.box-statistical .user-skill-list {
+  padding: 0;
+}
+.box-statistical .user-skill-list li {
+  list-style: inherit;
+  display: inline-block;
+  margin: 5px 10px 5px 0px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  color: #e1df19;
+  font-size: 13px;
+  background-color: #000;
+  transition: 0.3s ease-out;
+}
+.box-statistical .user-skill-list li:hover {
+  background-color: #e1df19;
+  color: #000;
+}
+.box-statistical .user-skill-list li .category {
+  font-weight: bold;
+}
+.box-group .email-group {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 700;
+  color: #57b9b8;
+}
+.box-group .email-group:hover {
+  text-decoration: underline;
+}
+.box-group .box-info-group {
+  border-radius: 3px;
+  padding: 20px 25px;
+  background-color: #f5f5f5;
+}
+.box-group .box-info-group .number a {
+  font-size: 20px;
+  color: #0fa19f;
+  font-weight: 300;
+}
+.box-group .box-info-group .number a:hover {
+  text-decoration: underline;
+}
+.box-group .box-info-group .number a.number-post {
+  padding-left: 20px;
+  background: url(../img/icon-post-hover.png) no-repeat center left;
+}
+.box-group .box-info-group .number a.number-follow {
+  float: right;
+  padding-left: 42px;
+  background: url(../img/icon-member-hover.png) no-repeat center left;
+}
+.box-group .box-info-group .box-top-member {
+  margin-top: 40px;
+  border-top: 1px solid #0fa19f;
+  position: relative;
+}
+.box-group .box-info-group .box-top-member p {
+  position: absolute;
+  top: -18px;
+  left: 30%;
+  padding: 0 5px;
+  background-color: #f5f5f5;
+  color: #0fa19f;
+  font-size: 15px;
+  font-weight: 300;
+}
+.box-group .box-info-group .box-top-member .top-member {
+  margin-top: 20px;
+  text-align: center;
+}
+.box-group .box-info-group .box-top-member .top-member a {
+  margin-right: 5px;
+}
+.box-group .box-info-group .box-top-member .top-member a img {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-size: auto 100% !important;
+  background-position: center center !important;
+  transition: background-size 0.2s ease-in;
+  -moz-transition: background-size 0.2s ease-in;
+  -ms-transition: background-size 0.2s ease-in;
+  -o-transition: background-size 0.2s ease-in;
+  -webkit-transition: background-size 0.2s ease-in;
+}
+.box-group .box-info-group .box-top-member .top-member a:hover img {
+  background-size: auto 110% !important;
+}
+.following-categories {
+  margin-top: 0px !important;
+}
+
+div .container .box-title {
+  margin-bottom: 45px;
+  margin-top: 10px;
+  display: inline-block;
+  width: 100%;
+}
+
+.user_profile_btn_follow {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+

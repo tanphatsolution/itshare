@@ -1,0 +1,197 @@
+/**
+ * Login and Signup page
+ */
+.user-signup, .user-login, .user-remind-password, .user-active {
+    margin-top:20px;
+}
+.panel-link {
+    float: right;
+    font-size: 85%;
+    position: relative;
+    top: -10px;
+}
+.form-divider {
+    border-top: 1px solid #999;
+    padding-top:20px;
+}
+.mg-bottom-5 {
+    margin-bottom: 5px;
+}
+.mg-bottom-15 {
+    margin-bottom: 15px;
+}
+.mg-top-15 {
+    margin-top: 15px;
+}
+.mg-left-15 {
+    margin-left: 15px;
+}
+.user-login .alternative-method {
+    font-size: 90%;
+}
+.pd-top-15 {
+    padding-top: 5px;
+}
+/**
+ * User home page
+ */
+.user .user-info .user-icon {
+    width: 80px;
+    height: 80px;
+    -webkit-box-shadow: 0 0 2px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 0 2px rgba(0,0,0,0.3);
+    box-shadow: 0 0 2px rgba(0,0,0,0.3);
+    background-color: #fff;
+    float: left;
+    margin-right: 10px;
+    vertical-align: top;
+}
+@media (max-width: 400px) {
+    .user .user-info .user-icon {
+        float: none;
+    }
+}
+.user .user-info .outline {
+    position: relative;
+    padding-top: 5px;
+}
+.user .user-info h1 {
+    display: inline-block;
+    margin: 0;
+    line-height: 34px;
+    vertical-align: middle;
+    font-size: 28px;
+    font-weight: 600;
+}
+.user .user-info .user-account-data {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+.user .user-info .user-account-data a {
+    font-size: 2em;
+}
+.user .user-info .user-account-data a .fa.fa-github-square {
+    color: #000;
+}
+.user .user-info .user-account-data a .fa.fa-facebook-square {
+    color: #2a6496
+}
+.user .user-info .user-account-data a .fa.fa-twitter-square {
+    color: #428bca;
+}
+.user .user-info .user-account-data a .fa.fa-google-square {
+    color: #e62727;
+}
+.user .user-info .second-line {
+    margin-top: 5px;
+}
+.user .user-info .count-post {
+    font-size: 26px;
+}
+.user .user-info .unit-post {
+    color: #555;
+    font-size: 18px;
+}
+.user .user-info-wrapper {
+    background-color: #F5F9F4;
+    margin: 10px -15px;
+    border-top: solid 1px #D0D5CD;
+    border-bottom: solid 1px #D0D5CD;
+    padding: 10px 0;
+}
+.user .user-info-wrapper li.full-name {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.user .user-info-wrapper li .description {
+    word-wrap: break-word;
+    word-break: break-all;
+    font-size: 13px;
+}
+.user .user-info-wrapper li {
+    margin-bottom: 5px;
+}
+.user .user-info-wrapper li i{
+    width: 16px;
+}
+.user .user-info-wrapper a.follow-label {
+    color: #fff;
+    background-color: #666666;
+    border-color: #563d7c;
+    right: 0;
+    z-index: 10;
+    display: block;
+    padding: 5px 8px;
+    cursor: pointer;
+    border: 2px solid #e1e1e8;
+    border-radius: 0 4px 0 4px;
+    text-decoration: none;
+}
+.user .user-info-wrapper a.follow-label:hover {
+    color: #F1E1FA;
+}
+.user .user-info-wrapper ul.category-list {
+    display: block;
+    margin-bottom: 15px;
+    margin-left: 0px;
+}
+.user .user-info-wrapper .category-list li {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    display: inline-block;
+    position: relative;
+    background-color: #dfdfdf;
+    font-size: 85%;
+    line-height: 2em;
+    margin-left: .2em;
+    margin-right: .5em;
+    padding: 0 2px 0;
+    color: #555;
+}
+.user .user-info-wrapper .category-list li:hover {
+    background-color: #acacac;
+}
+.user .user-info-wrapper .category-list li:hover a {
+    color: #fff;
+    text-decoration: none;
+}
+.user .user-info-wrapper .category-list li img {
+    width: 1em;
+    height: 1em;
+    vertical-align: top;
+    margin-top: 5px;
+    margin-left: 2px;
+}
+.user .user-info-wrapper .category-list li a {
+    color: #555;
+    text-decoration: none;
+}
+
+.user .user-info-wrapper .user-icon-list img {
+    width: 30px;
+    height: 30px;
+    -webkit-box-shadow: 0 0 2px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 0 2px rgba(0,0,0,0.3);
+    box-shadow: 0 0 2px rgba(0,0,0,0.3);
+    background-color: #fff;
+}
+.user .user-info-wrapper #piechart {
+    height: 250px;
+}
+.user .user-nav-wrapper {
+    background-color: #F5F9F4;
+    margin: 10px -15px;
+    border-top: solid 1px #D0D5CD;
+    border-bottom: solid 1px #D0D5CD;
+    padding: 10px 0;
+}
+.user .user-nav-wrapper .breadcrumb {
+    background-color: #F5F9F4;
+    margin-bottom: 0px;
+}
+.user .fa-google-square:before {
+    content: "\f0d4";
+}

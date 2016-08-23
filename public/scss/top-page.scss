@@ -1,0 +1,272 @@
+//--slide
+// .box-slide {
+//     .slide {
+//         width: 1170px;
+//         height: 400px;
+//         background-color: #fff;
+//         float: left;
+//         margin-bottom: 20px;
+//         .box-text {
+//             width: 680px;
+//             height: 260px;
+//             background-color: #e1df19;
+//             margin-top: 85px;
+//             display: inline-block;
+//             float: left;
+//             padding: 30px;
+//             text-transform: uppercase;
+//             font-size: 14px;
+//             color: #343434;
+//             .main-theme {
+//                 font-family: mySecondFont;
+//                 font-size: 30px;
+//                 margin-bottom: 15px;
+//             }
+//             .sub-theme {
+//                 font-family: myThirdFont;
+//                 display: inline-block;
+//                 border-bottom: solid 1px #343434;
+//                 margin-bottom: 15px;
+//             }
+//             .title-post {
+//                 font-size: 24px;
+//                 height: 63px;
+//                 overflow: hidden;
+//                 letter-spacing: 0.5px;
+//                 margin-bottom: 20px;
+//             }
+//             .name-author {
+//                 color: #fff;
+//                 display: inline-block;
+//                 background-color: #000;
+//                 padding: 4px 8px;
+//                 font-size: 13px;
+//                 line-height: 13px;
+//                 letter-spacing: 0.5px;
+//             }
+//         }
+//         img {
+//             width: 490px;
+//             height: 400px;
+//             float: left;
+//         }
+//     }
+// }
+//end slide-->
+
+body {
+    ul {
+        padding: 0;
+        margin: 0;
+        li {
+            list-style: none;
+        }
+    }
+}
+
+// box-professional--
+.box-professional {
+    text-align: center;
+    margin-bottom: 60px;
+    img {
+        margin-bottom: 30px;
+    }
+    .content-pro {
+        margin: 0 -15px 20px -15px !important;
+    }
+    .title {
+        font-size: 18px;
+        text-transform: uppercase;
+        border-bottom: solid 1px #000;
+        position: relative;
+        margin-bottom: 60px;
+        .center {
+            position: absolute;
+            width: 100%;
+            top: -18px;
+            span {
+                background-color: #fff;
+                padding: 0 10px;
+            }
+        }
+    }
+    .pro-thumbnail {
+        text-align: -webkit-auto;
+        margin-bottom: 40px;
+
+        .thumbnail {
+            width: 260px;
+            height: 160px;
+            margin-right: 25px;
+            margin-bottom: 0;
+            float: left;
+            border: solid 1px #f1f1f1;
+            border-radius: 0;
+            background-position: center !important;
+            background-size: cover !important;
+            background-repeat: none !important;
+        }
+        .pro-text {
+            /*float: left;*/
+            .pro-title {
+                display: inline-block;
+                color: #343434;
+                width: 285px;
+                font-size: 18px;
+                height: 75px;
+                overflow: hidden;
+                margin-bottom: 35px;
+                letter-spacing: -0.5px;
+            }
+            .pro-info {
+                .pro-theme {
+                    color: #343434;
+                    font-weight: 700;
+                    background-color: #e1df19;
+                    padding: 2px 20px 2px 10px;
+                    font-size: 12px;
+                }
+                p {
+                    margin: 0;
+                    padding: 0;
+                    color: #fff;
+                    a {
+                        display: inline-block;
+                        padding: 2px 20px 2px 10px;
+                        font-size: 12px;
+                        &.pro-author {
+                            color: #fff;
+                            background-color: #000;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .and-more {
+        color: #fff;
+        background-color: #000;
+        padding: 5px 30px;
+        text-transform: uppercase;
+        font-size: 13px;
+        letter-spacing: 0.5px;
+    }
+}
+// end box-professional-->
+
+// theme-month
+.box-theme-month {
+    .name-theme {
+        display: inline-block;
+        color: #e1df19;
+        font-size: 36px;
+        padding: 3px 30px;
+        background-color: #000;
+        margin-bottom: 40px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+    }
+    .box-sub-theme {
+        li {
+            position: relative;
+            margin-bottom: 20px;
+            .name-sub-theme {
+                color: #343434;
+                font-size: 18px;
+                letter-spacing: -0.5px;
+            }
+            .btn-post {
+                position: absolute;
+                right: 100px;
+                background: url(../img/theme-btn-post.png) 10px no-repeat;
+                padding: 3px 15px 3px 26px;
+                color: #e1df19;
+                font-size: 13px;
+                background-color: #000;
+
+            }
+        }
+
+    }
+}
+// end them-month---->
+
+// box-back-number
+.box-back-number {
+    margin-bottom: 100px;
+    .number-year {
+        font-size: 36px;
+        margin-bottom: 40px;
+        line-height: 36px;
+        font-weight: 700;
+    }
+    .box-number {
+        text-align: center;
+        margin: 0 20px 30px 20px;
+        li {
+            display: inline-block;
+            margin-right: 15px;
+            margin-bottom: 25px;
+            &:last-child {
+                margin-right: 0;
+            }
+            a {
+                display: inline-block;
+                line-height: 13px;
+                span {
+                    font-size: 13px;
+                    padding: 2px 15px;
+                    background-color: #000;
+                    color: #c6c6c6;
+                    &.month-number {
+                        background-color: #e1df19;
+                        color: #000;
+                        padding: 2px 8px;
+                        font-weight: normal;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// end box-back-number---->
+
+//test slide
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

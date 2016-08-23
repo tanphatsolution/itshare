@@ -1,0 +1,7 @@
+.user-avartar {
+  width: 30px;
+  height: 30px;
+  background-position: center center !important;
+  background-size: cover !important;
+  margin-right: 5px;
+}

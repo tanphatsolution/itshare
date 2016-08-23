@@ -1,0 +1,438 @@
+.pop {
+    background: rgba(0, 0, 0, 0.85);
+    text-align: center;
+    padding-bottom: 23px;
+    padding-right: 0px !important;
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+    h3 {
+        color: #fff;
+        font-size: 19px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+    }
+    p.l-popup-login {
+        color: #cecece;
+        font-size: 13px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+    }
+    button.register {
+        color: #111;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+        border: 0;
+        padding: 7px 50px;
+        text-transform: capitalize;
+        margin-right: 15px;
+        background: #e1df1a;
+        transition: 0.2s ease-out;
+        &:hover {
+            background: #000;
+            color: #e1df1a;
+        }
+    }
+    button.login {
+        background: #ebebeb;
+        color: #666;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+        border: 0;
+        padding: 7px 50px;
+        text-transform: capitalize;
+        transition: 0.2s ease-out;
+        &:hover {
+            background: #b5b5b5;
+            color: #333;
+        }
+    }
+    .close-popup-signup {
+        float: right;
+        margin-right: 10px;
+        display: block;
+        font-size: 15pt;
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+
+#modal-popup-signup .modal-dialog {
+    width: 380px;
+    height: 599px;
+    margin: 0px auto !important;
+    top: 100px;
+}
+
+.l-box-register {
+    background: url("../img/bg-register.png") no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    top: 200px;
+    transform: translate(0,0);
+    transition: transform .3s ease-out;
+    -webkit-transform: translate(0,-25%);
+    .modal-content {
+        width: 100%;
+        height: 100%;
+        background: none;
+        .modal-header-register {
+            color: #fff;
+            font-size: 18px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: normal;
+            padding: 10px 0;
+            border: 0;
+        }
+        .modal-footer-register {
+            padding-top: 3px;
+            p {
+                color: #cecece;
+                font-size: 13px;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: normal;
+            }
+            button {
+                background: #ebebeb;
+                padding: 6px 42px;
+                border-radius: 3px;
+                color: #666;
+                font-size: 14px;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 600;
+                border: 0;
+                text-transform: uppercase;
+                transition: 0.2s ease-out;
+                &:hover {
+                    background: #b5b5b5;
+                    color: #333;
+                }
+            }
+        }
+        .modal-body-register {
+            padding: 14px 35px;
+            .message-error {
+                p {
+                    color: red;
+                }
+            }
+            p {
+                color: #cecece;
+                font-size: 13px;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: normal;
+                a {
+                    color: #cecece;
+                    text-decoration: underline;
+                }   
+            }
+            .list-social-register {
+                li {
+                display: inline-flex;
+                margin-right: 12px;
+                }
+                a.facebook {
+                    background: url("../img/icon-face1.png") no-repeat;
+                    width: 33px;
+                    height: 33px;
+                }
+                a.google {
+                    background: url("../img/icon-google1.png") no-repeat;
+                    width: 33px;
+                    height: 33px;
+                }
+                a.github {
+                    background: url("../img/icon-git1.png") no-repeat;
+                    width: 33px;
+                    height: 33px;
+                }
+            }
+            .l-or {
+                text-align: center;
+                padding-top: 4px;
+                padding-bottom: 6px;
+                clear: both;
+                span {
+                    position: relative;
+                    color: #999;
+                    font-size: 14px;
+                    font-family: 'Open Sans', sans-serif;
+                    font-weight: normal;
+                    &:after {
+                        position: absolute;
+                        content: "";
+                        background: #fff;
+                        left: 19px;
+                        height: 1px;
+                        width: 142px;
+                        top: 10px;
+                        opacity: 0.1;
+                    }
+                    &:before {
+                        position: absolute;
+                        content: "";
+                        background: #fff;
+                        opacity: 0.1;
+                        right: 19px;
+                        height: 1px;
+                        width: 142px;
+                        top: 10px;
+                    }
+                }
+            }
+            input {
+                margin-bottom: 12px;
+                border-radius: 2px;
+                padding: 6px 0 6px 12px;
+                height: auto;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: normal;
+            }
+            .l-check {
+                .check {
+                    float: left;
+                    width: 100%;
+                    span {
+                        color: #cecece;
+                        font-size: 13px;
+                        font-family: 'Open Sans', sans-serif;
+                        font-weight: normal;
+                        float: left;
+                    }
+                    input {
+                        padding: 0;
+                        margin: 0;
+                        margin-right: 8px;
+                        float: left;
+                        margin-top: 3px;
+                    }
+                }
+                a.seemore {
+                     color: #e1e300;
+                     font-size: 12px;
+                     font-family: 'Open Sans', sans-serif;
+                     font-weight: normal;
+                     float: left;
+                     margin-left: 20px;
+                     text-decoration: none;
+                     transition: 0.3s ease-out;
+                }
+            }
+            input.btn-register {
+                background: #e1df1a;
+                width: 100%;
+                border: 0;
+                border-radius: 2px;
+                padding: 10px 0;
+                margin-top: 10px;
+                color: #000;
+                font-size: 16px;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 600;
+                text-transform: uppercase;
+                margin-bottom: 18px;
+                transition: 0.3s ease-out;
+                &:hover {
+                    color: #e1df1a;
+                    background: #282828 ; 
+                }
+            }
+        }
+    }
+}
+
+#modal-popup-login .modal-dialog {
+    width: 380px;
+    height: 459px;
+    margin: 0px auto !important;
+    top: 100px;
+}
+
+.l-box-login {
+    background: url("../img/bg-login.png") no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    top: 200px;
+    transform: translate(0,0);
+    transition: transform .3s ease-out;
+    -webkit-transform: translate(0,-25%);
+    .modal-content {
+    width: 100%;
+    height: 100%;
+    background: none;
+    .modal-header-login {
+        color: #fff;
+        font-size: 18px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+        padding: 10px 0;
+        border: 0;
+    }
+    .modal-body-login {
+        padding: 12px 35px;
+        .message-error {
+            p {
+                color: red;
+            }
+        }
+        p {
+            color: #cecece;
+            font-size: 13px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: normal;
+            a {
+                color: #cecece;
+                text-decoration: underline;
+            }   
+        }
+        .l-check {
+            width: 100%;
+            span.check {
+                float: left;
+                color: #cecece;
+                font-size: 13px;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: normal;
+                input {
+                    margin-right: 8px;
+                }
+            }
+            a.forgot {
+                color: #cecece;
+                font-size: 13px;
+                font-family: 'Open Sans', sans-serif;
+                float: right;
+                text-transform: capitalize;
+                font-weight: normal;
+                text-decoration: none;
+                transition: 0.2s ease-out;
+                &:hover {
+                    color: #e1df1a;
+                }
+            }
+        }
+        .list-social-login {
+            li {
+            display: inline-flex;
+            margin-right: 12px;
+            }
+            a.facebook {
+                background: url("../img/icon-face1.png") no-repeat;
+                width: 33px;
+                height: 33px;
+            }
+            a.google {
+                background: url("../img/icon-google1.png") no-repeat;
+                width: 33px;
+                height: 33px;
+            }
+            a.github {
+                background: url("../img/icon-git1.png") no-repeat;
+                width: 33px;
+                height: 33px;
+            }
+        }
+        .l-or {
+        text-align: center;
+        padding-top: 8px;
+        padding-bottom: 10px;
+        clear: both;
+        span {
+            position: relative;
+            color: #999;
+            font-size: 14px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: normal;
+             &:after {
+                    position: absolute;
+                    content: "";
+                    background: #fff;
+                    left: 19px;
+                    height: 1px;
+                    width: 142px;
+                    top: 10px;
+                    opacity: 0.1;
+             }
+             &:before {
+                    position: absolute;
+                    content: "";
+                    background: #fff;
+                    opacity: 0.1;
+                    right: 19px;
+                    height: 1px;
+                    width: 142px;
+                    top: 10px;
+             }
+            }
+        }
+        input.popup-email {
+            margin-bottom: 18px;
+            border-radius: 2px;
+            padding: 7px 0 7px 12px;
+            height: auto;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: normal;
+        }
+        input.popup-pass {
+            margin-bottom: 13px;
+            border-radius: 2px;
+            padding: 7px 0 7px 12px;
+            height: auto;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: normal;
+        }
+        input.btn-login {
+            background: #e1df1a;
+            width: 100%;
+            border: 0;
+            border-radius: 2px;
+            padding: 8px 0;
+            margin-bottom: 13px;
+            margin-top: 14px;
+            color: #000;
+            font-size: 16px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+            text-transform: uppercase;
+             &:hover {
+                    color: #e1df1a;
+                    background: #282828 ; 
+                }
+        }   
+    }
+    .modal-footer-login {
+        padding-top: 3px;
+        p {
+            color: #cecece;
+            font-size: 13px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: normal;
+        }
+        button {
+            background: #ebebeb;
+            padding: 6px 42px;
+            border-radius: 3px;
+            color: #666;
+            font-size: 14px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+            border: 0;
+            text-transform: uppercase;
+            &:hover {
+                    background: #b5b5b5;
+                    color: #333;
+                }
+        }
+    }
+}
+}
+body.modal-open {
+    overflow: hidden;
+}

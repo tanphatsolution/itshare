@@ -1,0 +1,110 @@
+.category-list {
+    margin-top: 45px;
+    .category {
+        margin-bottom: 30px;
+        display: inline-block;
+        a.ctg-logo {
+            margin-right: 20px;
+            float: left;
+            display: inline-block;
+            img {
+                width: 140px;
+                height: 140px;
+                border-radius: 3px;
+                background-size: auto 100% !important;
+                background-position: center center !important;
+                transition: background-size 0.2s ease-in;
+                -moz-transition: background-size 0.2s ease-in;
+                -ms-transition: background-size 0.2s ease-in;
+                -o-transition: background-size 0.2s ease-in;
+                -webkit-transition: background-size 0.2s ease-in;
+            }
+            &:hover img {
+                background-size: auto 110% !important;
+            }
+        }
+        .ctg-description {
+            float: left;
+            font-size: 14px;
+            a {
+                display: block;
+                color: #bbbbbb;
+                margin-bottom: 5px;
+                &:hover {
+                    color: #55b8b7;
+                }
+                &.name {
+                    height: 50px;
+                    width: 130px;
+                    padding-bottom: 0px;
+                    font-size: 20px;
+                    font-weight: 600;
+                    color: #333;
+                    // text-transform: uppercase;
+                    &:hover {
+                        color: #55b8b7;
+                        text-decoration: underline;
+                    }
+                }
+                &.number-post {
+                    padding-left: 25px;
+                    background: url(../img/icon-post-mini.png) no-repeat center left;
+                    &:hover {
+                        background: url(../img/icon-post-mini-hover.png) no-repeat center left;
+                    }
+                }
+                &.number-follow {
+                    margin-bottom: 15px;
+                    padding-left: 25px;
+                    background: url(../img/icon-follow-mini.png) no-repeat center left;
+                    &:hover {
+                        background: url(../img/icon-follow-mini-hover.png) no-repeat center left;
+                    }
+                }
+            }
+        }
+    }
+}
+.list-follow {
+    margin-top: 10px;
+    .category {
+        a.ctg-logo {
+            margin-right: 0;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .ctg-description {
+            a {
+                &.name {
+                    width: auto;
+                    margin-bottom: 5px;
+                    font-size: 20px;
+                    font-weight: 300;
+                    color: #333;
+                }
+            }
+            .nummber-statistic {
+                .number-post {
+                    float: left;
+                    margin-right: 20px;
+                }
+                .number-follow {
+                    float: left;
+                    margin-bottom: 0;
+                }
+            }
+            .text-content {
+                margin-top: 5px;
+                margin-bottom: 5px;
+                font-size: 13px;
+                font-weight: 300;
+                line-height: 15px;
+                height: 45px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+}

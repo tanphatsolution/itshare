@@ -1,0 +1,49 @@
+{
+  "name": "test",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "gulp default && node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "del": "^2.2.0",
+    "ejs": "~2.3.3",
+    "es6-promise": "^3.0.2",
+    "express": "~4.13.1",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify": "0.0.5",
+    "gulp-minify-css": "^1.2.2",
+    "gulp-sass": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglifycss": "^1.0.5",
+    "gulp-uglifyjs": "^0.6.2",
+    "jsonfile": "^2.2.3",
+    "redis": "^2.6.1",
+    "run-sequence": "^1.1.5",
+    "sassdoc": "^2.1.15",
+    "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "del": "^2.2.0",
+    "es6-promise": "^3.0.2",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify": "0.0.5",
+    "gulp-minify-css": "^1.2.2",
+    "gulp-sass": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglifycss": "^1.0.5",
+    "gulp-uglifyjs": "^0.6.2",
+    "has-binary-data": "^0.1.3",
+    "run-sequence": "^1.1.5",
+    "sassdoc": "^2.1.15"
+  }
+}

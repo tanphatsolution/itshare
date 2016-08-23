@@ -1,0 +1,70 @@
+// @media (min-width: 200px){
+//     body {
+//         padding-bottom: 0 !important;
+//     }
+//     .container {
+//         width: 100%;
+//     }
+//     #container {
+//         padding-bottom: 0;
+//     }
+// }
+.btn-global-category {
+    background-color: #8b8b8b;
+    line-height: 40px;
+    padding: 0 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 3px;
+    display: inline-block;
+}
+.box-header-category {
+    background-color: #f6f6f6;
+    padding: 35px 0;
+    z-index: -1;
+    .btn-tag-follow {
+        float: left;
+        span {
+            @extend .btn-global-category;
+            margin-right:5px;
+        }
+        form {
+            display: inline-block;
+            button {
+                @extend .btn-global-category;
+                background-color: #57b8b7;
+                background-image: url(../img/icon-add-category.png);
+                background-position: left 20px center;
+                padding-left: 55px;
+                background-repeat: no-repeat;
+                border: none;
+                font-size: 13px;
+                &:focus {
+                    background-color: #8b8b8b;
+                    background-image: url(../img/icon-add-category-focus.png);
+                    outline: none;
+                }
+            }
+        }
+    }
+    .btn-post-follow {
+        float: right;
+        span {
+            @extend .btn-global-category;
+        }
+    }
+}
+.category-follow-span {
+    @extend .btn-global-category;
+    margin-right:5px;
+    float: left;
+}
+
+div .container .box-title {
+    margin-bottom: 45px;
+    margin-top: 10px;
+    display: inline-block;
+    width: 100%;
+}

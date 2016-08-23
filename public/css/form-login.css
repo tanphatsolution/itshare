@@ -1,0 +1,173 @@
+.modal-close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  width: 25px;
+  height: 25px;
+  background-color: #000;
+  background: url(../img/popup-cancel.png) no-repeat center center;
+  opacity: 1;
+}
+.tabs {
+  position: relative;
+  margin: 100px auto;
+  width: 854px;
+}
+.tabs .tab {
+  float: left;
+}
+.tabs .tab [type=radio] {
+  display: none;
+}
+.tabs .tab [type=radio]:checked ~ label {
+  background: #fff;
+  color: #5b5b5b;
+  font-weight: 600;
+}
+.tabs .tab [type=radio]:checked ~ .content {
+  display: block;
+}
+.tabs .tab label.tab-header, .tabs .tab .tab .content form .login, .tabs .tab .content form .tab .login {
+  display: block;
+  cursor: pointer;
+  height: 46px;
+  width: 150px;
+  text-align: center;
+  line-height: 42px;
+  background: #55b8b7;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 300;
+  color: #fff;
+  text-transform: uppercase;
+}
+.tabs .tab .content {
+  width: 854px;
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 40px;
+  background: #fff;
+  padding: 40px;
+  border-radius: 3px;
+  font-size: 15px;
+  color: #5b5b5b;
+}
+.tabs .tab .content .box-login {
+  margin: 0;
+  position: relative;
+}
+.tabs .tab .content .box-login #message_error {
+  border: none;
+  background: none;
+  box-shadow: none;
+  padding: 0 0 10px;
+  color: #ef4d4d;
+}
+.tabs .tab .content span {
+  font-size: 15px;
+  color: #5b5b5b;
+  font-weight: 300;
+}
+.tabs .tab .content form {
+  padding-right: 40px;
+  padding-left: 0;
+  border-right: 1px solid #e9e9e9;
+}
+.tabs .tab .content form .form-control {
+  height: 40px;
+  width: 100%;
+  background-color: #e9e9e9;
+  border: none;
+  border-radius: 3px;
+  box-shadow: none;
+  margin-bottom: 20px;
+  margin-top: 8px;
+}
+.tabs .tab .content form .login {
+  background: #55b8b7;
+  color: #fff;
+  margin-right: 20px;
+  float: left;
+  display: inline-block;
+  width: auto;
+  padding: 0 35px;
+  border: none;
+  height: 40px;
+  font-size: 16px;
+}
+.tabs .tab .content form .login:hover {
+  background-color: #999;
+}
+.tabs .tab .content form .checkbox {
+  float: left;
+}
+.tabs .tab .content form .forgot-pass {
+  margin-top: 20px;
+}
+.tabs .tab .content form .forgot-pass a {
+  font-size: 15px;
+  font-weight: 700;
+  color: #5b5b5b;
+}
+.tabs .tab .content form .forgot-pass a:hover {
+  color: #55b8b7;
+  text-decoration: underline;
+}
+.tabs .tab .content .group-social {
+  padding-top: 50px;
+  padding-left: 40px;
+  vertical-align: middle;
+  text-align: center;
+}
+.tabs .tab .content .group-social .list-social {
+  margin-top: 50px;
+}
+.tabs .tab .content .group-social .list-social a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: #000;
+  background-size: cover;
+  background-position: center center;
+  margin-right: 15px;
+}
+.tabs .tab .content .group-social .list-social a:hover {
+  box-shadow: 0.5px 0px 3px #919191;
+}
+.tabs .tab .content .group-social .list-social a.facebook {
+  background: url(../img/signup-facebook.png) no-repeat;
+}
+.tabs .tab .content .group-social .list-social a.google {
+  background: url(../img/signup-google.png) no-repeat;
+}
+.tabs .tab .content .group-social .list-social a.github {
+  background: url(../img/signup-github.png) no-repeat;
+}
+.tabs .tab .content .send-pass {
+  display: none;
+}
+.tabs .tab .content .send-pass form {
+  position: relative;
+  width: 338px;
+  padding-right: 0;
+  border-right: none;
+}
+.tabs .tab .content .send-pass form .forgot-pass {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.tabs .tab .content .send-pass form .forgot-pass span {
+  color: #55b8b7;
+  font-size: 15px;
+  font-weight: 700;
+}
+.tabs .signup .content {
+  width: 418px;
+}
+.tabs .signup .content form {
+  width: 338px;
+  padding-right: 0;
+  border-right: none;
+}

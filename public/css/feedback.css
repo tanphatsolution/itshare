@@ -1,0 +1,36 @@
+.feedback .btn-default {
+    margin-left: 20px
+}
+.feedback .alert-danger {
+    margin-top: 20px
+}
+.feedback .header-text {
+    text-align: center;
+}
+.feedback-input .text-area {
+    height: 80px;
+    resize: none;
+}
+.feedback-input .half-cell {
+    width: 48%;
+    display: table-cell;
+}
+.feedback-input .inline-element {
+    margin-right: 2px;
+    margin-left: 2px;
+}
+.feedback h4 {
+    margin-bottom: 0px;
+}
+.feedback .pdl-0 {
+    padding-left: 0px;
+}
+.feedback .pdl-0 {
+    padding-left: 0px;
+}
+.feedback .send-info {
+    margin-bottom: 15px;
+}
+.feedback .send-info input {
+    vertical-align: sub;
+}

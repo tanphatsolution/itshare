@@ -1,0 +1,217 @@
+skill_category_id;skill_category_name;skill_category_short_name;skill_name;skill_short_name
+1;Coding;Coding;Constructor;Constructor
+1;Coding;Coding;Design Pattern;Design Pattern
+1;Coding;Coding;Refactoring;Refactoring
+1;Coding;Coding;Functional Programming;Functional Programming
+1;Coding;Coding;Loose Coupling;Loose Coupling
+1;Coding;Coding;Namespace;Namespace
+1;Coding;Coding;MVC;MVC
+1;Coding;Coding;MVVM;MVVM
+1;Coding;Coding;CRUD;CRUD
+1;Coding;Coding;O/R Mapper;O/R Mapper
+1;Coding;Coding;Mutable / Imutable Object;Mutable / Imutable Object
+1;Coding;Coding;Iterator;Iterator
+1;Coding;Coding;Magic Number;Magic Number
+1;Coding;Coding;Polymorphism;Polymorphism
+1;Coding;Coding;Singleton;Singleton
+1;Coding;Coding;Method Chain;Method Chain
+1;Coding;Coding;Lazy Evaluation;Lazy Evaluation
+1;Coding;Coding;Reflection;Reflection
+1;Coding;Coding;Data binding;Data binding
+1;Coding;Coding;Shallow / Deep Copy;Shallow / Deep Copy
+1;Coding;Coding;Anonymous Function;Anonymous Function
+1;Coding;Coding;Idempotence;Idempotence
+1;Coding;Coding;Side Effect;Side Effect
+1;Coding;Coding;Mixin;Mixin
+1;Coding;Coding;Dependency Injection;Dependency Injection
+1;Coding;Coding;Law of Demeter;Law of Demeter
+1;Coding;Coding;God Object;God Object
+2;Web;Web;Port;Port;
+2;Web;Web;SSL;SSL;
+2;Web;Web;Session;Session;
+2;Web;Web;HTTP Referer;HTTP Referer;
+2;Web;Web;Redirect;Redirect;
+2;Web;Web;HTTP Status Code;HTTP Status Code;
+2;Web;Web;Push Notification;Push Notification;
+2;Web;Web;Virtual Host;Virtual Host;
+2;Web;Web;Nginx;Nginx;
+2;Web;Web;CDN;CDN;
+2;Web;Web;SPF Record;SPF Record;
+2;Web;Web;REST;REST;
+2;Web;Web;OAuth;OAuth;
+2;Web;Web;SQL Injection;SQL Injection;
+2;Web;Web;Session Hijacking;Session Hijacking;
+2;Web;Web;CSRF;CSRF;
+2;Web;Web;RSA Cryptosystem;RSA Cryptosystem;
+3;Algorithm;Algorithm;Recursive call;Recursive call;
+3;Algorithm;Algorithm;Asynchronous processing;Asynchronous processing;
+3;Algorithm;Algorithm;Queue;Queue;
+3;Algorithm;Algorithm;Binary Search;Binary Search;
+3;Algorithm;Algorithm;O(log n);O(log n);
+3;Algorithm;Algorithm;Hash Collision;Hash Collision;
+3;Algorithm;Algorithm;Breadth First Search;Breadth First Search;
+3;Algorithm;Algorithm;Map / Reduce;Map / Reduce;
+3;Algorithm;Algorithm;State Machine;State Machine;
+3;Algorithm;Algorithm;Dynamic Programming;Dynamic Programming;
+4;Infrastructure;Infrastructure;Cron;Cron;
+4;Infrastructure;Infrastructure;Load Balancer;Load Balancer;
+4;Infrastructure;Infrastructure;Chef;Chef;
+4;Infrastructure;Infrastructure;Ansible;Ansible;
+4;Infrastructure;Infrastructure;Zabbix;Zabbix;
+4;Infrastructure;Infrastructure;Fluentd;Fluentd;
+4;Infrastructure;Infrastructure;Docker;Docker;
+5;Android;Android;MultiScreen support, UI, Animation;MultiScreen support, UI, Animation;
+5;Android;Android;MultiThread;MultiThread;
+5;Android;Android;Service, reciever;Service, reciever;
+5;Android;Android;Memory management;Memory management;
+5;Android;Android;Internet Connectivity, notification;Internet Connectivity, notification;
+5;Android;Android;Database, provider;Database, provider;
+5;Android;Android;CustomView, library;CustomView, library;
+5;Android;Android;App performance optimization;App performance optimization;
+5;Android;Android;Multimedia, Location;Multimedia, Location;
+6;Java;Java;JSP, Servlet;JSP, Servlet;
+6;Java;Java;Struts 1,2;Struts 1,2;
+6;Java;Java;Hibnate;Hibnate;
+6;Java;Java;Spring MVC;Spring MVC;
+6;Java;Java;Spring Sercurities;Spring Sercurities;
+6;Java;Java;JSF;JSF;
+6;Java;Java;Apache Wicket;Apache Wicket;
+6;Java;Java;Apache Tiles;Apache Tiles;
+6;Java;Java;XML,XLS, JSON Process;XML,XLS, JSON Process;
+6;Java;Java;SOAP, WSDL Webservices;SOAP, WSDL Webservices;
+6;Java;Java;Concurrency Process;Concurrency Process;
+6;Java;Java;Java core;Java core;
+6;Java;Java;Java IO File Stream ..., socket;Java IO File Stream ..., socket;
+6;Java;Java;Java 8 common;Java 8 common;
+6;Java;Java;Performance Turning;Performance Turning;
+6;Java;Java;Maven;Maven;
+6;Java;Java;Seasar;Seasar;
+7;System;System;UTF8;UTF8;
+7;System;System;JSON;JSON;
+7;System;System;Garbage Collection;Garbage Collection;
+7;System;System;Process / Thread;Process / Thread;
+7;System;System;Compiler;Compiler;
+7;System;System;Hash;Hash;
+7;System;System;MD5;MD5;
+7;System;System;Bit Shifts;Bit Shifts;
+7;System;System;Regular Expression;Regular Expression;
+7;System;System;Memory Leak;Memory Leak;
+7;System;System;P2P;P2P;
+7;System;System;Streaming;Streaming;
+8;Data Analysis;Data Analysis;Poisson Distribution;Poisson Distribution;
+8;Data Analysis;Data Analysis;Principal Component Analysis;Principal Component Analysis;
+8;Data Analysis;Data Analysis;Factor Analysis;Factor Analysis;
+8;Data Analysis;Data Analysis;Deep Learning;Deep Learning;
+9;iOS;iOS;Push Notification;Push Notification;
+9;iOS;iOS;Inheritance (subclass, category ...);Inheritance (subclass, category ...);
+9;iOS;iOS;ARC;ARC;
+9;iOS;iOS;Memory Management (strong,weak,atomic,nanotomic...);Memory Management (strong,weak,atomic,nanotomic...);
+9;iOS;iOS;Network (AFNetworking, NSURLConnection ...);Network (AFNetworking, NSURLConnection ...);
+9;iOS;iOS;Core Data;Core Data;
+9;iOS;iOS;Multithreading, GCD, NSOperationQueue;Multithreading, GCD, NSOperationQueue;
+9;iOS;iOS;Location;Location;
+9;iOS;iOS;Core Graphic;Core Graphic;
+9;iOS;iOS;Core Animation;Core Animation;
+10;Ruby;Ruby;RSpec;RSpec;
+10;Ruby;Ruby;Cucumber;Cucumber;
+10;Ruby;Ruby;MetaProgramming;MetaProgramming;
+10;Ruby;Ruby;Duck Typing;Duck Typing;
+10;Ruby;Ruby;Rails;Rails;
+10;Ruby;Ruby;Sinatra;Sinatra;
+10;Ruby;Ruby;Lotus;Lotus;
+10;Ruby;Ruby;Capistrano;Capistrano;
+10;Ruby;Ruby;Unicorn/puma/Passenger;Unicorn/puma/Passenger;
+10;Ruby;Ruby;Heroku;Heroku;
+10;Ruby;Ruby;AWS;AWS;
+10;Ruby;Ruby;HAML/Slim;HAML/Slim;
+10;Ruby;Ruby;Rails Patterns;Rails Patterns;
+10;Ruby;Ruby;Service Objects/ Descorator/Presentor/Query Object/Policy Object;Service Objects/ Descorator/Presentor/Query Object/Policy Object;
+10;Ruby;Ruby;Background Job (Sidekiq, Resque);Background Job (Sidekiq, Resque);
+11;Database;Database;Index;Index;
+11;Database;Database;Denormalization;Denormalization;
+11;Database;Database;Inner / Left Join;Inner / Left Join;
+11;Database;Database;Transaction;Transaction;
+11;Database;Database;Unique Constraint;Unique Constraint;
+11;Database;Database;Master / Slave;Master / Slave;
+11;Database;Database;Migration;Migration;
+11;Database;Database;Foreign Key Constraint;Foreign Key Constraint;
+11;Database;Database;Multiple Column Index;Multiple Column Index;
+11;Database;Database;Having Clause;Having Clause;
+11;Database;Database;Bulk Insert;Bulk Insert;
+11;Database;Database;Lock;Lock;
+11;Database;Database;Atomic Operation;Atomic Operation;
+11;Database;Database;Dead Lock;Dead Lock;
+11;Database;Database;CAP Theorem;CAP Theorem;
+11;Database;Database;CAS Operation;CAS Operation;
+11;Database;Database;Full Text Search Engine;Full Text Search Engine;
+11;Database;Database;SQLite;SQLite;
+11;Database;Database;Memcache;Memcache;
+11;Database;Database;Mongo DB;Mongo DB;
+11;Database;Database;Redis;Redis;
+12;JavaScript;JavaScript;AJAX;AJAX;
+12;JavaScript;JavaScript;jQuery;jQuery;
+12;JavaScript;JavaScript;Closure;Closure;
+12;JavaScript;JavaScript;Underscore.js;Underscore.js;
+12;JavaScript;JavaScript;Angular.js;Angular.js;
+12;JavaScript;JavaScript;Backbone.js;Backbone.js;
+12;JavaScript;JavaScript;Async.js;Async.js;
+13;PHP;PHP;Namespaces;Namespaces;
+13;PHP;PHP;Closures;Closures;
+13;PHP;PHP;Traits;Traits;
+13;PHP;PHP;Composer;Composer;
+13;PHP;PHP;PHPUnit;PHPUnit;
+13;PHP;PHP;PSR (PHP Standards Recommendation);PSR (PHP Standards Recommendation);
+13;PHP;PHP;Laravel Framework;Laravel Framework;
+13;PHP;PHP;Yii Framework;Yii Framework;
+13;PHP;PHP;Cake Framework;Cake Framework;
+13;PHP;PHP;Symfony Framework;Symfony Framework;
+13;PHP;PHP;Phalcon Framework;Phalcon Framework;
+13;PHP;PHP;Zend Framework;Zend Framework;
+14;Workflow;Workflow;Git Submodule;Git Submodule;
+14;Workflow;Workflow;Git Cherry-pick;Git Cherry-pick;
+14;Workflow;Workflow;Git Blame;Git Blame;
+14;Workflow;Workflow;Unit Test;Unit Test;
+14;Workflow;Workflow;Testability;Testability;
+14;Workflow;Workflow;TDD;TDD;
+14;Workflow;Workflow;BDD;BDD;
+14;Workflow;Workflow;Continuous Integration;Continuous Integration;
+15;CSS;CSS;Bootstrap CSS;Bootstrap CSS;
+15;CSS;CSS;Responsive Design;Responsive Design;
+15;CSS;CSS;CSS Specificity;CSS Specificity;
+16;Python;Python;Django;Django;
+16;Python;Python;Flask;Flask;
+16;Python;Python;web.py;web.py;
+16;Python;Python;Pyramid;Pyramid;
+16;Python;Python;WSGI or Tornado;WSGI or Tornado;
+16;Python;Python;Decorator;Decorator;
+16;Python;Python;PEP8;PEP8;
+16;Python;Python;RDBMS (SQLAlchemy, pymongo);RDBMS (SQLAlchemy, pymongo);
+16;Python;Python;Module / Packages Concepts;Module / Packages Concepts;
+16;Python;Python;Magic Methods;Magic Methods;
+16;Python;Python;Idomatic Python;Idomatic Python;
+17;C#/.NET;C#/.NET;Namespace;Namespace;
+17;C#/.NET;C#/.NET;Patial class;Patial class;
+17;C#/.NET;C#/.NET;Generic;Generic;
+17;C#/.NET;C#/.NET;Reflection;Reflection;
+17;C#/.NET;C#/.NET;Extension method;Extension method;
+17;C#/.NET;C#/.NET;Lamda expression;Lamda expression;
+17;C#/.NET;C#/.NET;Linq;Linq;
+17;C#/.NET;C#/.NET;Interface, abstract class;Interface, abstract class;
+17;C#/.NET;C#/.NET;Array, IEnumerable, IQueryable;Array, IEnumerable, IQueryable;
+17;C#/.NET;C#/.NET;String, StringBuilder;String, StringBuilder;
+17;C#/.NET;C#/.NET;Serialization;Serialization;
+17;C#/.NET;C#/.NET;Finalize, Dispose;Finalize, Dispose;
+17;C#/.NET;C#/.NET;Delegate;Delegate;
+17;C#/.NET;C#/.NET;Async / Await;Async / Await;
+17;C#/.NET;C#/.NET;Try catch exception;Try catch exception;
+17;C#/.NET;C#/.NET;Callback function;Callback function;
+17;C#/.NET;C#/.NET;Session object, Application object;Session object, Application object;
+17;C#/.NET;C#/.NET;Multi thread;Multi thread;
+17;C#/.NET;C#/.NET;Page lifecycle;Page lifecycle;
+17;C#/.NET;C#/.NET;Authorization, authentication;Authorization, authentication;
+17;C#/.NET;C#/.NET;Nuget;Nuget;
+17;C#/.NET;C#/.NET;.NET MVC;.NET MVC;
+17;C#/.NET;C#/.NET;Web API;Web API;
+17;C#/.NET;C#/.NET;WCF Service;WCF Service;
+17;C#/.NET;C#/.NET;.NET Remoting;.NET Remoting;
+17;C#/.NET;C#/.NET;Razor;Razor;

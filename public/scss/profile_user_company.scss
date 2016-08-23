@@ -1,0 +1,278 @@
+.box-profile {
+    margin-top: 45px;
+    margin-bottom: 35px;
+    font-size: 14px;
+    .row {
+        padding-left: 15px;
+        img.avar-profile {
+            display: inline-block;
+            height: 180px;
+            border-radius: 3px;
+            background-position: center center !important;
+            background-size: cover !important;
+        }
+        .content-profile {
+            padding-left: 25px;
+            font-size: 13px;
+            color: #5b5b5b;
+            .name-profile {
+                font-size: 16px;
+                font-weight: 700;
+                color: #000;
+            }
+            .social-profile {
+                margin-bottom: 10px;
+                a {
+                    display: inline-block;
+                    float: left;
+                    margin-right: 10px;
+                    img {
+                        width: 25px;
+                        height: 25px;
+                        background-size: cover !important;
+                        background-position: center center;
+                    }
+                    .facebook {
+                        background: url(../img/icon-facebook-mini.png);
+                    }
+                    .icon-twit {
+                        background: url(../img/icon-twiter-mini.png);
+                    }
+                    .google {
+                        background: url(../img/icon-g-mini.png);
+                    }
+                    .icon-rss {
+                        background: url(../img/icon-rss-mini.png);
+                    }
+                    .github {
+                        background: url(../img/icon-github-global.png);
+                    }
+                    &:hover .facebook {
+                        background: url(../img/icon-facebook-mini-hover.png) center !important;
+                    }
+                    &:hover .icon-twit {
+                        background: url(../img/icon-twiter-mini-hover.png) center !important;
+                    }
+                    &:hover .google {
+                        background: url(../img/icon-g-mini-hover.png) center !important;
+                    }
+                    &:hover .icon-rss {
+                        background: url(../img/icon-rss-mini-hover.png) center !important;
+                    }
+                    &:hover .github {
+                        background: url(../img/icon-github-mini-hover.png) center !important;
+                    }
+                }
+                .btn-follow-mini {
+                    float: right;
+                }
+                .unfollow-btn {
+                    background: url(../img/icon-unfollow.png) no-repeat center left 15px;
+                    background-color: #999;
+                    &:hover {
+                        background: url(../img/icon-unfollow.png) no-repeat center left 15px;
+                        background-color: #d9534f;
+                        color: #fff;
+                    }
+                }
+            }
+            .position {
+                margin-bottom: 5px;
+                font-weight: 700;
+                color: #e20b64;
+                a {
+                    color: #000;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+            .description {
+                margin-bottom: 5px;
+                font-style: italic;
+            }
+            .link-website {
+                color: #57b9b8;
+                display: inline-block;
+                margin-bottom: 5px;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+        .info-list-like {
+            padding:20px 15px 15px 15px;
+            background-color: #f6f6f6;
+            border-radius: 3px;
+            a {
+                display: block;
+                font-size: 14px;
+                color: #000;
+                p {
+                    margin-bottom: 5px;
+                }
+                &:hover p {
+                    color: inherit;
+                }
+                .number {
+                    font-weight: 700;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+.box-statistical {
+    .row {
+        div {
+            &.content-skill {
+                padding-left: 0px;
+            }
+            div.tendency-of-posts {
+                border-radius: 3px;
+                padding-top: 20px;
+                h4 {
+                    padding-left: 20px;
+                    font-size: 16px;
+                    font-weight: 700;
+                    color: #000;
+                }
+                .text-warning {
+                    text-align: center;
+                    padding-top: 90px;
+                    height: 250px;
+                }
+            }
+        }
+        #piechart {
+            padding-top: 0;
+            height: 250px;
+        }
+    }
+    .content-skill {
+        padding-left: 0px;
+    }
+    .user-skill-list {
+        padding: 0;
+        li {
+            list-style: inherit;
+            display: inline-block;
+            margin: 5px 10px 5px 0px;
+            padding:5px 20px;
+            background-color: #e9e9e9;
+            color: #6b6b6b;
+            border-radius: 5px;
+            font-size: 13px;
+            &:hover {
+                background-color: #54b8b7;
+                color: #fff;
+            }
+            .category {
+                font-weight: bold;
+            }
+        }
+    }
+}
+// css group-company
+.box-group {
+    .email-group {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: 700;
+        color: #57b9b8;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    .box-info-group {
+        border-radius: 3px;
+        padding: 20px 25px;
+        background-color: #f5f5f5;
+        .number {
+            a {
+                font-size: 20px;
+                color: #0fa19f;
+                font-weight: 300;
+                &:hover {
+                    text-decoration: underline;
+                }
+                &.number-post {
+                    padding-left: 20px;
+                    background: url(../img/icon-post-hover.png) no-repeat center left;
+                }
+                &.number-follow {
+                    float: right;
+                    padding-left: 42px;
+                    background: url(../img/icon-member-hover.png) no-repeat center left;
+                }
+            }
+        }
+        .box-top-member {
+            margin-top: 40px;
+            border-top: 1px solid #0fa19f;
+            position: relative;
+            p {
+                position: absolute;
+                top: -18px;
+                left: 30%;
+                padding: 0 5px;
+                background-color: #f5f5f5;
+                color: #0fa19f;
+                font-size: 15px;
+                font-weight: 300;
+            }
+            .top-member {
+                margin-top: 20px;
+                text-align: center;
+                a {
+                    margin-right: 5px;
+                    img {
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 20px;
+                        background-size: auto 100% !important;
+                        background-position: center center !important;
+                        transition: background-size 0.2s ease-in;
+                        -moz-transition: background-size 0.2s ease-in;
+                        -ms-transition: background-size 0.2s ease-in;
+                        -o-transition: background-size 0.2s ease-in;
+                        -webkit-transition: background-size 0.2s ease-in;
+                    }
+                    &:hover img {
+                        background-size: auto 110% !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.following-categories {
+    margin-top: 0px !important;
+}
+
+.box-title-child {
+    margin-top: 45px;
+    ul li a {
+        display: inline-block;
+        //margin-top: 30px;
+        background-color: #e9e9e9;
+        padding: 5px 20px;
+        font-size: 16px;
+        font-weight: 300;
+        color: #6B6B6B;
+        margin-right: 5px;
+        &.selected {
+            background-color: #54B8B7;
+            color: #FFFFFF;
+            font-weight: 600;
+        }
+    }
+}
+
+div .container .box-title {
+    margin-bottom: 45px;
+    margin-top: 10px;
+    display: inline-block;
+    width: 100%;
+}

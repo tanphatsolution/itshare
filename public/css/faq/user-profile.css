@@ -1,0 +1,901 @@
+
+/* begin .user-profile-others */
+   .user-profile-others {
+      padding-top: 20px;
+   }
+   .user-profile-others .other-follow-list {
+      width: 50%;
+      float: left;
+      margin-bottom: 30px;
+   }
+
+   .user-profile-others .other-follow-list img {
+      float: left;
+      border: 1px solid #efefef;
+      width: 158px;
+      height: 158px;
+   }
+   .user-profile-others .other-follow-list h4 {
+      text-transform: uppercase;
+      font-size: 20px;
+      line-height: 32px;
+      color: #000;
+      font-weight: 300;
+      margin: 0px 0px 5px 0px;
+   }
+   .user-profile-others .other-follow-list h4 a{
+      color: #000;
+   }
+
+   .user-profile-others .other-follow-list p {
+      font-size: 14px;
+      color: #999;
+      padding-left: 25px;
+   }
+
+   .user-profile-others .other-follow-list p.other-follow-list-post {
+      background: url(../../img/icon-post-mini.png) no-repeat center left;
+   }
+   .user-profile-others .other-follow-list p.other-follow-list-follow {
+      background: url(../../img/icon-user2.png) no-repeat 4px center;
+   }
+
+   .user-profile-others .other-follow-list .other-follow-list-detail {
+      padding-left: 175px;
+   }
+
+/* end .user-profile-others */
+/* begin .ranking color */
+   .ranking-number.ranking-one {
+      background: #c0392b;
+     color: #ffffff;
+   }
+   .ranking-number.ranking-one:before, .ranking-number.ranking-one:after {
+     border-top-color: #c0392b;
+   }
+
+   .ranking-number.ranking-two {
+      background: #e67e22;
+     color: #ffffff;
+   }
+   .ranking-number.ranking-two:before, .ranking-number.ranking-two:after {
+     border-top-color: #e67e22;
+   }
+
+   .ranking-number.ranking-three {
+      background: #f1c40f;
+     color: #ffffff;
+   }
+   .ranking-number.ranking-three:before, .ranking-number.ranking-three:after {
+     border-top-color: #f1c40f;
+   }
+
+   .ranking-number.ranking-other {
+      background: #dcdcdc;
+     color: #898989;
+   }
+   .ranking-number.ranking-other:before, .ranking-number.ranking-other:after {
+     border-top-color: #dcdcdc;
+   }
+
+/* end .ranking color */
+
+/* begin .user-profile-detail */
+   .user-profile-detail-top {
+      position: relative;
+   }
+   .user-profile-detail .user-profile-avatar {
+      float: left;
+      border: 1px solid #ebebeb;
+   }
+   .user-profile-detail .user-profile-intro {
+      padding-left: 210px;
+   }
+   .user-profile-detail .user-ranking .module-title {
+      margin-bottom: 15px;
+   }
+   .user-profile-detail .user-profile-links {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+   }
+   .user-profile-detail .user-profile-links button.profile-btn-follow {
+      border: 1px solid #e1df19;
+      font-size: 14px;
+      color: #000;
+      background: url(../../img/ico-follow.png) 20px center  no-repeat;
+      padding: 3px 20px 3px 40px;
+      float: left;
+   }
+   .user-profile-detail .user-profile-links button.profile-btn-follow:hover {
+      background: url(../../img/ico-follow.png) 20px center  no-repeat #e1df19;
+      transition: all 0.3s ease 0s, visibility 0s ease 0s;
+  -ms-transition: all 0.3s ease 0s, visibility 0s ease 0s;
+  -webkit-transition: all 0.3s ease 0s, visibility 0s ease 0s;
+  -moz-transition: all 0.3s ease 0s, visibility 0s ease 0s;
+   }
+
+
+   .user-profile-detail .user-profile-name {
+      font-size: 18px;
+      color: #000;
+      font-weight: 600;
+      margin-top: 0px;
+      padding-top: 5px;
+      margin-bottom: 15px;
+   }
+   ul.user-profile-info-detail {
+      height: 20px;
+   }
+   ul.user-profile-info-detail li {
+      float: left;
+      font-size: 13px;
+      color: #666666;
+      background: url(../../img/ico-bg-li.png) center right no-repeat;
+      padding-right: 15px;
+   }
+
+   ul.user-profile-info-detail li.margin-left {
+      margin-left: 5px !important;
+   }
+
+   ul.user-profile-info-detail li.no-bg {
+      background: none;
+   }
+
+   ul.user-profile-info-detail li a {
+      font-size: 13px;
+      color: #666666;
+      text-decoration: underline;
+   }
+   ul.user-profile-info-detail li a:hover {
+      color: #000;
+      text-decoration: none;
+   }
+   .user-profile-detail .user-profile-address {
+      font-size: 13px;
+      color: #999999;
+   }
+
+   .user-profile-detail .user-profile-description {
+      margin-top: 10px;
+   }
+
+   .user-profile-detail .user-profile-description p {
+      font-size: 14px;
+      color: #666666;
+      line-height: 22px;
+      font-weight: 400;
+   }
+/* end .user-profile-detail */
+
+/* begin .user-skills */
+   .user-skills .user-skill-list {
+      border-bottom: 1px solid #ddd;
+      width: 100%;
+      display: block;
+      padding: 5px 0px;
+   }
+
+   .user-infomation .module-content,
+   .user-skills .module-content {
+      padding-left: 25px;
+   }
+
+   .user-skills .user-skill-list p {
+      font-size: 14px;
+      color: #000;
+      font-weight: 400;
+      margin-bottom: 0px;
+   }
+
+   .user-skills .user-skill-list span {
+      font-size: 12px;
+      color: #969696;
+      font-weight: 300;
+   }
+/* end .user-skills */
+
+
+/* begin .user-infomation */
+   .user-infomation .module-content h4 {
+      font-size: 14px;
+      color: #000;
+      font-weight: 600;
+   }
+
+   .user-infomation ul.user-infomation-list {
+      border-bottom: 1px solid #dddddd;
+      padding-right: 10px;
+      padding-bottom: 5px;
+   }
+
+   .user-infomation ul li.user-infomation-detail {
+      padding: 5px 0px;
+   }
+
+   .user-infomation ul li.user-infomation-detail a:hover span {
+      color: #000;
+   }
+
+   .user-infomation ul li.user-infomation-detail span {
+      color: #999999;
+      font-size: 14px;
+   }
+
+   .user-infomation ul li.user-infomation-detail span.info-text {
+      float: left;
+   }
+
+   .user-infomation ul li.user-infomation-detail span.info-number {
+      float: right;
+   }
+/* end .user-infomation */
+
+/* begin .user-profile-social */
+   ul.user-profile-social {
+      float: left;
+   }
+
+   ul.user-profile-social li {
+      float: left;
+   }
+   ul.user-profile-social li a {
+      background: #000;
+      display: block;
+      width: 29px;
+      height: 29px;
+      float: left;
+      border: 1px solid #ebebeb;
+      margin-left: 10px;
+   }
+
+   ul.user-profile-social li a.profile-social-facebook {
+      background: url(../../img/ico-fb.png) center center no-repeat;
+   }
+   ul.user-profile-social li a.profile-social-facebook:hover {
+      background: url(../../img/ico-fb-hv.png) center center no-repeat;
+   }
+   ul.user-profile-social li a.profile-social-google {
+      background: url(../../img/ico-google.png) center center no-repeat;
+   }
+   ul.user-profile-social li a.profile-social-google:hover {
+      background: url(../../img/ico-google-hv.png) center center no-repeat;
+   }
+   ul.user-profile-social li a.profile-social-github {
+      background: url(../../img/ico-git.png) center center no-repeat;
+   }
+   ul.user-profile-social li a.profile-social-github:hover {
+      background: url(../../img/ico-git-hv.png) center center no-repeat;
+   }
+
+/* end .user-profile-social */
+
+
+/* begin .user-profile-detail-tabs1 */
+   .user-profile-detail-tabs1 {
+      border-bottom: 1px solid #d9d9d9;
+      margin-top: 30px;
+      height: 33px;
+   }
+   .user-profile-detail-tabs1 a {
+      font-size: 15px;
+      color: #999999;
+      padding: 7px 25px 9px 25px;
+      line-height: 30px;
+   }
+   .user-profile-detail-tabs1 a:hover {
+      color: #000;
+   }
+   .user-profile-detail-tabs1 a.active {
+      border-top: 3px solid #000000;
+      border-left: 1px solid #d9d9d9;
+      border-right: 1px solid #d9d9d9;
+      color: #000;
+      background: #fff;
+   }
+/* end .user-profile-detail-tabs1 */
+
+/* begin .user-profile-detail-tabs2 */
+   .user-profile-detail-tabs2 {
+      margin-top: 15px;
+   }
+   .user-profile-detail-tabs2 a {
+      font-size: 18px;
+      color: #999999;
+      background: url(../../img/ico-li-bg.jpg) left center no-repeat;
+      padding-left: 15px;
+      margin-right: 25px;
+      font-weight: 300;
+   }
+   .user-profile-detail-tabs2 a:hover {
+      color: #000;
+   }
+   .user-profile-detail-tabs2 a.active {
+      font-weight: 600;
+      color: #000;
+      background: url(../../img/ico-li-bg-hv.jpg) left center no-repeat;
+   }
+
+/* end .user-profile-detail-tabs2 */
+
+/* begin .user-profile-articles */
+   .user-profile-articles {
+      padding-top: 20px;
+   }
+
+   .user-profile-articles .load-more {
+      margin-top: 30px;
+      margin-bottom: 50px;
+   }
+   .user-profile-articles .col-lg-12 {
+      padding: 0px;
+   }
+/* end .user-profile-articles */
+
+/* begin .user-profile-groups*/
+   .user-profile-groups {
+      padding-top: 20px;
+   }
+   .user-profile-groups .load-more {
+      margin-top: 40px !important;
+      margin-bottom: 50px;
+   }
+   .user-profile-groups-list {
+      border-bottom: 1px dashed #a1a1a1;
+      padding-bottom: 15px;
+      margin-bottom: 15px;
+   }
+
+   .user-profile-groups-list.col-lg-12 {
+      padding-left: 0px;
+      padding-right: 0px;
+   }
+   .group-list-content ul.mini-post {
+      float: left;
+      margin-right: 15px;
+      min-width: 60px;
+   }
+   .group-list-content ul.mini-post li {
+      padding-left: 30px;
+      font-size: 13px;
+      color: #808080;
+      font-weight: 400;
+   }
+   .group-list-content ul.mini-post li.post-com {
+      background: url(../../img/icon-series.png) no-repeat center left;
+   }
+   .group-list-content ul.mini-post li.post-view {
+      background: url(../../img/icon-pencil.png) no-repeat center left;
+   }
+   .group-list-content ul.mini-post li.post-favou {
+      background: url(../../img/icon-user2.png) no-repeat center left;
+   }
+   .group-list-thumnail {
+      float: left;
+   }
+   .group-list-content {
+     padding-left: 120px;
+     position: relative;
+   }
+   .group-list-content h4.group-list-name a {
+      font-size: 16px;
+      color: #343434;
+      text-transform: uppercase;
+      font-weight: 800;
+      margin-bottom: 15px;
+   }
+   .group-list-content .group-list-button {
+      position: absolute;
+      right: 0px;
+      top: -3px;
+      background: #000;
+      border: none;
+      color: #fff;
+      font-size: 12px;
+      font-weight: 300;
+   }
+   .group-list-content .group-list-button:hover {
+      color: #000;
+      background: #e0df35;
+      transition: all 0.3s ease 0s, visibility 0s ease 0s;
+  -ms-transition: all 0.3s ease 0s, visibility 0s ease 0s;
+  -webkit-transition: all 0.3s ease 0s, visibility 0s ease 0s;
+  -moz-transition: all 0.3s ease 0s, visibility 0s ease 0s;
+   }
+   .group-list-description {
+      width: 47%;
+      float: left;
+      font-size: 13px;
+      color: #808080;
+   }
+
+   ul.group-list-members {
+      float: right;
+      width: 300px;
+      margin-top: 3px;
+   }
+   ul.group-list-members li {
+      float: right;
+   }
+
+   ul.group-list-members li {
+      width: 49px;
+      height: 49px;
+      text-align: center;
+      vertical-align: middle;
+      margin-left: 10px;
+   }
+   ul.group-list-members li img {
+      border: 1px solid #e7e7e7;
+      width: 48px;
+      height: 48px;
+   }
+   ul.group-list-members li.quantity-like {
+      background: #e1dc3c;
+   }
+   ul.group-list-members li.quantity-like a {
+      color: #000;
+      font-size: 14px;
+      padding-top: 15px;
+      display: block;
+   }
+/* end .user-profile-groups*/
+
+/* begin .user-profile-qna*/
+ .user-profile-qna {
+    padding-top: 20px;
+ }
+/* end .user-profile-qna*/
+
+/* begin .info-popup-content*/
+   .info-popup-header {
+      background: #000;
+      position: relative;
+   }
+   .info-popup-header h4 {
+      color: #fff;
+      font-size: 14px;
+      padding: 10px 10px;
+      display: block;
+      margin:  0px 0px 10px 0px;
+   }
+   .info-popup-content {
+      padding: 0px 10px 20px 10px;
+   }
+   .info-popup-content .user-profile-avatar {
+      float: left;
+   }
+   .info-popup-content .user-profile-avatar img {
+      width: 77px;
+      height: 77px;
+   }
+
+   .info-popup-content .user-profile-name {
+      font-size: 14px;
+   }
+   .info-popup-content ul.user-profile-info-detail {
+      height: auto;
+   }
+   .info-popup-content ul.user-profile-info-detail li {
+      display: block;
+      float: none;
+      background: none;
+      margin-bottom: 2px;
+   }
+   .info-popup-content .user-profile-intro {
+      padding-left: 90px;
+   }
+   .info-popup-content .user-profile-links {
+      margin-top: 10px;
+      margin-bottom: 20px;
+   }
+   .info-popup-content .user-profile-links .profile-btn-follow {
+      float: left;
+      border: 1px solid #e1df19;
+      font-size: 14px;
+      color: #000;
+      background: url(../../img/ico-follow.png) 20px center  no-repeat;
+      padding: 3px 20px 3px 40px;
+      float: left;
+   }
+
+.info-popup-content .user-profile-links .profile-btn-follow:hover {
+   background: url(../../img/ico-follow.png) 20px center  no-repeat #e1df19;
+}
+
+   .info-popup-content .user-profile-description p {
+      font-size: 14px;
+      color: #666;
+   }
+
+   .info-popup-content h2.user-profile-name {
+      margin:  0px 0px 10px 0px;
+      font-weight: 600;
+      font-size: 14px;
+      color: #000;
+   }
+
+
+   .overlay {
+     display: block !important;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+     position: fixed;
+     left: 50%;
+     top: 60px;
+     transform: translate(-50%, 0);
+     width: 90%;
+     min-height: 100px;
+     max-height: calc(98% - 60px);
+     z-index: 999;
+     overflow: auto;
+     overflow-x: hidden;
+     -webkit-overflow-scrolling: touch;
+     background-color: #ffffff;
+     border: 1px solid rgba(0, 0, 0, 0.3);
+     box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+     background-clip: padding-box;
+   }
+   .overlay-close {
+     cursor: pointer;
+     position: absolute;
+     top: 11px;
+     right: 12px;
+     text-align: center;
+     border: 0;
+     background: url(../../img/ico-popup-close.png) center center no-repeat;
+     width: 13px;
+     height: 13px;
+   }
+
+   .overlay-backdrop {
+     position: fixed;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     z-index: 900;
+     background-color: #000000;
+     opacity: 0.8;
+     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+   }
+
+/* end .info-popup-content*/
+
+.profile-btn-follow {
+      float: left;
+      border: 1px solid #e1df19;
+      font-size: 14px;
+      color: #000;
+      background: url(../../img/ico-follow.png) 20px center  no-repeat;
+      padding: 3px 20px 3px 40px;
+      float: left;
+   }
+
+/* begin reponsive*/
+   @media (max-width: 490px) {
+      .user-profile-groups .entry-box .col-xs-12 {
+         padding-left: 15px !important;
+         padding-right: 15px !important;
+      }
+   }
+   @media (max-width: 1199px) {
+      .group-list-members {
+         float: left !important;
+      }
+      ul.group-list-members {
+         margin-top: 10px;
+      }
+      ul.group-list-members li {
+         margin-left: 0px;
+         margin-right: 10px;
+      }
+      .group-list-description {
+         width: 100%;
+      }
+      .group-list-content ul.mini-post {
+         margin-bottom: 10px;
+         width: 100%;
+      }
+      .group-list-content ul.mini-post li {
+         float: left;
+         margin-right: 15px;
+         padding-left: 20px;
+      }
+      .group-list-content h4.group-list-name {
+         margin-bottom: 10px;
+      }
+
+   }
+   @media (min-width: 992px) {
+      .hide-desktop {
+         display: none;
+      }
+   }
+   @media (max-width: 991px) {
+      .user-profile-detail {
+         padding-top: 55px;
+      }
+      .user-profile-detail-tabs1 a {
+         width: 24%;
+         text-align: center;
+         display: block;
+         float: left;
+         line-height: 25px;
+         padding: 0px 0px 0px 0px;
+         font-size: 14px;
+         padding: 7px 15px 5px 15px;
+      }
+      .user-profile-detail-tabs1 {
+         height: 39px;
+      }
+      .user-profile-detail .nav-tabs > li {
+         width: 33%;
+         text-align: center;
+      }
+      .user-profile-detail-tabs2 a {
+         font-size: 14px;
+         margin-right: 15px;
+      }
+      .user-profile-tabs .module-content {
+         padding: 10px 10px 0px 10px
+      }
+      .user-profile-tab .tab-content > .tab-pane {
+         padding-top: 20px;
+      }
+      .user-profile-tabs .nav-tabs {
+         border-bottom: 1px solid #d9d9d9 !important;
+         height: 35px;
+         margin-top: 20px;
+      }
+      .user-profile-tabs .nav-tabs > li > a {
+         color: #999999;
+         padding: 7px 15px 5px 15px;
+      }
+      .user-profile-tabs .nav-tabs > li.active > a,
+      .user-profile-tabs .nav-tabs > li.active > a:hover,
+      .user-profile-tabs .nav-tabs > li.active > a:focus {
+         border-top: 3px solid #000;
+         border-radius: 0px;
+         font-size: 14px;
+         line-height: 22px;
+         color: #000;
+      }
+      .profile-btn-follow {
+         float: left;
+         border: 1px solid #e1df19;
+         font-size: 13px;
+         color: #000;
+         background: url(../../img/ico-follow.png) 10px center  no-repeat;
+         padding: 3px 20px 3px 25px;
+         float: left;
+         margin-right: 10px;
+         }
+      .profile-btn-follow:hover {
+         background:  url(../../img/ico-follow.png) 10px center  no-repeat #e1df19;
+      }
+      button#overlayTrigger {
+         background: none;
+         border: 1px solid #dedede;
+         font-size: 13px;
+         color: #000;
+         padding: 3px 10px 3px 10px;
+      }
+      .user-profile-detail .user-profile-description {
+         display: none;
+      }
+      .user-profile-detail .user-profile-links {
+         display: none;
+      }
+      ul.user-profile-info-detail {
+         height: 30px;
+      }
+      ul.user-profile-info-detail li {
+         float: none;
+         background: none;
+         margin-bottom: 3px;
+      }
+      span.user-profile-address {
+         display: none;
+      }
+      .user-profile-avatar img {
+         width: 77px;
+         height: 77px;
+      }
+      .user-profile-intro {
+         padding-left: 100px !important;
+      }
+      .user-profile-info-detail .user-profile-website {
+         display: none;
+      }
+      .user-profile-info-detail .user-profile-email {
+         display: none;
+      }
+      .user-profile-detail .user-profile-name {
+         font-size: 14px;
+         margin-bottom: 5px;
+      }
+      .user-ranking {
+         display: none;
+      }
+      .user-skills {
+         display: none;
+      }
+      .user-infomation {
+         display: none;
+      }
+      .group-list-members {
+         display: none;
+      }
+      .group-list-description {
+         width: 100%;
+      }
+      .group-list-content ul.mini-post {
+         margin-bottom: 10px;
+         width: 100%;
+      }
+      .group-list-content ul.mini-post li {
+         float: left;
+         margin-right: 15px;
+         padding-left: 20px;
+      }
+      .group-list-content h4.group-list-name {
+         margin-bottom: 10px;
+      }
+   }
+   @media (min-width: 992px) and (max-width: 1199px) {
+      .user-profile-others .other-follow-list img {
+         width: 120px;
+         height: 120px;
+      }
+      .user-profile-others .other-follow-list .other-follow-list-detail {
+         padding-left: 135px;
+      }
+      .user-profile-others .other-follow-list h4 {
+         font-size: 16px;
+      }
+   }
+   @media (min-width: 768px) and (max-width: 991px)  {
+      .user-profile-others .other-follow-list img {
+         width: 120px;
+         height: 120px;
+      }
+      .user-profile-others .other-follow-list .other-follow-list-detail {
+         padding-left: 135px;
+      }
+      .user-profile-others .other-follow-list h4 {
+         font-size: 16px;
+      }
+   }
+   @media (min-width: 768px) {
+      .user-profile-detail .nav-tabs-dropdown {
+         display: none;
+      }
+   }
+   @media (max-width: 767px) {
+      .user-profile-detail .nav-tabs-dropdown {
+         margin-top: 10px;
+         height: 32px;
+      }
+      .user-profile-detail a.nav-tabs-dropdown-lv1 {
+         line-height: 30px;
+         border-bottom: 1px solid #ddd;
+         margin-bottom: 20px;
+         font-size: 14px;
+      }
+      .user-profile-detail div.nav-tabs-dropdown-lv2 {
+         top: 31px;
+      }
+      .user-profile-detail-tabs2 {
+         display: none;
+      }
+      .user-profile-others .other-follow-list {
+         width: 100%;
+      }
+      .user-profile-others .other-follow-list img {
+         width: 120px;
+         height: 120px;
+      }
+      .user-profile-others .other-follow-list .other-follow-list-detail {
+         padding-left: 135px;
+      }
+      .user-profile-others .other-follow-list h4 {
+         font-size: 16px;
+      }
+   }
+   @media (min-width: 480px) and (max-width: 767px)  {
+
+   }
+
+   @media (min-width: 320px) and (max-width: 479px)  {
+      .user-profile-others .other-follow-list img {
+         width: 90px;
+         height: 90px;
+      }
+      .user-profile-others .other-follow-list .other-follow-list-detail {
+         padding-left: 105px;
+      }
+      .user-profile-others .other-follow-list h4 {
+         font-size: 14px;
+         font-weight: 400;
+         margin: -5px 0px 0px 0px;
+         padding: 0px;
+      }
+      .user-profile-others .other-follow-list p {
+         margin-bottom: 5px;
+         font-size: 12px;
+      }
+      .user-profile-intro li.user-profile-job {
+         font-size: 11px;
+      }
+      .user-profile-intro {
+         padding-left: 90px !important;
+      }
+      .user-profile-detail .user-profile-name {
+         padding-top: 0px;
+      }
+      ul.user-profile-info-detail {
+         height: 20px;
+         margin-bottom: 5px;
+      }
+      .user-profile-intro .profile-btn-follow {
+         margin: 0px 7px 0px 0px;
+         padding: 3px 10px 3px 25px;
+         font-size: 11px;
+      }
+      button#overlayTrigger {
+         font-size: 11px;
+      }
+      .user-profile-detail-tabs2 a {
+         font-size: 12px;
+         padding: 0px 0px 0px 7px;
+         margin: 0px 8px 0px 0px;
+         background-size: 4px;
+      }
+      .user-profile-detail-tabs2 a.active {
+         background-size: 5px;
+      }
+      .user-profile-detail-tabs1 a {
+         font-size: 12px;
+      }
+      .user-profile-tabs .nav-tabs > li > a {
+         font-size: 12px;
+         padding: 7px 10px 5px 10px;
+         line-height: 22px;
+      }
+      .user-profile-tabs .nav-tabs > li.active > a,
+      .user-profile-tabs .nav-tabs > li.active > a:hover,
+      .user-profile-tabs .nav-tabs > li.active > a:focus {
+         border-top: 3px solid #000;
+         border-radius: 0px;
+         font-size: 12px;
+         line-height: 22px;
+         color: #000;
+         padding: 5px 10px 5px 10px;
+      }
+      .user-profile-detail-top {
+         min-height: 75px;
+      }
+      .user-profile-groups-list .group-list-description {
+         display: none;
+      }
+      .group-list-content .group-list-button {
+         position: relative;
+         margin-top: 5px;
+      }
+      .group-list-content ul.mini-post {
+         width: 100%;
+      }
+   }
+
+@media (min-width: 320px) and (max-width: 333px) {
+   .user-profile-detail-tabs2 a {
+      margin: 0 3px 0 0;
+      background-size: 4px;
+   }
+   .user-profile-detail-tabs2 a.active {
+      background-size: 4px;
+   }
+}

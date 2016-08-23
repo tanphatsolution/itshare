@@ -1,0 +1,146 @@
+.setting {
+    margin-top: 20px;
+}
+
+.setting .mgl-15 {
+    padding-left: 35px;
+}
+.setting .list-group-item.disabled,
+.setting .list-group-item.disabled:hover,
+.setting .list-group-item.disabled:focus {
+    cursor: default;
+}
+.setting .pdt-7 {
+    padding-top: 7px;
+}
+.setting .profile .text-area {
+    resize: none;
+    max-height: 100px;
+    position:relative;
+}
+.setting .form-inline.form-skill {
+    margin-left: -15px;
+    margin-bottom: 15px;
+}
+.setting .add-skill, .setting .remove-skill, .setting .add-sub-skill, .setting .remove-sub-skill, .setting .add-new-sub-skill {
+    padding: 0px 4px;
+}
+.skills div.skill-element:not(:first-child) {
+    margin-top: 10px;
+}
+.skills .skill_year, .skills .skill_name {
+    margin-bottom: 0px;
+}
+.skills .fader {
+    -moz-transition: opacity 0.5s linear;
+    -o-transition: opacity 0.5s linear;
+    -webkit-transition: opacity 0.5s linear;
+    transition: opacity 0.5s linear;
+}
+.skills .fader.fadedOut {
+    opacity: 0;
+}
+.skills .fader.zeroOpacity {
+    opacity: 0;
+}
+.setting .select-all {
+    cursor: pointer;
+}
+.setting .mg-top-15 {
+    margin-top: 15px;
+}
+.setting .btn_done {
+    margin-left: 15px;
+    color: #0099FF;
+}
+.setting .notifi_success {
+    margin-top: 15px;
+}
+
+.progress-bar {
+    color: white;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.setting .form-skill .skill-category {
+    text-align: center;
+    padding-right: 0px;
+}
+.skill-category-wrapper {
+    border:1px solid #ddd;
+    display:inline-block;
+    height: 24px;
+}
+
+.category-skill {
+    background-color:transparent;
+    border:0;
+    text-align: center;
+}
+.skill-name {
+    width: 80%;
+}
+.skill-category-cointainer {
+    padding-right: 0px;
+}
+.skill-year {
+    float:right;
+    width: 30px;
+}
+.sub-skill-element:not(:first-child) {
+    margin-top: 10px;
+}
+.sub-skill-element .input-group {
+    width: 85%;
+}
+.sub-skill-element .skill-name {
+    width: 80% !important;
+}
+.sub-skill-element .skill-year {
+    width: 100% !important;
+    padding: 6px 0px;
+    text-align: center;
+}
+.default-post-language, .top-page-language {
+    float: right;
+}
+.skill-cointainer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.add-sub-skill, .add-new-sub-skill, .remove-skill-category {
+    border: 0px;
+    padding: 0px 4px;
+    margin: 1px 1px;
+}
+.label-add-more {
+    padding-left: 15px;
+}
+.skill-element {
+    margin-top: 10px;
+}
+
+.city-country {
+    width: 45% !important;
+}
+
+.select2-container {
+    width: 100% !important;
+}
+
+.select2-container--bootstrap .select2-selection--single .select2-selection__placeholder {
+    color: #8E8E8E !important;
+}
+
+li.language-element {
+    list-style: none;
+    margin: 10px 0px;
+}
+
+#report-form .select-all {
+    cursor: pointer;
+}

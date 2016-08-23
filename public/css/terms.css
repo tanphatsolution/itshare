@@ -1,0 +1,63 @@
+.markdownContent {
+    font-size: 15px;
+    word-wrap: break-word
+}
+
+.markdownContent li p:first-child {
+    margin: 0
+}
+
+.markdownContent ol, .markdownContent ul {
+    line-height: 1.7;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    padding-left: 1.5em
+}
+
+.markdownContent ol > li {
+    list-style-type: decimal
+}
+
+.markdownContent ul > li {
+    list-style-type: disc
+}
+
+.markdownContent li > ol, .markdownContent li > ul {
+    margin-bottom: 0;
+    margin-top: 0
+}
+
+.markdownContent h1, .markdownContent h2 {
+    font-family: sans-serif;
+    line-height: 1.4;
+    margin: 1.35em 0 .7em
+}
+
+.markdownContent h1 {
+    padding-bottom: .3em;
+    line-height: 1.2;
+    border-bottom: 2px solid #dedede;
+    font-size: 2.1em
+}
+
+.markdownContent h2 {
+    padding-bottom: .3em;
+    line-height: 1.225;
+    border-bottom: 1px dotted #ccc;
+    font-size: 1.8em
+}
+
+.markdownContent .fragment {
+    position: relative;
+    top: -10px;
+    display: block
+}
+
+.markdownContent .parenthesis li {
+    list-style-type: none
+}
+
+.markdownContent .parenthesis li span {
+    margin-left: -1.5em;
+    margin-right: .5em
+}

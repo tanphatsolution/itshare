@@ -1,0 +1,40 @@
+%font {
+  font-family: 'Kozuka Gothic Pr6N', sans-serif;
+}
+
+.lang-ja {
+  @extend %font;
+
+  .inner-container-tpage {
+    @media ( min-screen: 769px ){
+      padding-top: 50px;
+    }
+    h1 {
+      width: auto;
+      @extend %font;
+      @media( max-width: 530px ){
+        line-height: 35px;
+      }
+      @media ( min-width: 769px ){
+        font-size: 40px;
+        line-height: 55px;
+      }
+    }
+  }
+
+  .top-login-page {
+    
+  }
+
+  .inner-container-text {
+    h1 {
+      margin: 0 0 20px;
+      @extend %font;
+    }
+
+    p {
+      @extend %font;
+      margin: 0 0 8px;
+    }
+  }
+}

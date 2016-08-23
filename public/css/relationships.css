@@ -1,0 +1,35 @@
+.follow-user-list, .follow-category-list {
+    margin-top: 20px;
+}
+
+.follow-user-list .row, .follow-category-list .row {
+    margin-bottom: 20px;
+}
+.follow-user-list .user-icon, .follow-category-list .category-icon {
+    width: 65px;
+    height: 65px;
+    -webkit-box-shadow: 0 0 2px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 0 2px rgba(0,0,0,0.3);
+    box-shadow: 0 0 2px rgba(0,0,0,0.3);
+    background-color: #fff;
+}
+
+.follow-user-list .user-name, .follow-category-list .category-name {
+    font-size: 140%;
+    margin-bottom: 10px;
+}
+
+.span1 {
+    width: 65px;
+    float: left;
+    min-height: 1px;
+    margin-left: 20px;
+}
+
+.span11 {
+    width: 915px;
+    float: left;
+    min-height: 1px;
+    margin-left: 20px;
+}
+

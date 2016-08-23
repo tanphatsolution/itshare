@@ -1,0 +1,114 @@
+.resp-tabs-list {
+   float: right;
+}
+
+.resp-tabs-list li {
+    font-weight: 400;
+    font-size: 13px;
+    color: #7b7b7b;
+    display: inline-block;
+    padding: 10px 12px;
+    list-style: none;
+    cursor: pointer;
+    float: left;
+    background: none !important;
+}
+
+.resp-tabs-container {
+    padding: 0px;
+    background-color: #fff;
+    clear: left;
+}
+
+h2.resp-accordion {
+    cursor: pointer;
+    padding: 5px;
+    display: none;
+}
+
+.resp-tab-content {
+    display: none;
+}
+
+.resp-tabs-list li.resp-tab-active {
+   color: #000 !important;
+   background: url(../../../img/ico-arrow-tab.png) bottom center no-repeat !important;
+}
+
+
+.resp-content-active, .resp-accordion-active {
+    display: block;
+}
+
+.resp-tab-content {
+
+}
+
+
+
+
+/*Here your can change the breakpoint to set the accordion, when screen resolution changed*/
+@media only screen and (max-width: 767px) {
+   .resp-tab-content.hor_2 {
+      padding: 10px 0px;
+      border-bottom: 1px solid #e3e3e3;
+      border-color: #e3e3e3 !important;
+   }
+   .faq-request-answer-middle {
+      border: none;
+   }
+   .faq-related-questions {
+      margin-bottom: 20px;
+   }
+    ul.resp-tabs-list {
+        display: none;
+    }
+    .faq-request-answer-middle {
+       padding: 0px !important;
+       padding-top: none !important;
+    }
+
+    .resp-tab-content.hor_1 {
+       padding: 5px 0px 10px 0px !important;
+       border-top: none !important;
+       border-bottom: 1px solid #e3e3e3;
+      border-color: #e3e3e3 !important;
+    }
+    h2.resp-accordion {
+        display: block;
+        font-size: 14px;
+        text-align: left;
+        margin: 0px 0px 0px 0px;
+        padding: 10px 0px 10px 0px;
+        font-weight: 400;
+        color: #7b7b7b;
+        background: url(../../../img/ico-arrow-down.png) right center no-repeat !important;
+        border-bottom: 1px solid #e3e3e3;
+        border-color: #e3e3e3 !important;
+    }
+
+    h2.resp-accordion.resp-tab-active {
+       color: #000;
+       background: url(../../../img/ico-arrow-up.png) right center no-repeat !important;
+    }
+
+    .resp-vtabs .resp-tab-content {
+        border: 1px solid #C1C1C1;
+    }
+
+    .resp-vtabs .resp-tabs-container {
+        border: none;
+        float: none;
+        width: 100%;
+        min-height: 100px;
+        clear: none;
+    }
+
+    .resp-accordion-closed {
+        display: none !important;
+    }
+
+    .resp-vtabs .resp-tab-content:last-child {
+        border-bottom: 1px solid #c1c1c1 !important;
+    }
+}

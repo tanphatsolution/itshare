@@ -1,0 +1,31 @@
+.row-margin {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.thumbnail {
+    .box-top-with {
+        width: 100% !important;
+    }
+    .caption-with {
+        width: 100% !important;
+    }
+}
+
+.tags {
+    padding-left: 1px !important;
+    a {
+        margin-right: 1px !important;
+        &::after {
+            border-color: transparent !important;
+        }
+    }
+}
+
+.box-header-category {
+    padding: 10px !important;
+}
+
+.category-follow-span {
+    float: none !important;
+}

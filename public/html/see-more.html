@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Viblo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap-social.css">
+    <link rel="stylesheet" type="text/css" href="../css/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="../css/animate.css">
+    <link rel="stylesheet" type="text/css" href="../css/sweet-alert.css">
+    <!-- Design -->
+
+    <link rel="stylesheet" type="text/css" href="../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../css/common-v2.css">
+    <link rel="stylesheet" type="text/css" href="../css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="../css/header-res.css">
+    <link rel="stylesheet" type="text/css" href="../css/custom.css">
+    <link rel="stylesheet" type="text/css" href="../css/select-language.css">
+
+    <link rel="stylesheet" type="text/css" href="../css/groups.css">
+    <link rel="stylesheet" type="text/css" href="../css/see-more.css">
+    <link rel="stylesheet" type="text/css" href="../css/post-detail.css">
+    <link rel="stylesheet" type="text/css" href="../css/see-more-groups.css">
+    <link rel="stylesheet" type="text/css" href="../css/group-post.css">
+    <link rel="stylesheet" type="text/css" href="../css/group.css">
+    <link rel="stylesheet" type="text/css" href="../css/group-detail.css">
+    <link rel="stylesheet" type="text/css" href="../css/post_header_author.css">
+    <link rel="stylesheet" type="text/css" href="../css/post_header_author_v2.css">
+
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
+    <script src="../js/jquery-1.11.1.min.js"></script>
+  </head>
+  <body>
+    <!-- Header Reponsive -->
+    <nav class="header-res">
+        <div class="header-res-logo">
+          <a class="global-logo pull-left" href="#"><img src="../img/logo.png"></a>
+        </div>
+        <div class="header-res-menu">
+          <ul class="controls pull-right">
+            <li class="mobile-noti" role="button" aria-controls="m3" aria-expanded="false" tabindex="0">
+              <img src="../img/btn-bell2.png">
+              <div class="notify">99</div>
+            </li>
+            <li class="mobile-avatar" role="button" aria-controls="m2" aria-expanded="false" tabindex="0">
+              <img src="../img/avatar-demo.png">
+            </li>
+            <li class="mobile-menu" role="button" aria-controls="m1" aria-expanded="false" tabindex="0">
+              <img src="../img/icon-menu2.png">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="region_wrapper">
+      <div class="container">
+        <div id="m1" class="message" tabindex="-1" role="region" aria-labelledby="m1-label" aria-hidden="true">
+          <ul>
+            <li><input placeholder="Search"></li>
+            <li><a href="#" class="link-clip">My Clips</a></li>
+            <li class="dropdown">
+              <a href="#" class="link-group"><span>Group</span></a>
+              <ul>
+                <li>
+                  <a href="#">
+                    <div class="group-img pull-left"><img src="../img/img-group-demo.jpg"></div>
+                    <div class="group-name">
+                      <h4>HTML5 & CSS3</h4>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="group-img pull-left"><img src="../img/img-group-demo.jpg"></div>
+                    <div class="group-name">
+                      <h4>HTML5 & CSS3</h4>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="group-img pull-left"><img src="../img/img-group-demo.jpg"></div>
+                    <div class="group-name">
+                      <h4>HTML5 & CSS3</h4>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="group-img pull-left"><img src="../img/img-group-demo.jpg"></div>
+                    <div class="group-name">
+                      <h4>HTML5 & CSS3</h4>
+                    </div>
+                  </a>
+                </li>
+                <a href="#" class="group-see-all">See All</a>
+              </ul>
+            </li>
+            <li><a href="#" class="link-post">Post</a></li>
+            <li><a href="#" class="link-draft">Draft</a></li>
+          </ul>
+        </div>
+        <div id="m2" class="message" role="region" aria-labelledby="m2-label" tabindex="-1" aria-hidden="true">
+          <ul>
+            <li><a href="#" class="link-profile">Profile</a></li>
+            <li><a href="#" class="link-setting">Setting</a></li>
+            <li><a href="#" class="link-language" data-toggle="modal" data-target="#language-modal">Language</a></li>
+            <li><a href="#" class="link-logout">Logout</a></li>
+          </ul>
+        </div>
+        <div id="m3" class="message" role="region" aria-labelledby="m3-label" tabindex="-1" aria-hidden="true">
+          <div class="wrap-notify-tabs">
+            <!-- Nav tabs -->
+            <div class="notify-tabs-header clearfix">
+              <ul class="nav nav-tabs notify-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#notifications" aria-controls="notifications" role="tab" data-toggle="tab">Notifications<span class="notify-count">99</span></a></li>
+                <li role="presentation"><a href="#request" aria-controls="request" role="tab" data-toggle="tab">Request<span class="notify-count">99</span></a></li>
+              </ul>
+              <a class="notify-setting" href="#"><img src="../img/icon-setting3.png"></a>
+            </div>
+            <!-- /.notify-tabs-header -->
+            <div class="clearfix"></div>
+            <!-- Tab panes -->
+            <div class="tab-content notify-content">
+              <div role="tabpanel" class="tab-pane active" id="notifications">
+                <ul class="list-post">
+                  <li class="entry-item">
+                    <div class="entry-avatar">
+                      <a href="#">
+                      <img src="../img/notify-demo.png" alt="">
+                      </a>
+                    </div>
+                    <!-- /.entry-avatar -->
+                    <div class="info-box">
+                      <a href="#" class="author-name">Kanamikii</a>clipped post
+                      <a href="#" class="post-name">[Hướng dẫn] Cách tạo một khung cảnh kỳ lạ</a>
+                      of you
+                      <span class="entry-time">1 day ago</span>
+                    </div>
+                    <!-- /.info-box -->
+                  </li>
+                  <!-- /.entry-item -->
+                  <li class="entry-item">
+                    <div class="entry-avatar">
+                      <a href="#">
+                      <img src="../img/notify-demo.png" alt="">
+                      </a>
+                    </div>
+                    <!-- /.entry-avatar -->
+                    <div class="info-box">
+                      <a href="#" class="author-name">Kanamikii</a>clipped post
+                      <a href="#" class="post-name">[Hướng dẫn] Cách tạo một khung cảnh kỳ lạ</a>
+                      of you
+                      <span class="entry-time">1 day ago</span>
+                    </div>
+                    <!-- /.info-box -->
+                  </li>
+                  <!-- /.entry-item -->
+                  <li class="entry-item">
+                    <div class="entry-avatar">
+                      <a href="#">
+                      <img src="../img/notify-demo.png" alt="">
+                      </a>
+                    </div>
+                    <!-- /.entry-avatar -->
+                    <div class="info-box">
+                      <a href="#" class="author-name">Kanamikii</a>clipped post
+                      <a href="#" class="post-name">[Hướng dẫn] Cách tạo một khung cảnh kỳ lạ</a>
+                      of you
+                      <span class="entry-time">1 day ago</span>
+                    </div>
+                    <!-- /.info-box -->
+                  </li>
+                  <!-- /.entry-item -->
+                  <li class="entry-item">
+                    <div class="entry-avatar">
+                      <a href="#">
+                      <img src="../img/notify-demo.png" alt="">
+                      </a>
+                    </div>
+                    <!-- /.entry-avatar -->
+                    <div class="info-box">
+                      <a href="#" class="author-name">Kanamikii</a>clipped post
+                      <a href="#" class="post-name">Hướng dẫn] Cách tạo một khung cảnh kỳ lạ</a>
+                      of you
+                      <span class="entry-time">1 day ago</span>
+                    </div>
+                    <!-- /.info-box -->
+                  </li>
+                  <!-- /.entry-item -->
+                </ul>
+                <a href="#" class="see-all">See all</a>
+              </div>
+              <!-- /#notifications -->
+              <div role="tabpanel" class="tab-pane" id="request">
+                <ul class="list-post">
+                  <li class="entry-item">
+                    <div class="entry-avatar">
+                      <a href="#">
+                      <img src="../img/notify-demo.png" alt="">
+                      </a>
+                    </div>
+                    <!-- /.entry-avatar -->
+                    <div class="info-box">
+                      <a href="#" class="author-name">Kanamikii</a>request join
+                      <span class="viblo-break"></span>
+                      <a href="#" class="post-name">Public HTML5&CSS3</a>
+                      group
+                      <div class="viblo-btn-group clearfix">
+                        <a href="#" class="accept">Accept</a>
+                        <a href="#" class="decline">Decline</a>
+                      </div>
+                      <span class="entry-time">1 day ago</span>
+                    </div>
+                    <!-- /.info-box -->
+                  </li>
+                  <!-- /.entry-item -->
+                  <li class="entry-item">
+                    <div class="entry-avatar">
+                      <a href="#">
+                      <img src="../img/notify-demo.png" alt="">
+                      </a>
+                    </div>
+                    <!-- /.entry-avatar -->
+                    <div class="info-box">
+                      <a href="#" class="author-name">Kanamikii</a>request join
+                      <span class="viblo-break"></span>
+                      <a href="#" class="post-name">Public HTML5&CSS3</a>
+                      group
+                      <div class="viblo-btn-group clearfix">
+                        <a href="#" class="accept">Accept</a>
+                        <a href="#" class="decline">Decline</a>
+                      </div>
+                      <span class="entry-time">1 day ago</span>
+                    </div>
+                    <!-- /.info-box -->
+                  </li>
+                  <!-- /.entry-item -->
+                  <li class="entry-item">
+                    <div class="entry-avatar">
+                      <a href="#">
+                      <img src="../img/notify-demo.png" alt="">
+                      </a>
+                    </div>
+                    <!-- /.entry-avatar -->
+                    <div class="info-box">
+                      <a href="#" class="author-name">Kanamikii</a>request join
+                      <span class="viblo-break"></span>
+                      <a href="#" class="post-name">Public HTML5&CSS3</a>
+                      group
+                      <div class="viblo-btn-group clearfix">
+                        <a href="#" class="accept">Accept</a>
+                        <a href="#" class="decline">Decline</a>
+                      </div>
+                      <span class="entry-time">1 day ago</span>
+                    </div>
+                    <!-- /.info-box -->
+                  </li>
+                  <!-- /.entry-item -->
+                  <li class="entry-item">
+                    <div class="entry-avatar">
+                      <a href="#">
+                      <img src="../img/notify-demo.png" alt="">
+                      </a>
+                    </div>
+                    <!-- /.entry-avatar -->
+                    <div class="info-box">
+                      <a href="#" class="author-name">Kanamikii</a>request join
+                      <span class="viblo-break"></span>
+                      <a href="#" class="post-name">Public HTML5&CSS3</a>
+                      group
+                      <div class="viblo-btn-group clearfix">
+                        <a href="#" class="accept">Accept</a>
+                        <a href="#" class="decline">Decline</a>
+                      </div>
+                      <span class="entry-time">1 day ago</span>
+                    </div>
+                    <!-- /.info-box -->
+                  </li>
+                  <!-- /.entry-item -->
+                </ul>
+                <a href="#" class="see-all">See all</a>
+              </div>
+              <!-- /#request -->
+            </div>
+          </div>
+          <!-- /.wrap-tabs -->
+        </div>
+      </div>
+    </div>
+    <!-- End Header Reponsive -->
+    <nav class="navbar">
+      <div class="container header">   
+        <div class="row">
+          <div class="col-sm-5 left">
+            <a class="global-logo" href="#"><img src="../img/logo.png"></a>
+            <div class="box-search">
+              <form class="search-container" action="//llamaswill.tumblr.com/search">
+                <input id="search-box" type="text" class="search-box" name="q" />
+                <label for="search-box"><img class="search-icon" src="../img/btn-header-search.png"></span></label>
+              </form>
+            </div>
+            <ul class="menu-list">
+              <li><a href="#">New Posts</a></li>
+              <li><a href="#">My Clips</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-7">
+            <div class="right">
+              <div class="name-theme"><span>Theme of April: React.JS Theme of April: React.JS</span></div>
+              <ul class="user-link">
+                <li class="post"><a href="#">Post</a></li>
+                <li class="drafts"><a href="#">Drafts</a></li>
+              </ul>
+              <div class="user-login btn-notify">
+                <div class="inner">
+                  <img src="../img/btn-bell.png">
+                  <div class="notify">99</div>
+                </div>
+                <div class="notify-down">
+                  <div class="wrap-notify-tabs">
+                    <!-- Nav tabs -->
+                    <div class="notify-tabs-header clearfix">
+                      <ul class="nav nav-tabs notify-tabs" role="tablist">
+                        <li role="presentation" class="active"><a href="#notifications-desktop" aria-controls="notifications-desktop" role="tab" data-toggle="tab">Notifications<span class="notify-count">99</span></a></li>
+                        <li role="presentation"><a href="#request-desktop" aria-controls="request-desktop" role="tab" data-toggle="tab">Request<span class="notify-count">99</span></a></li>
+                      </ul>
+                      <a class="notify-setting" href="#"><img src="../img/icon-setting3.png"></a>  
+                    </div>
+                    <!-- /.notify-tabs-header -->
+                    <div class="clearfix"></div>
+                    <!-- Tab panes -->
+                    <div class="tab-content notify-content">
+                      <div role="tabpanel" class="tab-pane active" id="notifications-desktop">
+                        <ul class="list-post">
+                          <li class="entry-item">
+                            <div class="entry-avatar">
+                              <a href="#">
+                              <img src="../img/notify-demo.png" alt="">
+                              </a>
+                            </div>
+                            <!-- /.entry-avatar -->
+                            <div class="info-box">
+                              <a href="#" class="author-name">Kanamikii</a>clipped post
+                              <a href="#" class="post-name">[Hướng dẫn] Cách tạo một khung cảnh kỳ lạ</a>
+                              of you
+                              <span class="entry-time">1 day ago</span>
+                            </div>
+                            <!-- /.info-box -->
+                          </li>
+                          <!-- /.entry-item -->
+                          <li class="entry-item">
+                            <div class="entry-avatar">
+                              <a href="#">
+                              <img src="../img/notify-demo.png" alt="">
+                              </a>
+                            </div>
+                            <!-- /.entry-avatar -->
+                            <div class="info-box">
+                              <a href="#" class="author-name">Kanamikii</a>clipped post
+                              <a href="#" class="post-name">[Hướng dẫn] Cách tạo một khung cảnh kỳ lạ</a>
+                              of you
+                              <span class="entry-time">1 day ago</span>
+                            </div>
+                            <!-- /.info-box -->
+                          </li>
+                          <!-- /.entry-item -->
+                          <li class="entry-item">
+                            <div class="entry-avatar">
+                              <a href="#">
+                              <img src="../img/notify-demo.png" alt="">
+                              </a>
+                            </div>
+                            <!-- /.entry-avatar -->
+                            <div class="info-box">
+                              <a href="#" class="author-name">Kanamikii</a>clipped post
+                              <a href="#" class="post-name">[Hướng dẫn] Cách tạo một khung cảnh kỳ lạ</a>
+                              of you
+                              <span class="entry-time">1 day ago</span>
+                            </div>
+                            <!-- /.info-box -->
+                          </li>
+                          <!-- /.entry-item -->
+                          <li class="entry-item">
+                            <div class="entry-avatar">
+                              <a href="#">
+                              <img src="../img/notify-demo.png" alt="">
+                              </a>
+                            </div>
+                            <!-- /.entry-avatar -->
+                            <div class="info-box">
+                              <a href="#" class="author-name">Kanamikii</a>clipped post
+                              <a href="#" class="post-name">Hướng dẫn] Cách tạo một khung cảnh kỳ lạ</a>
+                              of you
+                              <span class="entry-time">1 day ago</span>
+                            </div>
+                            <!-- /.info-box -->
+                          </li>
+                          <!-- /.entry-item -->
+                        </ul>
+                        <a href="#" class="see-all">See all</a>
+                      </div>
+                      <!-- /#notifications -->
+                      <div role="tabpanel" class="tab-pane" id="request-desktop">
+                        <ul class="list-post">
+                          <li class="entry-item">
+                            <div class="entry-avatar">
+                              <a href="#">
+                              <img src="../img/notify-demo.png" alt="">
+                              </a>
+                            </div>
+                            <!-- /.entry-avatar -->
+                            <div class="info-box">
+                              <a href="#" class="author-name">Kanamikii</a>request join
+                              <span class="viblo-break"></span>
+                              <a href="#" class="post-name">Public HTML5&CSS3</a>
+                              group
+                              <div class="viblo-btn-group clearfix">
+                                <a href="#" class="accept">Accept</a>
+                                <a href="#" class="decline">Decline</a>
+                              </div>
+                              <span class="entry-time">1 day ago</span>
+                            </div>
+                            <!-- /.info-box -->
+                          </li>
+                          <!-- /.entry-item -->
+                          <li class="entry-item">
+                            <div class="entry-avatar">
+                              <a href="#">
+                              <img src="../img/notify-demo.png" alt="">
+                              </a>
+                            </div>
+                            <!-- /.entry-avatar -->
+                            <div class="info-box">
+                              <a href="#" class="author-name">Kanamikii</a>request join
+                              <span class="viblo-break"></span>
+                              <a href="#" class="post-name">Public HTML5&CSS3</a>
+                              group
+                              <div class="viblo-btn-group clearfix">
+                                <a href="#" class="accept">Accept</a>
+                                <a href="#" class="decline">Decline</a>
+                              </div>
+                              <span class="entry-time">1 day ago</span>
+                            </div>
+                            <!-- /.info-box -->
+                          </li>
+                          <!-- /.entry-item -->
+                          <li class="entry-item">
+                            <div class="entry-avatar">
+                              <a href="#">
+                              <img src="../img/notify-demo.png" alt="">
+                              </a>
+                            </div>
+                            <!-- /.entry-avatar -->
+                            <div class="info-box">
+                              <a href="#" class="author-name">Kanamikii</a>request join
+                              <span class="viblo-break"></span>
+                              <a href="#" class="post-name">Public HTML5&CSS3</a>
+                              group
+                              <div class="viblo-btn-group clearfix">
+                                <a href="#" class="accept">Accept</a>
+                                <a href="#" class="decline">Decline</a>
+                              </div>
+                              <span class="entry-time">1 day ago</span>
+                            </div>
+                            <!-- /.info-box -->
+                          </li>
+                          <!-- /.entry-item -->
+                          <li class="entry-item">
+                            <div class="entry-avatar">
+                              <a href="#">
+                              <img src="../img/notify-demo.png" alt="">
+                              </a>
+                            </div>
+                            <!-- /.entry-avatar -->
+                            <div class="info-box">
+                              <a href="#" class="author-name">Kanamikii</a>request join
+                              <span class="viblo-break"></span>
+                              <a href="#" class="post-name">Public HTML5&CSS3</a>
+                              group
+                              <div class="viblo-btn-group clearfix">
+                                <a href="#" class="accept">Accept</a>
+                                <a href="#" class="decline">Decline</a>
+                              </div>
+                              <span class="entry-time">1 day ago</span>
+                            </div>
+                            <!-- /.info-box -->
+                          </li>
+                          <!-- /.entry-item -->
+                        </ul>
+                        <a href="#" class="see-all">See all</a>
+                      </div>
+                      <!-- /#request -->
+                    </div>
+                  </div>
+                  <!-- /.wrap-tabs -->
+                </div>
+              </div>
+              <div class="user-login">
+                <div class="user-avartar" style="background: url(../img/btn-header-avar.png)"></div>
+                <img src="../img/btn-header-down.png">
+                <div class="user-dropdown">
+                  <ul>
+                    <li><span class="glyphicon glyphicon-lock" aria-hidden="true"></span><a href="https://viblo.asia/u/ngheroi">Profile</a></li>
+                    <li><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><a href="https://viblo.asia/settings/index">Setting</a></li>
+                    <li><span class="glyphicon glyphicon-flag" aria-hidden="true"></span><a href="https://viblo.asia/languages" data-toggle="modal" data-target="#language-modal">Language</a></li>
+                    <li><span class="glyphicon glyphicon-user" aria-hidden="true"></span><a href="https://viblo.asia/settings/admin-index">Administration</a></li>
+                    <li><span class="glyphicon glyphicon-off" aria-hidden="true"></span><a href="https://viblo.asia/users/logout">Logout</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.row -->
+      </div>
+    </nav>
+    <div id="container" class="container">
+      <div class="post-detail all-post row">
+        <div class="col-md-9 col-lg-9 post-left">
+          <div class="box-title box-title-child">
+            <ul class="list-title">
+              <li><a class="selected" href="#">New post</a></li>
+              <li><a href="#">Recently clipped post</a></li>
+              <li><a href="#">Top post</a></li>
+              <li><a href="#">Helpful</a></li>
+            </ul>
+            <form class="filter">
+              <select>
+                <option selected="selected">Select Filter</option>
+                <option>This month</option>
+                <option>Last Month</option>
+                <option>2</option>
+              </select>
+            </form>
+            <div class="clear-both"></div>
+          </div>
+          <div class="row blog-post">
+            <div class="col-lg-12">
+              <div class="thumbnail">
+                <div class="box-top">
+                  <img src="../img/blank.png" style="background: url(../img/3.jpg) center">
+                  <!-- <div class="mask">
+                    <a href="top.html">view</a>
+                    </div> -->
+                  <div class="mini-post-list">
+                    <span class="post-view">78</span>                     
+                    <span class="post-com">129</span>
+                    <span class="post-favou">10</span>
+                  </div>
+                </div>
+                <div class="caption">
+                  <div class="item-info">
+                    <a class="name-title" href="#">Giới thiệu về mô hình phát triển phần mềm theo phương pháp Agile (scrum)</a>
+                    <div class="author">
+                      <a href="#">
+                      <img src="../img/blank.png" style="background: url(../img/3.jpg) center no-repeat;">
+                      <span>Nguyen Van Tien</span>
+                      </a>
+                      <div class="mini-date">
+                        <span>posted on</span>
+                        <span class="date">May 11, 2015</span>
+                      </div>
+                    </div>
+                    <p class="detail">Photon Server là một dịch vụ được cung cấp bởi Exitgames nhằm hỗ trợ người phát triển game khai triển server riêng, có khả năng thiết kế luồng hoạt động sao cho phù hợp với từng game riêng</p>
+                    <div class="tags">
+                      <a class="php" href="#">php</a>
+                      <a class="html" href="#">html</a>
+                      <a class="ios" href="#">.ios</a>
+                      <a class="css3" href="#">css3</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="thumbnail">
+                <div class="box-top">
+                  <img src="../img/blank.png" style="background: url(../img/4.jpg) center">
+                  <!-- <div class="mask">
+                    <a href="top.html">view</a>
+                    </div> -->
+                  <div class="mini-post-list">
+                    <span class="post-view">78</span>                     
+                    <span class="post-com">129</span>
+                    <span class="post-favou">10</span>
+                  </div>
+                </div>
+                <div class="caption">
+                  <div class="item-info">
+                    <a class="name-title" href="#">Giới thiệu về mô hình phát triển phần mềm theo phương pháp Agile (scrum)</a>
+                    <div class="author">
+                      <a href="#">
+                      <img src="../img/blank.png" style="background: url(../img/6.png) center no-repeat;">
+                      <span>Nguyen Van Tien</span>
+                      </a>
+                      <div class="mini-date">
+                        <span>posted on</span>
+                        <span class="date">May 11, 2015</span>
+                      </div>
+                    </div>
+                    <p class="detail">Photon Server là một dịch vụ được cung cấp bởi Exitgames nhằm hỗ trợ người phát triển game khai triển server riêng, có khả năng thiết kế luồng hoạt động sao cho phù hợp với từng game riêng</p>
+                    <div class="tags">
+                      <a class="php" href="#">php</a>
+                      <a class="html" href="#">html</a>
+                      <a class="ios" href="#">.ios</a>
+                      <a class="css3" href="#">css3</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="thumbnail">
+                <div class="box-top">
+                  <img src="../img/blank.png" style="background: url(../img/5.png) center">
+                  <!-- <div class="mask">
+                    <a href="top.html">view</a>
+                    </div> -->
+                  <div class="mini-post-list">
+                    <span class="post-view">78</span>                     
+                    <span class="post-com">129</span>
+                    <span class="post-favou">10</span>
+                  </div>
+                </div>
+                <div class="caption">
+                  <div class="item-info">
+                    <a class="name-title" href="#">Giới thiệu về mô hình phát triển phần mềm theo phương pháp Agile (scrum)</a>
+                    <div class="author">
+                      <a href="#">
+                      <img src="../img/blank.png" style="background: url(../img/2.png) center no-repeat;">
+                      <span>Nguyen Van Tien</span>
+                      </a>
+                      <div class="mini-date">
+                        <span>posted on</span>
+                        <span class="date">May 11, 2015</span>
+                      </div>
+                    </div>
+                    <p class="detail">Photon Server là một dịch vụ được cung cấp bởi Exitgames nhằm hỗ trợ người phát triển game khai triển server riêng, có khả năng thiết kế luồng hoạt động sao cho phù hợp với từng game riêng</p>
+                    <div class="tags">
+                      <a class="php" href="#">php</a>
+                      <a class="html" href="#">html</a>
+                      <a class="ios" href="#">.ios</a>
+                      <a class="css3" href="#">css3</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="thumbnail">
+                <div class="box-top">
+                  <img src="../img/blank.png" style="background: url(../img/2.png) center">
+                  <!-- <div class="mask">
+                    <a href="top.html">view</a>
+                    </div> -->
+                  <div class="mini-post-list">
+                    <span class="post-view">78</span>                     
+                    <span class="post-com">129</span>
+                    <span class="post-favou">10</span>
+                  </div>
+                </div>
+                <div class="caption">
+                  <div class="item-info">
+                    <a class="name-title" href="#">Giới thiệu về mô hình phát triển phần mềm theo phương pháp Agile (scrum)</a>
+                    <div class="author">
+                      <a href="#">
+                      <img src="../img/blank.png" style="background: url(../img/2.png) center no-repeat;">
+                      <span>Nguyen Van Tien</span>
+                      </a>
+                      <div class="mini-date">
+                        <span>posted on</span>
+                        <span class="date">May 11, 2015</span>
+                      </div>
+                    </div>
+                    <p class="detail">Photon Server là một dịch vụ được cung cấp bởi Exitgames nhằm hỗ trợ người phát triển game khai triển server riêng, có khả năng thiết kế luồng hoạt động sao cho phù hợp với từng game riêng</p>
+                    <div class="tags">
+                      <a class="php" href="#">php</a>
+                      <a class="html" href="#">html</a>
+                      <a class="ios" href="#">.ios</a>
+                      <a class="css3" href="#">css3</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="thumbnail">
+                <div class="box-top">
+                  <img src="../img/blank.png" style="background: url(../img/3.jpg) center">
+                  <!-- <div class="mask">
+                    <a href="top.html">view</a>
+                    </div> -->
+                  <div class="mini-post-list">
+                    <span class="post-view">78</span>                     
+                    <span class="post-com">129</span>
+                    <span class="post-favou">10</span>
+                  </div>
+                </div>
+                <div class="caption">
+                  <div class="item-info">
+                    <a class="name-title" href="#">Giới thiệu về mô hình phát triển phần mềm theo phương pháp Agile (scrum)</a>
+                    <div class="author">
+                      <a href="#">
+                      <img src="../img/blank.png" style="background: url(../img/3.jpg) center no-repeat;">
+                      <span>Nguyen Van Tien</span>
+                      </a>
+                      <div class="mini-date">
+                        <span>posted on</span>
+                        <span class="date">May 11, 2015</span>
+                      </div>
+                    </div>
+                    <p class="detail">Photon Server là một dịch vụ được cung cấp bởi Exitgames nhằm hỗ trợ người phát triển game khai triển server riêng, có khả năng thiết kế luồng hoạt động sao cho phù hợp với từng game riêng</p>
+                    <div class="tags">
+                      <a class="php" href="#">php</a>
+                      <a class="html" href="#">html</a>
+                      <a class="ios" href="#">.ios</a>
+                      <a class="css3" href="#">css3</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="thumbnail">
+                <div class="box-top">
+                  <img src="../img/blank.png" style="background: url(../img/4.jpg) center">
+                  <!-- <div class="mask">
+                    <a href="top.html">view</a>
+                    </div> -->
+                  <div class="mini-post-list">
+                    <span class="post-view">78</span>                     
+                    <span class="post-com">129</span>
+                    <span class="post-favou">10</span>
+                  </div>
+                </div>
+                <div class="caption">
+                  <div class="item-info">
+                    <a class="name-title" href="#">Giới thiệu về mô hình phát triển phần mềm theo phương pháp Agile (scrum)</a>
+                    <div class="author">
+                      <a href="#">
+                      <img src="../img/blank.png" style="background: url(../img/6.png) center no-repeat;">
+                      <span>Nguyen Van Tien</span>
+                      </a>
+                      <div class="mini-date">
+                        <span>posted on</span>
+                        <span class="date">May 11, 2015</span>
+                      </div>
+                    </div>
+                    <p class="detail">Photon Server là một dịch vụ được cung cấp bởi Exitgames nhằm hỗ trợ người phát triển game khai triển server riêng, có khả năng thiết kế luồng hoạt động sao cho phù hợp với từng game riêng</p>
+                    <div class="tags">
+                      <a class="php" href="#">php</a>
+                      <a class="html" href="#">html</a>
+                      <a class="ios" href="#">.ios</a>
+                      <a class="css3" href="#">css3</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="thumbnail">
+                <div class="box-top">
+                  <img src="../img/blank.png" style="background: url(../img/5.png) center">
+                  <!-- <div class="mask">
+                    <a href="top.html">view</a>
+                    </div> -->
+                  <div class="mini-post-list">
+                    <span class="post-view">78</span>                     
+                    <span class="post-com">129</span>
+                    <span class="post-favou">10</span>
+                  </div>
+                </div>
+                <div class="caption">
+                  <div class="item-info">
+                    <a class="name-title" href="#">Giới thiệu về mô hình phát triển phần mềm theo phương pháp Agile (scrum)</a>
+                    <div class="author">
+                      <a href="#">
+                      <img src="../img/blank.png" style="background: url(../img/2.png) center no-repeat;">
+                      <span>Nguyen Van Tien</span>
+                      </a>
+                      <div class="mini-date">
+                        <span>posted on</span>
+                        <span class="date">May 11, 2015</span>
+                      </div>
+                    </div>
+                    <p class="detail">Photon Server là một dịch vụ được cung cấp bởi Exitgames nhằm hỗ trợ người phát triển game khai triển server riêng, có khả năng thiết kế luồng hoạt động sao cho phù hợp với từng game riêng</p>
+                    <div class="tags">
+                      <a class="php" href="#">php</a>
+                      <a class="html" href="#">html</a>
+                      <a class="ios" href="#">.ios</a>
+                      <a class="css3" href="#">css3</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="thumbnail">
+                <div class="box-top">
+                  <img src="../img/blank.png" style="background: url(../img/2.png) center">
+                  <!-- <div class="mask">
+                    <a href="top.html">view</a>
+                    </div> -->
+                  <div class="mini-post-list">
+                    <span class="post-view">78</span>                     
+                    <span class="post-com">129</span>
+                    <span class="post-favou">10</span>
+                  </div>
+                </div>
+                <div class="caption">
+                  <div class="item-info">
+                    <a class="name-title" href="#">Giới thiệu về mô hình phát triển phần mềm theo phương pháp Agile (scrum)</a>
+                    <div class="author">
+                      <a href="#">
+                      <img src="../img/blank.png" style="background: url(../img/2.png) center no-repeat;">
+                      <span>Nguyen Van Tien</span>
+                      </a>
+                      <div class="mini-date">
+                        <span>posted on</span>
+                        <span class="date">May 11, 2015</span>
+                      </div>
+                    </div>
+                    <p class="detail">Photon Server là một dịch vụ được cung cấp bởi Exitgames nhằm hỗ trợ người phát triển game khai triển server riêng, có khả năng thiết kế luồng hoạt động sao cho phù hợp với từng game riêng</p>
+                    <div class="tags">
+                      <a class="php" href="#">php</a>
+                      <a class="html" href="#">html</a>
+                      <a class="ios" href="#">.ios</a>
+                      <a class="css3" href="#">css3</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="thumbnail">
+                <div class="box-top">
+                  <img src="../img/blank.png" style="background: url(../img/5.png) center">
+                  <!-- <div class="mask">
+                    <a href="top.html">view</a>
+                    </div> -->
+                  <div class="mini-post-list">
+                    <span class="post-view">78</span>                     
+                    <span class="post-com">129</span>
+                    <span class="post-favou">10</span>
+                  </div>
+                </div>
+                <div class="caption">
+                  <div class="item-info">
+                    <a class="name-title" href="#">Giới thiệu về mô hình phát triển phần mềm theo phương pháp Agile (scrum)</a>
+                    <div class="author">
+                      <a href="#">
+                      <img src="../img/blank.png" style="background: url(../img/2.png) center no-repeat;">
+                      <span>Nguyen Van Tien</span>
+                      </a>
+                      <div class="mini-date">
+                        <span>posted on</span>
+                        <span class="date">May 11, 2015</span>
+                      </div>
+                    </div>
+                    <p class="detail">Photon Server là một dịch vụ được cung cấp bởi Exitgames nhằm hỗ trợ người phát triển game khai triển server riêng, có khả năng thiết kế luồng hoạt động sao cho phù hợp với từng game riêng</p>
+                    <div class="tags">
+                      <a class="php" href="#">php</a>
+                      <a class="html" href="#">html</a>
+                      <a class="ios" href="#">.ios</a>
+                      <a class="css3" href="#">css3</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="thumbnail">
+                <div class="box-top">
+                  <img src="../img/blank.png" style="background: url(../img/2.png) center">
+                  <!-- <div class="mask">
+                    <a href="top.html">view</a>
+                    </div> -->
+                  <div class="mini-post-list">
+                    <span class="post-view">78</span>                     
+                    <span class="post-com">129</span>
+                    <span class="post-favou">10</span>
+                  </div>
+                </div>
+                <div class="caption">
+                  <div class="item-info">
+                    <a class="name-title" href="#">Giới thiệu về mô hình phát triển phần mềm theo phương pháp Agile (scrum)</a>
+                    <div class="author">
+                      <a href="#">
+                      <img src="../img/blank.png" style="background: url(../img/2.png) center no-repeat;">
+                      <span>Nguyen Van Tien</span>
+                      </a>
+                      <div class="mini-date">
+                        <span>posted on</span>
+                        <span class="date">May 11, 2015</span>
+                      </div>
+                    </div>
+                    <p class="detail">Photon Server là một dịch vụ được cung cấp bởi Exitgames nhằm hỗ trợ người phát triển game khai triển server riêng, có khả năng thiết kế luồng hoạt động sao cho phù hợp với từng game riêng</p>
+                    <div class="tags">
+                      <a class="php" href="#">php</a>
+                      <a class="html" href="#">html</a>
+                      <a class="ios" href="#">.ios</a>
+                      <a class="css3" href="#">css3</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="load-more">
+            <a href="#">Load More</a>
+          </div>
+        </div>
+        <div class="col-md-3 col-lg-3 post-right">
+          <div class="box-top-post">
+            <p class="title-right">Host post last week</p>
+            <div class="list-top-post">
+              <div class="row top-post-detail">
+                <a class="col-md-4 col-lg-4 top-post-img" href="#"><img src="../img/blank.png" style="background: url(../img/3.jpg)"></a>
+                <div class="col-md-8 col-lg-8 top-post-content">
+                  <a href="#" class="title">Kết nối số ticket có trong tên Commit trên Github với Redmine</a>
+                  <a href="#" class="name">Nguyen Thuy Duong</a>
+                </div>
+              </div>
+              <div class="row top-post-detail">
+                <a class="col-md-4 col-lg-4 top-post-img" href="#"><img src="../img/blank.png" style="background: url(../img/6.png)"></a>
+                <div class="col-md-8 col-lg-8 top-post-content">
+                  <a href="#" class="title">Kết nối số ticket có trong tên Commit trên Github với Redmine</a>
+                  <a href="#" class="name">Nguyen Thuy Duong</a>
+                </div>
+              </div>
+              <div class="row top-post-detail">
+                <a class="col-md-4 col-lg-4 top-post-img" href="#"><img src="../img/blank.png" style="background: url(../img/4.jpg)"></a>
+                <div class="col-md-8 col-lg-8 top-post-content">
+                  <a href="#" class="title">Aenean ante leo, fac blisis quis bibendum Aenean ante leo, fac blisis quis bibendum</a>
+                  <a href="#" class="name">Nguyen Thuy Duong Lan ha  kkk kk</a>
+                </div>
+              </div>
+              <div class="row top-post-detail">
+                <a class="col-md-4 col-lg-4 top-post-img" href="#"><img src="../img/blank.png" style="background: url(../img/2.png)"></a>
+                <div class="col-md-8 col-lg-8 top-post-content">
+                  <a href="#" class="title">Aenean ante leo, fac blisis quis bibendum</a>
+                  <a href="#" class="name">Nguyen Thuy Duong</a>
+                </div>
+              </div>
+              <div class="row top-post-detail">
+                <a class="col-md-4 col-lg-4 top-post-img" href="#"><img src="../img/blank.png" style="background: url(../img/5.png)"></a>
+                <div class="col-md-8 col-lg-8 top-post-content">
+                  <a href="#" class="title">Aenean ante leo, fac blisis quis bibendum</a>
+                  <a href="#" class="name">Nguyen Thuy Duong</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="box-top-post top-author">
+            <p class="title-right">Hot author</p>
+            <div class="list-top-post">
+              <div class="row top-post-detail">
+                <a class="col-md-4 col-lg-4 top-post-img" href="#"><img src="../img/blank.png" style="background: url(../img/3.jpg)"></a>
+                <div class="col-md-8 col-lg-8 top-post-content">
+                  <a href="#" class="title">Nguyen Van Hoang</a>
+                  <a class="btn-post" href="#">13 post</a>
+                  <a class="btn-post btn-follow" href="#">13 Follow</a>
+                </div>
+              </div>
+              <div class="row top-post-detail">
+                <a class="col-md-4 col-lg-4 top-post-img" href="#"><img src="../img/blank.png" style="background: url(../img/6.png)"></a>
+                <div class="col-md-8 col-lg-8 top-post-content">
+                  <a href="#" class="title">Nguyen Van Hoang</a>
+                  <a class="btn-post" href="#">13 post</a>
+                  <a class="btn-post btn-follow" href="#">13 Follow</a>
+                </div>
+              </div>
+              <div class="row top-post-detail">
+                <a class="col-md-4 col-lg-4 top-post-img" href="#"><img src="../img/blank.png" style="background: url(../img/4.jpg)"></a>
+                <div class="col-md-8 col-lg-8 top-post-content">
+                  <a href="#" class="title">Nguyen Van Hoang</a>
+                  <a class="btn-post" href="#">13 post</a>
+                  <a class="btn-post btn-follow" href="#">13 Follow</a>
+                </div>
+              </div>
+              <div class="row top-post-detail">
+                <a class="col-md-4 col-lg-4 top-post-img" href="#"><img src="../img/blank.png" style="background: url(../img/5.png)"></a>
+                <div class="col-md-8 col-lg-8 top-post-content">
+                  <a href="#" class="title">Nguyen Van Hoang</a>
+                  <a class="btn-post" href="#">13 post</a>
+                  <a class="btn-post btn-follow" href="#">13 Follow</a>
+                </div>
+              </div>
+              <div class="row top-post-detail">
+                <a class="col-md-4 col-lg-4 top-post-img" href="#"><img src="../img/blank.png" style="background: url(../img/2.png)"></a>
+                <div class="col-md-8 col-lg-8 top-post-content">
+                  <a href="#" class="title">Nguyen Van Hoang</a>
+                  <a class="btn-post" href="#">13 post</a>
+                  <a class="btn-post btn-follow" href="#">13 Follow</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <footer>
+      <a class="btn-top" href="#"></a>
+      <div class="container">
+        <div class="col-sm-3 col-md-3 col-lg-3 box-footer facebook-footer">
+          <p class="title-box">Facebook</p>
+        </div>
+        <div class="col-sm-3 col-md-3 col-lg-3 box-footer tag-footer">
+          <p class="title-box">Tag</p>
+          <ul class="box-tag">
+            <li><a href="#">ubuntu</a></li>
+            <li><a href="#">actionScript</a></li>
+            <li><a href="#">android</a></li>
+            <li><a href="#">JavaScript</a></li>
+            <li><a href="#">design</a></li>
+            <li><a href="#">CoffeScript</a></li>
+            <li><a href="#">android</a></li>
+            <li><a href="#">mongoDB</a></li>
+            <li><a href="#">algorithm</a></li>
+            <li><a href="#">ubuntu</a></li>
+            <li><a href="#">actionScript</a></li>
+            <li><a href="#">android</a></li>
+            <li><a href="#">JavaScript</a></li>
+            <li><a href="#">design</a></li>
+            <li><a href="#">CoffeScript</a></li>
+            <li><a href="#">android</a></li>
+            <li><a href="#">mongoDB</a></li>
+            <li><a href="#">...</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3 col-md-3 col-lg-3 box-footer author-footer">
+          <p class="title-box">hot author</p>
+          <ul class="box-author">
+            <li><a href="#" style="background: url(../img/img-author.png)"></a></li>
+            <li><a href="#" style="background: url(../img/2.png)"></a></li>
+            <li><a href="#" style="background: url(../img/3.jpg)"></a></li>
+            <li><a href="#" style="background: url(../img/4.jpg)"></a></li>
+            <li><a href="#" style="background: url(../img/4.jpg)"></a></li>
+            <li><a href="#" style="background: url(../img/5.png)"></a></li>
+            <li><a href="#" style="background: url(../img/6.png)"></a></li>
+            <li><a href="#" style="background: url(../img/img-author.png)"></a></li>
+            <li><a href="#" style="background: url(../img/3.jpg)"></a></li>
+            <li><a href="#" style="background: url(../img/2.png)"></a></li>
+            <li><a href="#" style="background: url(../img/img-author.png)"></a></li>
+            <li><a href="#" style="background: url(../img/4.jpg)"></a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3 col-md-3 col-lg-3 box-footer feedback-footer">
+          <p class="title-box">feedback</p>
+          <form class="box-feedback">
+            <input type="text" name="title" value="Title">
+            <textarea rows="4" cols="34">Message...</textarea>
+            <input type="text" name="title" value="Email">
+            <button type="button">send</button>
+          </form>
+        </div>
+      </div>
+      <div class="container-fluid last-footer">
+        <div class="container">
+          <span class="copyright">© Framgia inc</span>
+          <ul class="team-privacy">
+            <li><a href="#">team of use</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- nav -->
+
+    <!-- Modal for change language -->
+    <div class="modal select-language-modal fade" id="language-modal" tabindex="-1" role="dialog" aria-labelledby="language-modal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Languages</h4>
+          </div>
+          <div class="modal-body">
+            <div class="language-box">
+              <p class="title">Posts filter languages</p>
+              <div class="alert-success alert-dismissable">
+                You successfully read this important alert message.
+              </div>
+              <div class="language-box-content">
+                <div class="alert alert-info" role="alert">Show posts in all languages</div>
+                <ul class="language-list-items">
+                  <li>
+                    <select>
+                      <option value="English">English</option>
+                      <option value="Viet Nam">Viet Nam</option>
+                    </select>
+                    <button class="btn btn-sm btn-default">Remove</button>
+                  </li>
+                  <li>
+                    <select>
+                      <option value="English">English</option>
+                      <option value="Viet Nam">Viet Nam</option>
+                    </select>
+                    <button class="btn btn-sm btn-default">Remove</button>
+                  </li>
+                </ul>
+                <button class="btn btn-default btn-sm add-language">Add Language</button>
+                <div class="clear"></div>
+                <button class="btn btn-black btn-sm">Choose Selected languages</button>
+                <button class="btn btn-yellow btn-sm">Choose All languages</button>
+              </div>
+            </div>
+            <!-- /.language-box -->
+
+            <div class="language-box">
+              <p class="title">System language</p>
+              <div class="alert-success alert-dismissable">
+                You successfully read this important alert message.
+              </div>
+              <div class="language-box-content">
+                <select>
+                  <option value="English">English</option>
+                  <option value="Viet Nam">Viet Nam</option>
+                </select>
+                <button class="btn btn-black btn-sm">Change</button>
+              </div>
+            </div>
+            <!-- /.language-box -->
+
+            <div class="language-box">
+              <p class="title">Default your posts language</p>
+              <div class="language-box-content">
+                <select>
+                  <option value="English">English</option>
+                  <option value="Viet Nam">Viet Nam</option>
+                </select>
+                <button class="btn btn-black btn-sm">Change</button>
+                <button class="btn btn-yellow btn-sm">Apply to all before posts</button>
+              </div>
+            </div>
+            <!-- /.language-box -->
+
+            <div class="language-box">
+              <p class="title">Theme page language</p>
+              <div class="language-box-content">
+                <select>
+                  <option value="English">English</option>
+                  <option value="Viet Nam">Viet Nam</option>
+                </select>
+                <button class="btn btn-black btn-sm">Change</button>
+              </div>
+            </div>
+            <!-- /.language-box -->
+
+          </div>
+          <div class="modal-footer">
+            <div class="inner">
+              <button type="button" class="btn btn-default btn-black" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for change language -->
+    <div class="modal select-language-modal fade" id="language-modal" tabindex="-1" role="dialog" aria-labelledby="language-modal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Languages</h4>
+          </div>
+          <div class="modal-body">
+            <div class="language-box">
+              <p class="title">Posts filter languages</p>
+              <div class="alert-success alert-dismissable">
+                You successfully read this important alert message.
+              </div>
+              <div class="language-box-content">
+                <ul class="language-list-items">
+                  <li>
+                    <select>
+                      <option value="English">English</option>
+                      <option value="Viet Nam">Viet Nam</option>
+                    </select>
+                    <button class="btn btn-sm btn-default">Remove</button>
+                  </li>
+                  <li>
+                    <select>
+                      <option value="English">English</option>
+                      <option value="Viet Nam">Viet Nam</option>
+                    </select>
+                    <button class="btn btn-sm btn-default">Remove</button>
+                  </li>
+                </ul>
+                <button class="btn btn-default btn-sm add-language">Add Language</button>
+                <div class="clear"></div>
+                <button class="btn btn-black btn-sm">Choose Selected languages</button>
+                <button class="btn btn-yellow btn-sm">Choose All languages</button>
+              </div>
+            </div>
+            <!-- /.language-box -->
+
+            <div class="language-box">
+              <p class="title">System language</p>
+              <div class="alert-success alert-dismissable">
+                You successfully read this important alert message.
+              </div>
+              <div class="language-box-content">
+                <select>
+                  <option value="English">English</option>
+                  <option value="Viet Nam">Viet Nam</option>
+                </select>
+                <button class="btn btn-black btn-sm">Change</button>
+              </div>
+            </div>
+            <!-- /.language-box -->
+
+            <div class="language-box">
+              <p class="title">Default your posts language</p>
+              <div class="language-box-content">
+                <select>
+                  <option value="English">English</option>
+                  <option value="Viet Nam">Viet Nam</option>
+                </select>
+                <button class="btn btn-black btn-sm">Change</button>
+                <button class="btn btn-yellow btn-sm">Apply to all before posts</button>
+              </div>
+            </div>
+            <!-- /.language-box -->
+
+            <div class="language-box">
+              <p class="title">Theme page language</p>
+              <div class="language-box-content">
+                <select>
+                  <option value="English">English</option>
+                  <option value="Viet Nam">Viet Nam</option>
+                </select>
+                <button class="btn btn-black btn-sm">Change</button>
+              </div>
+            </div>
+            <!-- /.language-box -->
+
+          </div>
+          <div class="modal-footer">
+            <div class="inner">
+              <button type="button" class="btn btn-default btn-black" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/custom.js"></script>
+  </body>
+</html>

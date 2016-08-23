@@ -1,0 +1,271 @@
+
+.all-post .box-title {
+  margin-top: 0;
+}
+
+.all-post .box-title .filter {
+  float: right;
+}
+.all-post .box-title .filter select option {
+  line-height: 30px;
+}
+.list-title li {
+  float: left;
+  margin-right: 10px;
+}
+.list-title li .fake-a {
+  padding: 0 !important;
+}
+
+.filter {
+  float: right;
+}
+
+.group-thumbnail {
+  display: inline-block;
+  padding: 0;
+  border-radius: 0;
+  background-color: #f6f6f6;
+  border-color: #f6f6f6;
+  margin-bottom: 25px;
+  width: 100%;
+}
+.group-thumbnail .group-box-top {
+  width: 200px;
+  float: left;
+  padding: 0;
+}
+.group-thumbnail .group-box-top img {
+  width: 200px;
+  height: 130px;
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: none !important;
+}
+.group-thumbnail .group-box-top .group-mini-post-list {
+  width: 200px;
+  height: 18px;
+  background-color: #000;
+  color: #e1df19;
+  text-align: center;
+  font-size: 11px;
+}
+.group-thumbnail .group-box-top .group-mini-post-list span {
+  line-height: 18px;
+  margin-right: 10px;
+  padding-left: 30px;
+}
+.group-thumbnail .group-box-top .group-mini-post-list span.group-post-view {
+  background: url(../img/icon-thumbnail-view2.png) no-repeat center left;
+  background-size: 23px 23px;
+}
+.group-thumbnail .group-box-top .group-mini-post-list span.group-post-favou {
+  background: url(../img/icon-thumbnail-clip2.png) no-repeat center left;
+  background-size: 20px 13px;
+}
+.group-thumbnail .group-box-top .group-mini-post-list span.group-post-com {
+  background: url(../img/icon-thumbnail-com2.png) no-repeat center left;
+  background-size: 23px 23px;
+}
+.group-thumbnail .group-caption {
+  width: 76%;
+  float: left;
+  padding-left: 30px;
+}
+.group-thumbnail .group-caption .group-item-info .group-name-title {
+  display: inline-block;
+  font-size: 18px;
+  color: #343434;
+  font-weight: 600;
+  height: 25px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+.group-thumbnail .group-caption .group-item-info .group-author {
+  margin-bottom: 8px;
+}
+.group-thumbnail .group-caption .group-item-info .group-author img {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  margin-right: 10px;
+  display: inline-block;
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: none !important;
+}
+.group-thumbnail .group-caption .group-item-info .group-author span {
+  font-size: 12px;
+  color: #0fa19f;
+  font-style: italic;
+}
+.group-thumbnail .group-caption .group-item-info .group-author .group-mini-date {
+  display: inline-block;
+}
+.group-thumbnail .group-caption .group-item-info .group-author .group-mini-date span {
+  color: #6f6f6f;
+}
+.group-thumbnail .group-caption .group-item-info .group-detail {
+  font-size: 14px;
+  margin-bottom: 10px;
+  height: 40px;
+  overflow: hidden;
+}
+
+.tags {
+  height: 20px;
+  overflow: hidden;
+}
+.tags a {
+  color: #343434;
+  background-color: #e1df19;
+  font-size: 12px;
+  position: relative;
+  padding: 0 4px 2px 2px;
+  margin-left: 12px;
+  display: inline-block;
+}
+.tags a:after {
+  width: 0;
+  height: 0;
+  content: '';
+  position: absolute;
+  border: solid transparent;
+  border-right-color: #e1df19;
+  border-width: 9px;
+  top: 0px;
+  left: -17px;
+}
+.tags a:first-child {
+  margin-left: 9px;
+}
+.tags .tag-item {
+  float: left;
+  overflow: hidden;
+  height: 100%;
+}
+.tags .tag-see-more {
+  float: right;
+  display: none;
+}
+.tags .more-visible {
+  width: 25px;
+  margin-left: 6px;
+  display: block;
+  float: left;
+}
+.tags a.show-more-tag {
+  margin-right: 0px;
+}
+
+.popover-content {
+  padding: 9px;
+}
+.popover-content a {
+  display: inline-block;
+  line-height: 12px;
+  padding-top: 3px;
+}
+
+.post-detail .post-right .box-top-posts {
+  background-color: #f6f6f6;
+  margin-bottom: 30px;
+}
+.post-detail .post-right .box-top-posts .list-top-post {
+  padding: 0px 20px;
+}
+.post-detail .post-right .box-top-posts .list-top-post .top-post-detail {
+  margin-bottom: 18px;
+}
+.post-detail .post-right .box-top-posts .list-top-post .top-post-detail a.top-post-img {
+  padding-right: 0;
+  padding-left: 11px;
+}
+.post-detail .post-right .box-top-posts .list-top-post .top-post-detail a.top-post-img img {
+  width: 55px;
+  height: 55px;
+  background-position: center !important;
+  background-size: cover !important;
+  border-radius: 0;
+}
+.post-detail .post-right .box-top-posts .list-top-post .top-post-detail .top-post-content {
+  padding-left: 5px;
+}
+.post-detail .post-right .box-top-posts .list-top-post .top-post-detail .top-post-content a.title {
+  display: inline-block;
+  font-size: 14px;
+  color: #343434;
+  height: 40px;
+  overflow: hidden;
+  font-weight: normal;
+  margin-bottom: 0;
+  text-transform: none;
+}
+.post-detail .post-right .box-top-posts .list-top-post .top-post-detail .top-post-content a.name {
+  display: block;
+  font-size: 12px;
+  color: #878787;
+  font-style: italic;
+  height: 17px;
+  overflow: hidden;
+}
+.post-detail .post-right .box-top-post {
+  background-color: #f6f6f6;
+  margin-bottom: 30px;
+}
+.post-detail .post-right .box-top-post .list-top-post {
+  padding: 0px 20px 10px 20px;
+}
+
+.post-detail .post-right .box-top-post .list-top-post .top-post-detail a.top-post-img img {
+  width: 65px;
+  height: 55px;
+  border: solid 1px #f1f1f1;
+  background-position: center !important;
+  background-size: cover !important;
+}
+
+.post-detail .post-right .box-top-post .list-top-post .top-post-detail .top-post-content a.name {
+  display: block;
+  font-size: 12px;
+  color: #878787;
+  font-style: italic;
+  height: 17px;
+  overflow: hidden;
+}
+.post-detail .post-right .top-author {
+  margin-top: 0;
+}
+.post-detail .post-right .top-author .list-top-post .top-post-detail {
+  border-bottom: 0;
+}
+
+.post-detail .post-right .top-author .list-top-post .top-post-detail .top-post-content a {
+  display: block;
+}
+.post-detail .post-right .top-author .list-top-post .top-post-detail .top-post-content a.title {
+  height: 20px;
+  word-break: break-all;
+}
+.post-detail .post-right .top-author .list-top-post .top-post-detail .top-post-content a.btn-post {
+  font-size: 12px;
+  color: #878787;
+  background: url(../img/icon-post-right.png) left no-repeat;
+  padding-left: 20px;
+  line-height: 18px;
+}
+.post-detail .post-right .top-author .list-top-post .top-post-detail .top-post-content a.btn-follow {
+  background: url(../img/icon-follow-right.png) left no-repeat;
+}
+#load-more-user-groups {
+  width: 100%;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+.more-user-groups {
+  margin-bottom: 10px !important;
+}
+.full_width {
+  width: 100% !important;
+  margin-top: 15px;
+}

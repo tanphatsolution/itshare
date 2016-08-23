@@ -1,0 +1,31 @@
+.all-post {
+    margin-top: 40px;
+    margin-bottom: 0;
+    .box-title {
+        margin-top: 0;
+        ul {
+            display: inline-block;
+            float: left;
+        }
+        .filter {
+            float: right;
+            select {
+                width: 120px;
+                height: 32px;
+                padding-left: 10px;
+                padding-right: 5px;
+                border-radius: 3px;
+                border: none;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                outline: none;
+                background: url(../img/icon-dropdown-user-hover.png) no-repeat center right 10px;
+                background-color: #e9e9e9;
+                color: #0fa19f;
+                option {
+                    line-height: 30px;
+                }
+            }
+        }
+    }
+}

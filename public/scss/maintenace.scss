@@ -1,0 +1,24 @@
+body {
+  background-color: #1a9b92;
+}
+.maintenace {
+    height: 750px;
+    padding-top: 10%;
+    background-color: #1a9b92;
+    text-align: center;
+    vertical-align: center;
+    img {
+        width: 419px;
+        height: 170px;
+        display: inline-block;
+    }
+    p {
+        padding-bottom: 20px;
+        font-size: 35px;
+        font-weight: 300;
+        color: #fff;
+        &.notice2 {
+            font-size: 20px;
+        }
+    }
+}

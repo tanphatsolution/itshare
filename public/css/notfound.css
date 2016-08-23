@@ -1,0 +1,50 @@
+body {
+  background-color: #738387;
+}
+.notfound {
+  height: 750px;
+  background: url(../img/404.png) center no-repeat;
+  text-align: center;
+}
+.notfound .row {
+  padding-top: 400px;
+}
+.notfound .row .notice-miss {
+  margin-bottom: 20px;
+  color: #d6d9da;
+  font-size: 15px;
+}
+.notfound .row .btn-gohome {
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+}
+.notfound .row .btn-gohome:hover {
+  color: #37c8c6;
+  text-decoration: none;
+}
+.notfound .row .btn-gohome img {
+  padding-left: 10px;
+}
+.notfound .row .input-group {
+  margin-top: 70px;
+}
+.notfound .row .input-group .input-group-btn .btn {
+  background: none;
+  border: solid 2px #fff;
+  border-left: 0;
+}
+.notfound .row .input-group .form-control {
+  background: none;
+  border: solid 2px #fff;
+  border-right: 0;
+  height: 41px;
+  color: #fff;
+  font-weight: 300;
+}
+.notfound .row .input-group .form-control:focus {
+  outline: none;
+  box-shadow: none;
+}

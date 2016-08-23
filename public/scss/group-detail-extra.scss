@@ -1,0 +1,70 @@
+.group-area {
+    margin-bottom: 45px;
+}
+
+.group-unapproved-users-list {
+    .unapproved-user {
+        margin-bottom: 15px;
+        .unapproved-user-info {
+            margin-bottom: 15px;
+            img {
+                width: 100%;
+            }
+        }
+        .unapproved-user-action {
+            a.dic, a.sub {
+                float: right;
+                color: #0fa19f;
+                font-size: 11px;
+                font-family: 'Open Sans', sans-serif;
+                text-transform: capitalize;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+.screen-admin {
+    a {
+        color: #000;
+    }
+}
+
+.creatgroup {
+    a {
+        color: #464646;
+    }
+}
+
+.group-thumbnail .group-box-top {
+    width: 25%;
+    padding-left: 0;
+    padding-right: 0;
+    img {
+        width: 100%;
+        height: 130px;
+    }
+    .group-mini-post-list  {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.group-thumbnail .group-caption {
+    width: 75%;
+    padding-left: 25px;
+}
+
+@media only screen and (max-width: 622px) {
+    .post-detail .post-left .box-title {
+        padding-left: 15px;
+    }
+    .group-thumbnail .group-caption {
+        width: 100%;
+        clear: both;
+        padding-left: 15px;
+    }
+    .group-thumbnail .group-box-top {
+        width: 100%;
+    }
+}

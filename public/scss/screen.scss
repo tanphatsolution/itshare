@@ -1,0 +1,300 @@
+.l-screen {
+    padding-left: 0;
+    padding-right: 15px;
+    input {
+        padding-left: 15px;
+        color: #BCBCBC;
+    }
+}
+.form-control {
+    padding: 8px 12px;
+    border: 1px solid #ececec;
+    border-radius: 2px;
+    box-shadow: none;
+    text-transform: capitalize;
+    outline: none;
+    font-size: 13px;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+}
+.group-screen {
+    padding: 0;
+}
+.l-group-screen {
+    padding: 0;
+}
+.upload-images {
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid #e1e01a;
+    padding: 9px 0;
+    padding-right: 0;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.1s ease-out;
+    position: relative;
+    span {
+        color: #000;
+        font-size: 13px;
+        font-weight: normal;
+        font-family: 'Open Sans', sans-serif;
+        text-transform: capitalize;
+    }
+    img {
+        margin-right: 8px;
+    }
+    &:hover {
+        background-color: #e1e01a;
+        span {
+            color: #000;
+        }
+    }
+}
+.btn-choice-upload {
+    margin-bottom: 12px;
+}
+.choice-category {
+    margin-bottom: 10px;
+    //text-align: center;
+    select.form-control {
+        padding: 0 0 0 8px;
+        box-shadow: none;
+        text-transform: capitalize;
+        outline: none;
+        color: #999;
+        font-size: 13px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+        background: url(../img/icon-dropdown-user.png) no-repeat center right 7px;
+        background-color: #fff;
+        border: 1px solid #e1e1e1;
+        border-radius: 3px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        outline: none;
+    }
+}
+.advance-option {
+    margin-bottom: 7px;
+    display: block;
+    margin-left: -28px;
+    .advance {
+        display: block;
+        float: left;
+        span.btn-advance {
+        background: url("../img/icon-polygon.png") 0% center no-repeat;
+        padding-left: 15px;
+        color: #666666;
+        font-size: 13px;
+        font-weight: normal;
+        font-family: 'Open Sans', sans-serif;
+        float: left;
+        cursor: pointer;
+        }
+        span.btn-advance.open {
+            background: url("../img/icon-polygon1.png") 0% center no-repeat;  
+        } 
+    }
+    .list-advance {
+        padding-top: 10px;
+        display: none;
+        clear: both;
+        width: 100%;
+        select {
+            padding: 4px 12px;
+            border: 1px solid #e1e1e1;
+            border-radius: 3px;
+            box-shadow: none;
+            text-transform: capitalize;
+            outline: none;
+            margin-right: 10px;
+            color: #999;
+            font-size: 13px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: normal;
+        }
+        span {
+            margin-right: 8px;
+            color: #666;
+            font-size: 13px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: normal;
+        }
+    }
+    .form-tag {
+        float: left;
+        margin-left: 22px;
+        a {
+            color: #343434;
+            background-color: #dedede;
+            font-size: 13px;
+            position: relative;
+            padding: 0 4px 2px 2px;
+            margin-right: 10px;
+            text-decoration: none;
+            &:after {
+                width: 0;
+                height: 0;
+                content: '';
+                position: absolute;
+                border: solid transparent;
+                border-right-color: #dedede;
+                border-width: 10px;
+                top: 0px;
+                left: -20px;
+            }
+        }
+    }
+}
+.btn-submit {
+    margin-top: 12px;
+    margin-bottom: 20px;
+    padding-right: 15px;
+    input {
+        color: #666;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+        background-color: #D7D4D4;
+        border: 0;
+        border-radius: 2px;
+        float: right;
+        margin-left: 10px;
+        padding: 7px 18px;
+        transition: 0.1s ease-out;
+    }
+    input.publish {
+        background: #000;
+        color: #e1df1a;
+        &:hover {
+            background: #e1df1a;
+            color: #000;
+        }
+    }
+}
+
+.thumbnail-image {
+    position: relative;
+    height: 130px;
+    padding-right: 0px;
+    .btn-remove-thumb {
+        position: absolute;
+        top: -9px;
+        right: -4px;
+        height: 14px;
+        width: 12px;
+        background-color: #fff;
+        border-radius: 38px;
+        text-align: center;
+        cursor: pointer;
+        color: #d01414;
+    }
+    img {
+        width: 100%;
+        height: 104px;
+        background: url('/img/img-thumb-default.png') center;
+        background-size: cover;
+    }
+}
+
+.border-top-content {
+    border-top: 1px solid #ccc;
+}
+
+.padding-left-content {
+    padding-left: 15px !important;
+}
+
+#title {
+    margin-bottom: 0px;
+    height: 41px;
+    font-size: 18px;
+    border: 2px solid #E1E1E1;
+    border-top: 1px solid #E1E1E1;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+#title::-webkit-input-placeholder {
+    color: #E4E4E4;
+}
+
+#title:-moz-placeholder {
+    color: #E4E4E4;
+}
+
+#title::-moz-placeholder {
+    color: #E4E4E4;
+}
+
+#title:-ms-input-placeholder {
+    color: #E4E4E4;
+}
+
+.no-padding-right {
+    padding-right: 0px;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0px !important;
+}
+
+.border-top {
+    border-top: 1px solid #e1e1e1;
+}
+
+.bootstrap-tagsinput {
+    height: 33px;
+    border: 1px solid #E1E1E1;
+    input {
+        font-size: 13px;
+        padding-left: 9px;
+    }
+}
+
+#wrapper {
+    background-color: #f0f0f0;
+}
+
+#group-post-privacy {
+    width: 190px;
+}
+
+#monthly-theme-id {
+    width: 114px;
+}
+
+.icon-upload-image {
+    margin-bottom: 3px;
+}
+
+.navbar {
+  position: absolute;
+  .container ul {
+      margin-bottom: 0px;
+    }
+} 
+
+@media only screen and (max-width: 1160px) { 
+    .group-screen {
+        padding: 0 15px;
+    }
+    form .img {
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+ 
+}
+@media only screen and (max-width: 868px) { 
+    .advance-option .list-advance select {
+        margin-bottom: 12px;
+    }
+}
+@media only screen and (max-width: 768px) { 
+    .l-screen {
+        padding-right: 0;
+        margin-bottom: 15px;
+    }
+}

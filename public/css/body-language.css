@@ -1,0 +1,7 @@
+.lang-ja, .lang-ja .inner-container-tpage h1, .lang-ja .inner-container-text h1, .lang-ja .inner-container-text p {
+  font-family: "游ゴシック","YuGothic","Hiragino Kaku Gothic ProN","Hiragino Kaku Gothic Pro","Meiryo","メイリオ",sans-serif;
+}
+
+.lang-ja .inner-container-tpage h1 {
+  width: auto;
+}

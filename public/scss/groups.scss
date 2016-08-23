@@ -1,0 +1,151 @@
+.group-height {
+    height: 100px !important;
+    .group-image {
+        height: 100%;
+        width: 34%;
+        float: left;
+    }
+    .group-information {
+        height: 100%;
+        width: 66%;
+        float: left;
+        .full-size {
+            width: 100%;
+            height: 100%;
+            .top {
+                height: 80%;
+                float: left;
+                width: 33%;
+                text-align: center;
+            }
+            .bottom {
+                height: 20%;
+                float: left;
+                width: 33%;
+                text-align: center;
+            }
+        }
+    }
+    .group-name {
+        width: 100%; float: left;
+    }
+}
+
+.group-menu ul li a {
+    display: inline !important;
+}
+
+
+/*.dropdown:hover .dropdown-menu {
+    display: block;
+}*/
+.group-posts-series {
+    display: block;
+    p {
+        font-size: 15px;
+        font-weight: 400;
+        color: #0fa19f;
+        text-transform: capitalize;
+    }
+    a {
+        display: block;
+    }
+    .see-more-items {
+        display: block;
+        a {
+            float: right;
+        }
+    }
+}
+
+.menu-list li.dropdown {
+    a {
+        color: #000;
+        font-size: 18px;
+        transition: 0.5s ease-out;
+        .caret {
+            margin-left: 6px;
+        }
+        ul.dropdown-menu {
+            border-radius: 0;
+            width: 215px;
+            padding: 0;
+            line-height: 1.5;
+            border: 1px solid #e1e1e1;
+            background: url("../img/bg-group.png") repeat;
+            box-shadow: none;
+        }
+    }
+    &:hover {
+        ul.dropdown-menu  {
+            border-radius: 0;
+            display: block;
+            width: 215px;
+            padding: 0;
+            line-height: 1.5;
+            border: 1px solid #e1e1e1;
+            box-shadow: none;
+            &:before {
+                position: absolute;
+                content: "";
+                background: url("../img/icon-drop.png") no-repeat;
+                top: -7px;
+                left: 21px;
+                width: 13px;
+                height: 7px;
+            }
+            li {
+                display: inline-block !important;
+                margin-right: 0 !important;
+                width: 100%;
+                line-height: 36px;
+                border-bottom: 1px solid #e1e0dc;
+                a {
+                    display: block;
+                    padding: 10px 0px 10px 20px;
+                    color: #000;
+                    font-size: 11px;
+                    font-family: 'Open Sans', sans-serif;
+                    font-weight: 300;
+                    text-transform: uppercase;
+                    line-height: 1.5;
+                    img {
+                        width: 30px;
+                        height: 30px;
+                        background-position: center !important;
+                        background-size: cover !important;
+                        margin-right: 15px;
+                    }
+                }
+            }
+            li.see-all {
+                background: #e1e0dc;
+                padding-bottom: 0;
+                border: 0;
+                text-align: center;
+                a {
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+}
+
+.navbar-menu-name-groups {
+    overflow: hidden;
+    width: 95%;
+    white-space: nowrap;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.ul-none-padding {
+    padding: 0px;
+    list-style: none;
+}
+
+.margin-sm-top {
+    margin-top: 5px;
+}

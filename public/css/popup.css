@@ -1,0 +1,432 @@
+.pop {
+  background: rgba(0, 0, 0, 0.85);
+  text-align: center;
+  padding-bottom: 23px;
+  padding-right: 0px !important;
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+}
+.pop h3 {
+  color: #fff;
+  font-size: 19px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+.pop p.l-popup-login {
+  color: #cecece;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+.pop button.register {
+  color: #111;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  border: 0;
+  padding: 7px 50px;
+  text-transform: capitalize;
+  margin-right: 15px;
+  background: #e1df1a;
+  transition: 0.2s ease-out;
+}
+.pop button.register:hover {
+  background: #000;
+  color: #e1df1a;
+}
+.pop button.login {
+  background: #ebebeb;
+  color: #666;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  border: 0;
+  padding: 7px 50px;
+  text-transform: capitalize;
+  transition: 0.2s ease-out;
+}
+.pop button.login:hover {
+  background: #b5b5b5;
+  color: #333;
+}
+.pop .close-popup-signup {
+  float: right;
+  margin-right: 10px;
+  display: block;
+  font-size: 15pt;
+}
+.pop .close-popup-signup a {
+  color: white;
+  text-decoration: none;
+}
+#modal-popup-signup .modal-dialog {
+  width: 380px;
+  height: 599px;
+  margin: 0px auto !important;
+  top: 100px;
+}
+.l-box-register {
+  background: url("../img/bg-register.png") no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  top: 200px;
+  transform: translate(0, 0);
+  transition: transform 0.3s ease-out;
+  -webkit-transform: translate(0, -25%);
+}
+.l-box-register .modal-content {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+.l-box-register .modal-content .modal-header-register {
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  padding: 10px 0;
+  border: 0;
+}
+.l-box-register .modal-content .modal-footer-register {
+  padding-top: 3px;
+}
+.l-box-register .modal-content .modal-footer-register p {
+  color: #cecece;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+.l-box-register .modal-content .modal-footer-register button {
+  background: #ebebeb;
+  padding: 6px 42px;
+  border-radius: 3px;
+  color: #666;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  border: 0;
+  text-transform: uppercase;
+  transition: 0.2s ease-out;
+}
+.l-box-register .modal-content .modal-footer-register button:hover {
+  background: #b5b5b5;
+  color: #333;
+}
+.l-box-register .modal-content .modal-body-register {
+  padding: 14px 35px;
+}
+.l-box-register .modal-content .modal-body-register .message-error p {
+  color: red;
+}
+.l-box-register .modal-content .modal-body-register p {
+  color: #cecece;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+.l-box-register .modal-content .modal-body-register p a {
+  color: #cecece;
+  text-decoration: underline;
+}
+.l-box-register .modal-content .modal-body-register .list-social-register li {
+  display: inline-flex;
+  margin-right: 12px;
+}
+.l-box-register .modal-content .modal-body-register .list-social-register a.facebook {
+  background: url("../img/icon-face1.png") no-repeat;
+  width: 33px;
+  height: 33px;
+}
+.l-box-register .modal-content .modal-body-register .list-social-register a.google {
+  background: url("../img/icon-google1.png") no-repeat;
+  width: 33px;
+  height: 33px;
+}
+.l-box-register .modal-content .modal-body-register .list-social-register a.github {
+  background: url("../img/icon-git1.png") no-repeat;
+  width: 33px;
+  height: 33px;
+}
+.l-box-register .modal-content .modal-body-register .l-or {
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 6px;
+  clear: both;
+}
+.l-box-register .modal-content .modal-body-register .l-or span {
+  position: relative;
+  color: #999;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+.l-box-register .modal-content .modal-body-register .l-or span:after {
+  position: absolute;
+  content: "";
+  background: #fff;
+  left: 19px;
+  height: 1px;
+  width: 142px;
+  top: 10px;
+  opacity: 0.1;
+}
+.l-box-register .modal-content .modal-body-register .l-or span:before {
+  position: absolute;
+  content: "";
+  background: #fff;
+  opacity: 0.1;
+  right: 19px;
+  height: 1px;
+  width: 142px;
+  top: 10px;
+}
+.l-box-register .modal-content .modal-body-register input {
+  margin-bottom: 12px;
+  border-radius: 2px;
+  padding: 6px 0 6px 12px;
+  height: auto;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+.l-box-register .modal-content .modal-body-register .l-check .check {
+  float: left;
+  width: 100%;
+}
+.l-box-register .modal-content .modal-body-register .l-check .check span {
+  color: #cecece;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  float: left;
+}
+.l-box-register .modal-content .modal-body-register .l-check .check input {
+  padding: 0;
+  margin: 0;
+  margin-right: 8px;
+  float: left;
+  margin-top: 3px;
+}
+.l-box-register .modal-content .modal-body-register .l-check a.seemore {
+  color: #e1e300;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  float: left;
+  margin-left: 20px;
+  text-decoration: none;
+  transition: 0.3s ease-out;
+}
+.l-box-register .modal-content .modal-body-register input.btn-register {
+  background: #e1df1a;
+  width: 100%;
+  border: 0;
+  border-radius: 2px;
+  padding: 10px 0;
+  margin-top: 10px;
+  color: #000;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+  transition: 0.3s ease-out;
+}
+.l-box-register .modal-content .modal-body-register input.btn-register:hover {
+  color: #e1df1a;
+  background: #282828;
+}
+#modal-popup-login .modal-dialog {
+  width: 380px;
+  height: 459px;
+  margin: 0px auto !important;
+  top: 100px;
+}
+.l-box-login {
+  background: url("../img/bg-login.png") no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  top: 200px;
+  transform: translate(0, 0);
+  transition: transform 0.3s ease-out;
+  -webkit-transform: translate(0, -25%);
+}
+.l-box-login .modal-content {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+.l-box-login .modal-content .modal-header-login {
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  padding: 10px 0;
+  border: 0;
+}
+.l-box-login .modal-content .modal-body-login {
+  padding: 12px 35px;
+}
+.l-box-login .modal-content .modal-body-login .message-error p {
+  color: red;
+}
+.l-box-login .modal-content .modal-body-login p {
+  color: #cecece;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+.l-box-login .modal-content .modal-body-login p a {
+  color: #cecece;
+  text-decoration: underline;
+}
+.l-box-login .modal-content .modal-body-login .l-check {
+  width: 100%;
+}
+.l-box-login .modal-content .modal-body-login .l-check span.check {
+  float: left;
+  color: #cecece;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+.l-box-login .modal-content .modal-body-login .l-check span.check input {
+  margin-right: 8px;
+}
+.l-box-login .modal-content .modal-body-login .l-check a.forgot {
+  color: #cecece;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  float: right;
+  text-transform: capitalize;
+  font-weight: normal;
+  text-decoration: none;
+  transition: 0.2s ease-out;
+}
+.l-box-login .modal-content .modal-body-login .l-check a.forgot:hover {
+  color: #e1df1a;
+}
+.l-box-login .modal-content .modal-body-login .list-social-login li {
+  display: inline-flex;
+  margin-right: 12px;
+}
+.l-box-login .modal-content .modal-body-login .list-social-login a.facebook {
+  background: url("../img/icon-face1.png") no-repeat;
+  width: 33px;
+  height: 33px;
+}
+.l-box-login .modal-content .modal-body-login .list-social-login a.google {
+  background: url("../img/icon-google1.png") no-repeat;
+  width: 33px;
+  height: 33px;
+}
+.l-box-login .modal-content .modal-body-login .list-social-login a.github {
+  background: url("../img/icon-git1.png") no-repeat;
+  width: 33px;
+  height: 33px;
+}
+.l-box-login .modal-content .modal-body-login .l-or {
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  clear: both;
+}
+.l-box-login .modal-content .modal-body-login .l-or span {
+  position: relative;
+  color: #999;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+.l-box-login .modal-content .modal-body-login .l-or span:after {
+  position: absolute;
+  content: "";
+  background: #fff;
+  left: 19px;
+  height: 1px;
+  width: 142px;
+  top: 10px;
+  opacity: 0.1;
+}
+.l-box-login .modal-content .modal-body-login .l-or span:before {
+  position: absolute;
+  content: "";
+  background: #fff;
+  opacity: 0.1;
+  right: 19px;
+  height: 1px;
+  width: 142px;
+  top: 10px;
+}
+.l-box-login .modal-content .modal-body-login input.popup-email {
+  margin-bottom: 18px;
+  border-radius: 2px;
+  padding: 7px 0 7px 12px;
+  height: auto;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+.l-box-login .modal-content .modal-body-login input.popup-pass {
+  margin-bottom: 13px;
+  border-radius: 2px;
+  padding: 7px 0 7px 12px;
+  height: auto;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+.l-box-login .modal-content .modal-body-login input.btn-login {
+  background: #e1df1a;
+  width: 100%;
+  border: 0;
+  border-radius: 2px;
+  padding: 8px 0;
+  margin-bottom: 13px;
+  margin-top: 14px;
+  color: #000;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.l-box-login .modal-content .modal-body-login input.btn-login:hover {
+  color: #e1df1a;
+  background: #282828;
+}
+.l-box-login .modal-content .modal-footer-login {
+  padding-top: 3px;
+}
+.l-box-login .modal-content .modal-footer-login p {
+  color: #cecece;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+.l-box-login .modal-content .modal-footer-login button {
+  background: #ebebeb;
+  padding: 6px 42px;
+  border-radius: 3px;
+  color: #666;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  border: 0;
+  text-transform: uppercase;
+}
+.l-box-login .modal-content .modal-footer-login button:hover {
+  background: #b5b5b5;
+  color: #333;
+}
+body.modal-open {
+  overflow: hidden;
+}
+@media (max-width: 430px) {
+  .l-popup-register button.login {
+    margin-top: 10px;
+  }
+  .l-popup-register button.register {
+    margin-right: 0px;
+  }
+}

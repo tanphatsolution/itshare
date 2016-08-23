@@ -1,0 +1,9 @@
+.role .table .center {
+   text-align: center;   
+}
+.table-checkbox label {
+    margin-bottom: 0px;
+    display: block;
+    width: 100%;
+    line-height: 0px;
+}

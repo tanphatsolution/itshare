@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'connect' => 'Kết nối',
+    'connect_to' => 'Kết nối bằng <a href=":socialLink" target="_blank">:socialName</a>',
+    'sign_up_with' => 'Đăng kí bằng <a href=":socialLink" target="_blank">:socialName</a>',
+    'login_with_facebook' => 'Đăng nhập bằng Facebook',
+    'login_with_google' => 'Đăng nhập bằng Google+',
+    'login_with_github' => 'Đăng nhập bằng 0Github',
+    'sign_up_with_facebook' => 'Đăng ký bằng Facebook',
+    'sign_up_with_google' => 'Đăng ký bằng Google+',
+    'sign_up_with_github' => 'Đăng ký bằng Github',
+    'cant_access_email' => 'Không thể truy cập email trong hồ sơ của bạn.',
+    'cant_access_email_github' => 'Bạn không thể đăng nhập vì hòm thư này đang được thiết lập là riêng tư trên Github.',
+    'already_associated' => 'Tài khoản này đã kết nối với một người dùng khác.',
+    'facebook' => 'Facebook',
+    'google' => 'Google+',
+    'github' => 'Github',
+    'connect_successfully' => 'Kết nối thành công.',
+    'confirm_revoke' => 'Bạn có chắc mình muốn hủy kết nối giữa tài khoản Viblo và tài khoản mạng xã hội của bạn?',
+    'source' => 'Nguồn',
+    'public' => 'Công khai',
+    'private' => 'Cá nhân',
+    'internet' => 'Internet',
+    'some_text' => 'Viết cái gì đó',
+];

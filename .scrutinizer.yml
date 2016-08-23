@@ -1,0 +1,88 @@
+checks:
+    php:
+        fix_php_opening_tag: false
+        remove_php_closing_tag: true
+        one_class_per_file: false
+        side_effects_or_types: false
+        no_mixed_inline_html: false
+        require_braces_around_control_structures: true
+        php5_style_constructor: true
+        no_global_keyword: false
+        avoid_usage_of_logical_operators: false
+        psr2_class_declaration: true
+        no_underscore_prefix_in_properties: true
+        no_underscore_prefix_in_methods: true
+        blank_line_after_namespace_declaration: true
+        single_namespace_per_use: false
+        psr2_switch_declaration: true
+        psr2_control_structure_declaration: false
+        avoid_superglobals: true
+        security_vulnerabilities: false
+        no_exit: false
+        uppercase_constants: true
+        remove_extra_empty_lines: true
+        optional_parameters_at_the_end: true
+        newline_at_end_of_file: true
+        encourage_single_quotes: true
+        avoid_multiple_statements_on_same_line: true
+        verify_property_names: false
+        duplication: false
+
+filter: {  }
+coding_style:
+    php:
+        spaces:
+            before_parentheses:
+                closure_definition: true
+            around_operators:
+                concatenation: false
+        braces:
+            classes_functions:
+                class: new-line
+                function: new-line
+                closure: end-of-line
+            if:
+                opening: end-of-line
+            for:
+                opening: end-of-line
+            while:
+                opening: end-of-line
+            do_while:
+                opening: end-of-line
+            switch:
+                opening: end-of-line
+            try:
+                opening: end-of-line
+        upper_lower_casing:
+            keywords:
+                general: lower
+            constants:
+                true_false_null: lower
+
+build:
+    environment:
+        php: '7.0'
+        mysql: '5.6'
+        postgresql: false
+        elasticsearch: true
+        hosts:
+            pos.dev: '127.0.0.1'
+        apache2:
+            modules: ['rewrite']
+            sites:
+                pos_server:
+                    web_root: 'www/'
+                    host: 'viblo5.dev'
+        variables:
+            APP_URL: 'http://viblo5.dev'
+            DB_CONNECTION: 'mysql'
+            DB_HOST: 'localhost'
+            DB_DATABASE: 'viblo_db'
+            DB_USERNAME: 'root'
+            DB_PASSWORD: ''
+            CACHE_DRIVER: 'redis'
+            SESSION_DRIVER: 'redis'
+            QUEUE_DRIVER: 'sync'
+    project_setup:
+        before:
+            - mysql -e "CREATE DATABASE viblo_db"

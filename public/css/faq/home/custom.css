@@ -1,0 +1,68 @@
+@media screen and (max-width: 1200px) {
+  .navbar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+   body.faq {
+      padding-top: 0px;
+   }
+   body.faq #container {
+      padding-top: 40px;
+   }
+  #container {
+    padding-top: 70px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #container {
+    padding: 40px 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer .facebook-footer {
+    padding: 0 15px;
+    margin-bottom: 25px;
+  }
+  footer .tag-footer {
+    padding: 0 15px;
+    margin-bottom: 15px;
+  }
+  footer .author-footer {
+    padding: 0 15px;
+    margin-bottom: 15px;
+  }
+  footer .feedback-footer {
+    padding: 0 15px;
+    margin-bottom: 25px;
+  }
+  footer .box-footer .title-box {
+    margin-bottom: 25px;
+  }
+  footer .last-footer {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer .last-footer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.box-author {
+  display: block;
+}
+
+.box-author:after, .box-author:before {
+  display: table;
+  content: "";
+}
+
+.box-author:after {
+  clear: both;
+}

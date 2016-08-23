@@ -1,0 +1,44 @@
+.list-notify {
+  padding-bottom: 30px;
+}
+.list-notify p {
+  font-size: 15px;
+  font-weight: 600;
+  color: #000;
+}
+.list-notify p.your-notify {
+  margin-bottom: 0;
+  line-height: 60px;
+  padding-left: 30px;
+  background: url(../img/btn-ringstone-hover.png) no-repeat center left;
+  color: #0fa19f;
+}
+.list-notify .time-notify p {
+  line-height: 40px;
+  border-bottom: 1px solid #e9e9e9;
+  border-top: 1px solid #e9e9e9;
+}
+.list-notify .time-notify .box-notify {
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+.list-notify .time-notify .box-notify .alert {
+  margin-bottom: 0;
+  padding: 5px;
+  padding-left: 15px;
+  background: none;
+  border: none;
+  color: #000;
+  font-size: 13px;
+}
+.list-notify .time-notify .box-notify .alert a {
+  color: #0fa19f;
+}
+.list-notify .time-notify .box-notify .alert a img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-size: cover !important;
+  background-position: center center !important;
+}
