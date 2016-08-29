@@ -313,7 +313,7 @@ Route::group(['prefix' => 'faq', 'namespace' => 'Faq'], function(Router $router)
     $router->get('/ranking', function(){
         return Response::view('faq.ranking.ranking');
     });
-    
+
     // get user_profile
     $router->get('/user_profile', function(){
         return Response::view('faq.user.user_profile');
