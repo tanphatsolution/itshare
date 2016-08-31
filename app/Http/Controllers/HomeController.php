@@ -84,32 +84,34 @@ class HomeController extends BaseController
 
     public function getTopPage(Request $request, $locale = '')
     {
-        if (Auth::check()) {
-            $seoLang = $request->get('lang', $locale);
-            $posts = PostService::getPostFollowInWall(PostService::WALL_ALL, 0, PostService::SELECT_FILTER, $seoLang);
-            
-            foreach ($posts['class'] as $key => $class) {
-                $posts['class'][$key] = $class . ($this->lang == ' ja' ? 'font-size-ja' : '');
-            }
+        // if (Auth::check()) {
+        //     $seoLang = $request->get('lang', $locale);
+        //     $posts = PostService::getPostFollowInWall(PostService::WALL_ALL, 0, PostService::SELECT_FILTER, $seoLang);
 
-            $this->viewData['populars'] = PostService::getPopularPosts(Post::POPULAR_POST_LIMIT_IN_POST_INDEX);
-            $this->viewData['filterBy'] = PostService::SELECT_FILTER;
-            $this->viewData['topCategories'] = $this->categories;
-            $this->viewData['title'] = trans('titles.top_page', ['title' => trans('titles.top_page_title_after')]);
-            $this->viewData = array_merge($this->viewData, $posts);
-            $this->viewData['seoLang'] = $seoLang;
-            if (URL::previous() == action('UsersController@socialRegistration')) {
-                $this->viewData['isSetDefaultLang'] = 0;
-            }
+        //     foreach ($posts['class'] as $key => $class) {
+        //         $posts['class'][$key] = $class . ($this->lang == ' ja' ? 'font-size-ja' : '');
+        //     }
 
-            return View::make('post.index', $this->viewData);
+        //     $this->viewData['populars'] = PostService::getPopularPosts(Post::POPULAR_POST_LIMIT_IN_POST_INDEX);
+        //     $this->viewData['filterBy'] = PostService::SELECT_FILTER;
+        //     $this->viewData['topCategories'] = $this->categories;
+        //     $this->viewData['title'] = trans('titles.top_page', ['title' => trans('titles.top_page_title_after')]);
+        //     $this->viewData = array_merge($this->viewData, $posts);
+        //     $this->viewData['seoLang'] = $seoLang;
+        //     if (URL::previous() == action('UsersController@socialRegistration')) {
+        //         $this->viewData['isSetDefaultLang'] = 0;
+        //     }
 
-        } else {
-            $this->viewData['categories'] = $this->categories;
-            $this->viewData['title'] = trans('titles.top_page', ['title' => trans('titles.top_page_title_after')]);
-            $this->viewData['agent'] = new Agent();
-            return view('home.top_sign_up', $this->viewData);
-        }
+        //     return View::make('post.index', $this->viewData);
+
+        // } else {
+        //     $this->viewData['categories'] = $this->categories;
+        //     $this->viewData['title'] = trans('titles.top_page', ['title' => trans('titles.top_page_title_after')]);
+        //     $this->viewData['agent'] = new Agent();
+        //     return view('home.top_sign_up', $this->viewData);
+        // }
+
+        return view('_coursecode.home');
     }
 
     public function getSitemap()
