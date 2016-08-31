@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Home Page</title>
         <meta charset="utf-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
+        <title>Học lập trình web tại Hà Nội | Diễn đàn chia sẻ kiến thức trực tuyến</title>
+
+        <meta name="description" content="Học lập trình web tại Hà Nội. Diễn đàn chia sẻ kiến thức trực tuyến."/>
+        <meta name="keywords" content="HTML,CSS,XML,JavaScript,PHP"/>
+
+        {{ HTML::style('coursecode/img/logo.png', ['rel' => 'shortcut icon']) }}
+
         <!-- Bootstrap CSS, Font-awesome -->
-        <link rel="stylesheet" href="/coursecode/bootstrap/css/bootstrap.min.css"/>
-        <link rel="stylesheet" href="/coursecode/font-awesome/css/font-awesome.min.css"/>
+        {{ HTML::style('coursecode/bootstrap/css/bootstrap.min.css') }}
+        {{ HTML::style('coursecode/font-awesome/css/font-awesome.min.css') }}
         <!-- Customers -->
-        <link rel="stylesheet" href="/coursecode/customers/styles.css"/>
-        <link rel="stylesheet" href="/coursecode/customers/styles-responsive.css"/>
-        <link rel="stylesheet" href="/coursecode/customers/css/home.css"/>
+        {{ HTML::style('coursecode/customers/styles.css') }}
+        {{ HTML::style('coursecode/customers/styles-responsive.css') }}
+        {{ HTML::style('coursecode/customers/css/home.css') }}
     </head>
 
     <body>
@@ -455,10 +461,8 @@
             </div>
         </div>
 
-        <!-- jQuery, Bootstrap JavaScript -->
-        <script src="/coursecode/bootstrap/js/jquery.js"></script>
-        <script src="/coursecode/bootstrap/js/bootstrap.min.js"></script>
-        <!-- Customers -->
-        <script src="/coursecode/customers/js/main.js"></script>
+        {{ HTML::script('coursecode/customers/js/jquery.js') }}
+        {{ HTML::script('coursecode/bootstrap/js/bootstrap.min.js') }}
+        {{ HTML::script('coursecode/customers/js/main.js') }}
     </body>
 </html>
