@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Posts Page</title>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+        <!-- Bootstrap CSS, Font-awesome -->
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"/>
+        <!-- Customers -->
+        <link rel="stylesheet" href="customers/css/styles.css"/>
+        <link rel="stylesheet" href="customers/css/styles-responsive.css"/>
+        <link rel="stylesheet" href="customers/css/posts.css"/>
+    </head>
+
+    <body>
+        <div id="fb-root"></div>
+            <script>(function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.7&appId=544828132379066";
+              fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+
+        <!-- #menu -->
+        <div id="menu">
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="javascript:;">SUNTECH.COM.VN</a>
+                    </div>
+
+                    <!-- .navbar-collapse -->
+                    <div class="collapse navbar-collapse navbar-ex1-collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="javascript:;">Trang chủ</a></li>
+                            <li><a href="javascript:;">Giới thiệu</a></li>
+                            <li><a href="javascript:;">Diễn đàn</a></li>
+                            <li><a href="javascript:;">Videos</a></li>
+                            <li><a href="javascript:;">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- #banner -->
+        <div id="banner">
+            <div class="jumbotron" style="background: url('img/banner.jpg');">
+                <h1>Bạn muốn trở thành lập trình viên?</h1>
+                <p>Hãy tham gia khóa học của chúng tôi!</p>
+                <a href="javascript:;" title="" class="btn btn-info btn-lg">Tham gia ngay</a>
+            </div>
+        </div>
+
+        <!-- #content -->
+        <div id="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="detail">
+                            <div class="detail-header">
+                                <ul class="breadcrumb">
+                                    <li><a href="javascript:;">Trang chủ</a></li>
+                                    <li class="active">Diễn đàn</li>
+                                </ul>
+                                <!-- <img src="img/php-banner02.jpg" alt="PHP-BANNER" class="img-responsive"/> -->
+                            </div>
+
+                            <div class="detail-content">
+                                <div class="posts-list">
+                                    <div class="item">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <div class="item-img">
+                                                    <a href="javascript:;">
+                                                        <img src="img/post-seo.jpg" alt="POST-SEO" class="img-responsive"/>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-9">
+                                                <div class="item-info">
+                                                    <h3>
+                                                        <a href="javascript:;">
+                                                            Tìm hiểu Về SEO - Phần I
+                                                        </a>
+                                                    </h3>
+                                                    <div>
+                                                        <i class="fa fa-calendar"></i> 10/08/2016
+                                                        <span>&nbsp;&nbsp;</span>
+                                                        <i class="fa fa-comment-o"></i> 10
+                                                        <span>&nbsp;&nbsp;</span>
+                                                        <i>views</i> 100
+                                                    </div>
+                                                    <p>Search engine optimization (SEO) - Tối ưu hoá máy tìm kiếm để làm tăng thứ hạng của một website hoặc webpage trong những kết quả hiển thị tự nhiên của máy tìm kiếm. Nói một cách khác đó là việc bạn thay đổi thiết kế cấu trúc cũng như nội dung trang web, các vấn đề liên quan đến trang web để khi người dùng tìm kiếm bằng các bộ máy tìm kiếm như google, bing …</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <div class="item-img">
+                                                    <a href="javascript:;">
+                                                        <img src="img/thumb_laravel-5-1-tren-ubuntu.png" alt="POST-SEO" class="img-responsive"/>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-9">
+                                                <div class="item-info">
+                                                    <h3>
+                                                        <a href="javascript:;">Hướng dẫn cài laravel 5.1 trên ubuntu</a>
+                                                    </h3>
+                                                    <div>
+                                                        <i class="fa fa-calendar"></i> 10/08/2016
+                                                        <span>&nbsp;&nbsp;</span>
+                                                        <i class="fa fa-comment-o"></i> 10
+                                                        <span>&nbsp;&nbsp;</span>
+                                                        <i>views</i> 100
+                                                    </div>
+                                                    <p>Search engine optimization (SEO) - Tối ưu hoá máy tìm kiếm để làm tăng thứ hạng của một website hoặc webpage trong những kết quả hiển thị tự nhiên của máy tìm kiếm. Nói một cách khác đó là việc bạn thay đổi thiết kế cấu trúc cũng như nội dung trang web, các vấn đề liên quan đến trang web để khi người dùng tìm kiếm bằng các bộ máy tìm kiếm như google, bing …</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <div class="item-img">
+                                                    <a href="javascript:;">
+                                                        <img src="img/post-seo.jpg" alt="POST-SEO" class="img-responsive"/>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-9">
+                                                <div class="item-info">
+                                                    <h3>
+                                                        <a href="javascript:;">
+                                                            Tìm hiểu Về SEO - Phần I
+                                                        </a>
+                                                    </h3>
+                                                    <div>
+                                                        <i class="fa fa-calendar"></i> 10/08/2016
+                                                        <span>&nbsp;&nbsp;</span>
+                                                        <i class="fa fa-comment-o"></i> 10
+                                                        <span>&nbsp;&nbsp;</span>
+                                                        <i>views</i> 100
+                                                    </div>
+                                                    <p>Search engine optimization (SEO) - Tối ưu hoá máy tìm kiếm để làm tăng thứ hạng của một website hoặc webpage trong những kết quả hiển thị tự nhiên của máy tìm kiếm. Nói một cách khác đó là việc bạn thay đổi thiết kế cấu trúc cũng như nội dung trang web, các vấn đề liên quan đến trang web để khi người dùng tìm kiếm bằng các bộ máy tìm kiếm như google, bing …</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <div class="item-img">
+                                                    <a href="javascript:;">
+                                                        <img src="img/thumb_laravel-5-1-tren-ubuntu.png" alt="POST-SEO" class="img-responsive"/>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-9">
+                                                <div class="item-info">
+                                                    <h3>
+                                                        <a href="javascript:;">Hướng dẫn cài laravel 5.1 trên ubuntu</a>
+                                                    </h3>
+                                                    <div>
+                                                        <i class="fa fa-calendar"></i> 10/08/2016
+                                                        <span>&nbsp;&nbsp;</span>
+                                                        <i class="fa fa-comment-o"></i> 10
+                                                        <span>&nbsp;&nbsp;</span>
+                                                        <i>views</i> 100
+                                                    </div>
+                                                    <p>Search engine optimization (SEO) - Tối ưu hoá máy tìm kiếm để làm tăng thứ hạng của một website hoặc webpage trong những kết quả hiển thị tự nhiên của máy tìm kiếm. Nói một cách khác đó là việc bạn thay đổi thiết kế cấu trúc cũng như nội dung trang web, các vấn đề liên quan đến trang web để khi người dùng tìm kiếm bằng các bộ máy tìm kiếm như google, bing …</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <div class="item-img">
+                                                    <a href="javascript:;">
+                                                        <img src="img/post-seo.jpg" alt="POST-SEO" class="img-responsive"/>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-9">
+                                                <div class="item-info">
+                                                    <h3>
+                                                        <a href="javascript:;">
+                                                            Tìm hiểu Về SEO - Phần I
+                                                        </a>
+                                                    </h3>
+                                                    <div>
+                                                        <i class="fa fa-calendar"></i> 10/08/2016
+                                                        <span>&nbsp;&nbsp;</span>
+                                                        <i class="fa fa-comment-o"></i> 10
+                                                        <span>&nbsp;&nbsp;</span>
+                                                        <i>views</i> 100
+                                                    </div>
+                                                    <p>Search engine optimization (SEO) - Tối ưu hoá máy tìm kiếm để làm tăng thứ hạng của một website hoặc webpage trong những kết quả hiển thị tự nhiên của máy tìm kiếm. Nói một cách khác đó là việc bạn thay đổi thiết kế cấu trúc cũng như nội dung trang web, các vấn đề liên quan đến trang web để khi người dùng tìm kiếm bằng các bộ máy tìm kiếm như google, bing …</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <div class="item-img">
+                                                    <a href="javascript:;">
+                                                        <img src="img/thumb_laravel-5-1-tren-ubuntu.png" alt="POST-SEO" class="img-responsive"/>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-9">
+                                                <div class="item-info">
+                                                    <h3>
+                                                        <a href="javascript:;">Hướng dẫn cài laravel 5.1 trên ubuntu</a>
+                                                    </h3>
+                                                    <div>
+                                                        <i class="fa fa-calendar"></i> 10/08/2016
+                                                        <span>&nbsp;&nbsp;</span>
+                                                        <i class="fa fa-comment-o"></i> 10
+                                                        <span>&nbsp;&nbsp;</span>
+                                                        <i>views</i> 100
+                                                    </div>
+                                                    <p>Search engine optimization (SEO) - Tối ưu hoá máy tìm kiếm để làm tăng thứ hạng của một website hoặc webpage trong những kết quả hiển thị tự nhiên của máy tìm kiếm. Nói một cách khác đó là việc bạn thay đổi thiết kế cấu trúc cũng như nội dung trang web, các vấn đề liên quan đến trang web để khi người dùng tìm kiếm bằng các bộ máy tìm kiếm như google, bing …</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <div class="item-img">
+                                                    <a href="javascript:;">
+                                                        <img src="img/post-seo.jpg" alt="POST-SEO" class="img-responsive"/>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-9">
+                                                <div class="item-info">
+                                                    <h3>
+                                                        <a href="javascript:;">
+                                                            Tìm hiểu Về SEO - Phần I
+                                                        </a>
+                                                    </h3>
+                                                    <div>
+                                                        <i class="fa fa-calendar"></i> 10/08/2016
+                                                        <span>&nbsp;&nbsp;</span>
+                                                        <i class="fa fa-comment-o"></i> 10
+                                                        <span>&nbsp;&nbsp;</span>
+                                                        <i>views</i> 100
+                                                    </div>
+                                                    <p>Search engine optimization (SEO) - Tối ưu hoá máy tìm kiếm để làm tăng thứ hạng của một website hoặc webpage trong những kết quả hiển thị tự nhiên của máy tìm kiếm. Nói một cách khác đó là việc bạn thay đổi thiết kế cấu trúc cũng như nội dung trang web, các vấn đề liên quan đến trang web để khi người dùng tìm kiếm bằng các bộ máy tìm kiếm như google, bing …</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <div class="item-img">
+                                                    <a href="javascript:;">
+                                                        <img src="img/thumb_laravel-5-1-tren-ubuntu.png" alt="POST-SEO" class="img-responsive"/>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-9">
+                                                <div class="item-info">
+                                                    <h3>
+                                                        <a href="javascript:;">Hướng dẫn cài laravel 5.1 trên ubuntu</a>
+                                                    </h3>
+                                                    <div>
+                                                        <i class="fa fa-calendar"></i> 10/08/2016
+                                                        <span>&nbsp;&nbsp;</span>
+                                                        <i class="fa fa-comment-o"></i> 10
+                                                        <span>&nbsp;&nbsp;</span>
+                                                        <i>views</i> 100
+                                                    </div>
+                                                    <p>Search engine optimization (SEO) - Tối ưu hoá máy tìm kiếm để làm tăng thứ hạng của một website hoặc webpage trong những kết quả hiển thị tự nhiên của máy tìm kiếm. Nói một cách khác đó là việc bạn thay đổi thiết kế cấu trúc cũng như nội dung trang web, các vấn đề liên quan đến trang web để khi người dùng tìm kiếm bằng các bộ máy tìm kiếm như google, bing …</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <div class="item-img">
+                                                    <a href="javascript:;">
+                                                        <img src="img/post-seo.jpg" alt="POST-SEO" class="img-responsive"/>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-9">
+                                                <div class="item-info">
+                                                    <h3>
+                                                        <a href="javascript:;">
+                                                            Tìm hiểu Về SEO - Phần I
+                                                        </a>
+                                                    </h3>
+                                                    <div>
+                                                        <i class="fa fa-calendar"></i> 10/08/2016
+                                                        <span>&nbsp;&nbsp;</span>
+                                                        <i class="fa fa-comment-o"></i> 10
+                                                        <span>&nbsp;&nbsp;</span>
+                                                        <i>views</i> 100
+                                                    </div>
+                                                    <p>Search engine optimization (SEO) - Tối ưu hoá máy tìm kiếm để làm tăng thứ hạng của một website hoặc webpage trong những kết quả hiển thị tự nhiên của máy tìm kiếm. Nói một cách khác đó là việc bạn thay đổi thiết kế cấu trúc cũng như nội dung trang web, các vấn đề liên quan đến trang web để khi người dùng tìm kiếm bằng các bộ máy tìm kiếm như google, bing …</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="detail-footer">
+                                <div class="text-center">
+                                    <ul class="pagination">
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li class="active"><a href="javascript:;">3</a></li>
+                                        <li><a href="#">4</a></li>
+                                        <li><a href="#">5</a></li>
+                                    </ul>
+                                </div>
+                                <!-- Google plus like -->
+                                <!-- Place this tag where you want the +1 button to render. -->
+                                 <!-- <div class="g-plusone" data-annotation="inline" data-width="300"></div> -->
+                                <!-- Place this tag after the last +1 button tag. -->
+                                 <!-- <script type="text/javascript">
+                                 window.___gcfg = {lang: 'vi'};
+                                (function() {
+                                 var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                                 po.src = 'https://apis.google.com/js/plusone.js';
+                                 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                                 })();
+                                 </script> -->
+                                <!-- <div id="fb-root"></div>
+                                 <script>(function(d, s, id) {
+                                 var js, fjs = d.getElementsByTagName(s)[0];
+                                 if (d.getElementById(id)) return;
+                                 js = d.createElement(s); js.id = id;
+                                 js.src = "//connect.facebook.net/vi_VN/all.js#xfbml=1&appId=546658882011343";
+                                 fjs.parentNode.insertBefore(js, fjs);
+                                 }(document, 'script', 'facebook-jssdk'));</script> -->
+                                <!-- Facebook like -->
+                                <!-- <div class="fb-like" data-href="http://localhost/coursecode/course.php" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div> -->
+                                <!-- Facebook comments -->
+                                <!-- <div
+                                    class="fb-comments"
+                                    data-href="http://localhost/coursecode/course.php"
+                                    data-numposts="5"
+                                    data-width="100%"></div> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div id="sidebar">
+                            <!-- Courses list -->
+                            <div class="sidebar-section">
+                                <h4>Danh sách khóa học</h4>
+                                <ul class="list-unstyled" id="sidebarCourses">
+                                    <li>
+                                        <a href="javascript:;">
+                                            <i class="fa fa-angle-double-right"></i>
+                                            Khóa học Html 5
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <i class="fa fa-angle-double-right"></i>
+                                            Khóa học Css 3
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <i class="fa fa-angle-double-right"></i>
+                                            Khóa học Javascript
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <i class="fa fa-angle-double-right"></i>
+                                            Khóa học JQuery
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <i class="fa fa-angle-double-right"></i>
+                                            Khóa học PHP căn bản
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <i class="fa fa-angle-double-right"></i>
+                                            Khóa học PHP nâng cao
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Posts -->
+                            <div class="sidebar-section">
+                                <h4>Bài viết liên quan</h4>
+                                <ul class="list-unstyled posts">
+                                    <li>
+                                        <i class="fa fa-arrow-circle-right fa-xs"></i>
+                                        <a href="javascript:;">Hướng dẫn sử dụng xampp trên Windows. chương trình hello world!</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-arrow-circle-right fa-xs"></i>
+                                        <a href="javascript:;">Bài 1. Biến, hằng, toán tử trong php.</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-arrow-circle-right fa-xs"></i>
+                                        <a href="javascript:;">Bài 2. Kiểu dữ liệu trong php.</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-arrow-circle-right fa-xs"></i>
+                                        <a href="javascript:;">Bài 3. Cú pháp trong php.</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-arrow-circle-right fa-xs"></i>
+                                        <a href="javascript:;">Bài 4. Cấu trúc rẽ nhánh, lặp trong php.</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-arrow-circle-right fa-xs"></i>
+                                        <a href="javascript:;">Bài 5. Thủ tục, hàm trong php.</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-arrow-circle-right fa-xs"></i>
+                                        <a href="javascript:;">Bài 6. Một số hàm thường dùng trong php.</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Videos list -->
+                            <div class="sidebar-section">
+                                <h4>Videos liên quan</h4>
+                                <ul class="list-unstyled videos">
+                                    <li>
+                                        <div class="videos-img">
+                                            <a href="javascript:;">
+                                                <img src="img/html-course.png" alt="php-course" class="img-responsive"/>
+                                            </a>
+                                        </div>
+                                        <div class="videos-link">
+                                            <a href="javascript:;">Bài 1. Tổng quan về html 5 - Các thẻ html 5 thường dùng</a>
+                                            <span>01/01/2016</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="videos-img">
+                                            <a href="javascript:;">
+                                                <img src="img/css-course.png" alt="php-course" class="img-responsive"/>
+                                            </a>
+                                        </div>
+                                        <div class="videos-link">
+                                            <a href="javascript:;">Bài 2. Làm việc với thẻ table</a>
+                                            <span>01/01/2016</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="videos-img">
+                                            <a href="javascript:;">
+                                                <img src="img/js-course.png" alt="php-course" class="img-responsive"/>
+                                            </a>
+                                        </div>
+                                        <div class="videos-link">
+                                            <a href="javascript:;">Bài 3. Tổng quan về javascript</a>
+                                            <span>01/01/2016</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="videos-img">
+                                            <a href="javascript:;">
+                                                <img src="img/jquery-course.jpg" alt="php-course" class="img-responsive"/>
+                                            </a>
+                                        </div>
+                                        <div class="videos-link">
+                                            <a href="javascript:;">Bài 3. Tổng quan về javascript</a>
+                                            <span>01/01/2016</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="videos-img">
+                                            <a href="javascript:;">
+                                                <img src="img/php-course.png" alt="php-course" class="img-responsive"/>
+                                            </a>
+                                        </div>
+                                        <div class="videos-link">
+                                            <a href="javascript:;">Bài 3. Tổng quan về javascript</a>
+                                            <span>01/01/2016</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="videos-img">
+                                            <a href="javascript:;">
+                                                <img src="img/java-course.png" alt="php-course" class="img-responsive"/>
+                                            </a>
+                                        </div>
+                                        <div class="videos-link">
+                                            <a href="javascript:;">Bài 3. Tổng quan về javascript</a>
+                                            <span>01/01/2016</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="videos-img">
+                                            <a href="javascript:;">
+                                                <img src="img/html-course.png" alt="php-course" class="img-responsive"/>
+                                            </a>
+                                        </div>
+                                        <div class="videos-link">
+                                            <a href="javascript:;">Bài 3. Tổng quan về javascript</a>
+                                            <span>01/01/2016</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- #footer -->
+        <div id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <!-- Courses list -->
+                                <h4>Khóa học</h4>
+                                <ul class="list-unstyled">
+                                    <li><a href="javascript:;">Html 5</a></li>
+                                    <li><a href="javascript:;">Css 3</a></li>
+                                    <li><a href="javascript:;">Javascript</a></li>
+                                    <li><a href="javascript:;">Jquery</a></li>
+                                    <li><a href="javascript:;">PHP Basic</a></li>
+                                    <li><a href="javascript:;">PHP Framework</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <!-- Services -->
+                                <h4>Dịch vụ</h4>
+                                <ul class="list-unstyled">
+                                    <li>Đào tạo lập trình</li>
+                                    <li>Thiết kế website</li>
+                                    <li>Hỗ trợ thực tập</li>
+                                    <li>Domain & Hosting</li>
+                                    <li>SEO top Google</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <!-- Support Online -->
+                                <h4>Hỗ trợ trực tuyến</h4>
+                                <ul class="list-unstyled">
+                                    <li>Phone: <a href="javascript:;">0912 123 123</a></li>
+                                    <li>Skype: <a href="javascript:;">suntech@skype</a></li>
+                                    <li>Email: <a href="javascript:;">suntech@gmail.com</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <!-- Information -->
+                        <h4 style="margin-top: 9px;">SUNTECH.COM.VN</h4>
+                        <p style="color: #899b9f;"> <b> Suntech</b> là một trung tâm
+                        đào tạo lập trình được thành lập từ năm 2014. Trung tâm tập
+                        trung phát triển các khóa học dạy lập trình website bằng ngôn
+                        ngữ php. Ngoài ra, trung tâm còn là cầu nối giúp học viên có
+                        thể tìm kiếm việc làm phù hợp.</p>
+                        <h4>Thông tin chung</h4>
+                        <ul class="list-unstyled">
+                            <li>Số 15, ngách 15/24, đường Hồ Tùng Mậu, Cầu Giấy, Hà Nội</li>
+                            <li>Email: daotaolaptrinhsuntech@gmail.com</li>
+                            <li>Phone: 0942 668 586</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div id="footerBottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div style="padding-top: 8px;">
+                                <span style="color: #ffffff;">
+                                    Copyright &copy; suntech.com.vn - All right reservied
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="socail-networks text-right">
+                                <a href="javascript:;" class="fb">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                                <a href="javascript:;" class="tw">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                                <a href="javascript:;" class="gp">
+                                    <i class="fa fa-google-plus"></i>
+                                </a>
+                                <a href="javscript:;" class="yt">
+                                    <i class="fa fa-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- jQuery, Bootstrap JavaScript -->
+        <script src="bootstrap/js/jquery.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <!-- Customers -->
+        <script src="customers/js/main.js"></script>
+    </body>
+</html>
