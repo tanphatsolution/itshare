@@ -1,0 +1,283 @@
+body {
+    background-color: #f1f1f1;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+/* #menu --------------------------------------------------*/
+#menu .navbar {
+    width: 100%;
+    margin-bottom: 0;
+    padding: 10px 0 10px 0;
+    background: #3a464b;
+    border-radius: 0;
+    border: 0;
+    color: #ffffff;
+    z-index: 100;
+}
+
+#menu .navbar .navbar-header .navbar-brand {
+    font-size: 1.7em;
+}
+
+#menu .navbar a {
+    font-size: 1.1em;
+    font-weight: 300;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+#menu .navbar .navbar-collapse .navbar-nav a {
+    margin-top: 7px;
+    margin-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 0.5em;
+    font-weight: bold;
+    transition: background 0.35s;
+}
+
+#menu .navbar .navbar-collapse .navbar-nav a:hover,
+#menu .navbar .navbar-collapse .navbar-nav li.active a {
+    background: #1abc9c;
+}
+
+/* #banner --------------------------------------------------*/
+#banner .jumbotron {
+    padding: 100px 0;
+    background: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+
+}
+
+#banner .jumbotron h1 {
+    font-size: 3.1em;
+}
+
+#banner .jumbotron .btn {
+    background: #1abc9c;
+    border: 0;
+}
+
+/* #slogan --------------------------------------------------*/
+#slogan {
+    margin: 50px 0;
+}
+
+#slogan h3 {
+    font-weight: bold;
+}
+
+#slogan p {
+    font-weight: 600;
+}
+
+#slogan .glyphicon {
+    font-size: 40px;
+}
+
+#underSlogan {
+    height: 75px;
+    margin-top: 20px;
+    background: #4985B8;
+}
+
+#underSlogan h3 {
+    height: 100%;
+    color: #ffffff;
+    line-height: 75px;
+}
+
+/* #content --------------------------------------------------*/
+#content {
+    margin-top: 20px;
+}
+
+#content .detail {
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 4px;
+    box-shadow:  0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+}
+
+#content .detail .detail-header h1 {
+    font-size: 1.5em;
+}
+
+/* #sidebar --------------------------------------------------*/
+#sidebar .sidebar-section {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    padding: 3px 10px 10px 10px;
+    background: #ffffff;
+    border-radius: 4px;
+    box-shadow:  0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+}
+
+#sidebar .sidebar-section h4 {
+    padding: 13px;
+    background: #ed1c4d;
+    color: #ffffff;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+#sidebar .sidebar-section > ul > li {
+    width: 100%;
+    padding: 3px 0;
+}
+
+#sidebar .sidebar-section ul.videos li {
+    float: left;
+    padding: 10px 0;
+    border-bottom: 1px dotted #bbbbbb;
+}
+
+#sidebar .sidebar-section ul.videos li .videos-img {
+    width: 25%;
+    float: left;
+}
+
+#sidebar .sidebar-section ul.videos li .videos-img img {
+    width: 60px;
+    height: 60px;
+    border-radius: 3px;
+    border: 1px solid #bbbbbb;
+    padding: 3px;
+    margin-left: 13px;
+}
+
+#sidebar .sidebar-section ul.videos li .videos-link {
+    width: 75%;
+    height: 64px;
+    padding-left: 7px;
+    float: right;
+}
+
+#sidebar .sidebar-section ul.videos li .videos-link a {
+    height: 40px;
+    color: #010101;
+    display: block;
+    overflow: hidden;
+    transition: color 0.35s;
+}
+
+#sidebar .sidebar-section ul.videos li .videos-link a:hover {
+    text-decoration: none;
+    color: #0096d7;
+}
+
+#sidebar .sidebar-section ul.videos li .videos-link span {
+    font-size: 0.85em;
+    color: orange;
+}
+
+#sidebar .sidebar-section ul.posts li {
+    padding: 15px 0 15px 10px;
+    overflow: hidden;
+    border-bottom: 1px dashed #bbbbbb;
+}
+
+#sidebar .sidebar-section ul.posts li a {
+    color: #000000;
+    transition: color 0.35s;
+}
+
+#sidebar .sidebar-section ul.posts li a:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+#sidebar .sidebar-section ul.posts li span {
+    margin-top: 3px;
+    font-size: 0.9em;
+    color: #0089c4;
+    display: block;
+}
+
+#sidebar ul#sidebarCourses li a {
+    width: 100%;
+    padding: 10px;
+    background: #f3f3f3;
+    display: inline-block;
+    transition: 0.35s;
+}
+
+#sidebar ul#sidebarCourses li.active a {
+    background: #428bca;
+    color: #ffffff;
+}
+
+#sidebar ul#sidebarCourses li a:hover {
+    text-decoration: none;
+    background: #428bca;
+    color: #ffffff;
+}
+
+/* #footer --------------------------------------------------*/
+#footer {
+    padding-top: 30px;
+    background: #272822;
+}
+
+#footer h4 {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #777777;
+    color: #ffffff;
+}
+
+#footer ul > li {
+    color: #899b9f;
+    margin: 10px 0;
+}
+
+#footer ul > li > a {
+    color: #899b9f;
+    transition: color 0.35s;
+}
+
+#footer ul > li > a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#footerBottom {
+    padding: 15px 0;
+    background: #010101;
+}
+
+#footerBottom .socail-networks a {
+    width: 30px;
+    height: 30px;
+    font-size: 1.1em;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+    display: inline-block;
+    transition: background 0.35s;
+}
+
+#footerBottom .socail-networks a:hover {
+    text-decoration: none;
+}
+
+#footerBottom .socail-networks a.fb:hover {
+    background: #5f83bb;
+}
+
+#footerBottom .socail-networks a.tw:hover {
+    background: #39b8db;
+}
+
+#footerBottom .socail-networks a.gp:hover {
+    background: #c43c2c;
+}
+
+#footerBottom .socail-networks a.yt:hover {
+    background: #ff0000
+}

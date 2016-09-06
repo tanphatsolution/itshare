@@ -1,0 +1,40 @@
+/* Style for Posts page --------------------------------------------------*/
+.posts-list .item {
+    padding: 15px;
+    border-bottom: 1px dashed #bbbbbb;
+    overflow: hidden;
+}
+
+.posts-list .item .item-img img {
+    width: 150px;
+    height: 150px;
+    margin-top: 5px;
+}
+
+.posts-list .item .item-info h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.posts-list .item .item-info h3 a {
+    transition: color 0.35s;
+}
+
+.posts-list .item .item-info h3 a:hover {
+    text-decoration: none;
+    color: orange;
+}
+
+.posts-list .item .item-info div {
+    margin-bottom: 7px;
+}
+
+@media (max-width: 767px) {
+    .posts-list .item .item-img img {
+        margin: auto;
+    }
+
+    .posts-list .item .item-info {
+        margin-top: 15px;
+    }
+}

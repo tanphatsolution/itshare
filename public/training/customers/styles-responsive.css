@@ -1,0 +1,84 @@
+
+@media (max-width: 1024px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #sidebar .sidebar-section ul.videos li .videos-img {
+        width: 11%;
+    }
+
+    #sidebar .sidebar-section ul.videos li .videos-link {
+        width: 88%;
+    }
+}
+
+@media (max-width: 767px) {
+    #menu .navbar .navbar-collapse {
+        margin-top: 40px;
+    }
+
+    #menu .navbar .navbar-header .navbar-toggle {
+        margin-top: 30px;
+    }
+
+    #menu .navbar .navbar-collapse {
+        margin-top: 20px;
+    }
+
+    #banner {
+        display: none;
+    }
+
+    #slogan {
+        margin-top: 75px;
+    }
+
+    #sidebar {
+        margin-top: 15px;
+    }
+
+    #sidebar .sidebar-section ul.videos li .videos-img {
+        width: 20%;
+    }
+
+    #sidebar .sidebar-section ul.videos li .videos-link {
+        width: 76%;
+    }
+
+    #footer {
+        text-align: center;
+    }
+
+    #footerBottom {
+        text-align: center;
+    }
+
+    #footerBottom .socail-networks {
+        text-align: center;
+    }
+
+    .posts-list .item .item-img img {
+        margin: auto;
+    }
+
+    .posts-list .item .item-info {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 320px) {
+
+}

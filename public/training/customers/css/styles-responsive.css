@@ -1,0 +1,102 @@
+
+@media (max-width: 1024px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #sidebar .sidebar-section ul.videos li .videos-img {
+        width: 11%;
+    }
+
+    #sidebar .sidebar-section ul.videos li .videos-link {
+        width: 88%;
+    }
+}
+
+@media (max-width: 767px) {
+    #menu .navbar {
+        border-radius: 0;
+        padding: 0;
+        position: fixed;
+        top: 0;
+    }
+
+    #menu .navbar .navbar-header .navbar-brand {
+        font-size: 1.5em;
+    }
+
+    #menu .navbar .navbar-collapse {
+        border-top: 0;
+    }
+
+    #menu .navbar .navbar-collapse .navbar-nav a {
+        margin-top: 2px;
+        margin-left: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 0;
+        font-weight: bold;
+    }
+
+    #menu .navbar .navbar-header button {
+        border: none;
+    }
+
+    #menu .navbar .navbar-header button:hover {
+        background: #3a464b;
+    }
+
+    #menu .navbar .navbar-header button .icon-bar {
+        height: 3px;
+        width: 30px;
+        background: #ffffff;
+    }
+
+    #banner {
+        display: none;
+    }
+
+    #slogan {
+        margin-top: 75px;
+    }
+
+    #sidebar {
+        margin-top: 15px;
+    }
+
+    #sidebar .sidebar-section ul.videos li .videos-img {
+        width: 20%;
+    }
+
+    #sidebar .sidebar-section ul.videos li .videos-link {
+        width: 76%;
+    }
+
+    #footer {
+        text-align: center;
+    }
+
+    #footerBottom {
+        text-align: center;
+    }
+
+    #footerBottom .socail-networks {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 320px) {
+
+}
