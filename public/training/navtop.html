@@ -1,24 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <title>Navtop</title>
         <meta charset="utf-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-        <title>Học lập trình web tại Hà Nội | Diễn đàn chia sẻ kiến thức trực tuyến</title>
-
-        <meta name="description" content="Học lập trình web tại Hà Nội. Diễn đàn chia sẻ kiến thức trực tuyến."/>
-        <meta name="keywords" content="HTML,CSS,XML,JavaScript,PHP"/>
-
-        {{ HTML::style('training/img/logo.png', ['rel' => 'shortcut icon']) }}
-
         <!-- Bootstrap CSS, Font-awesome -->
-        {{ HTML::style('training/bootstrap/css/bootstrap.min.css') }}
-        {{ HTML::style('training/font-awesome/css/font-awesome.min.css') }}
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"/>
         <!-- Customers -->
-        {{ HTML::style('training/customers/styles.css') }}
-        {{ HTML::style('training/customers/styles-responsive.css') }}
-        {{ HTML::style('training/customers/css/home.css') }}
+        <!-- <link rel="stylesheet" href="customers/css/styles.css"/> -->
+        <!-- <link rel="stylesheet" href="customers/css/styles-responsive.css"/> -->
+        <link rel="stylesheet" href="customers/styles.css"/>
+        <link rel="stylesheet" href="customers/styles-responsive.css"/>
+        <link rel="stylesheet" href="customers/css/home.css"/>
     </head>
 
     <body>
@@ -35,15 +31,15 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="/" title="Trang chủ">
-                            {{ HTML::image('training/img/logo.png', 'logo', ['width' => 75, 'height' => 75]) }}
+                        <a class="navbar-brand" href="#">
+                            <img src="img/logo.png" alt="Logo" style="width: 75px; height: 75px;" />
                         </a>
                     </div>
 
                     <!-- .navbar-collapse -->
                     <div class="collapse navbar-collapse" id="menuTop">
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="active"><a href="javascript:;">Trang chủ</a></li>
+                            <li class="active"><a href="#">Trang chủ</a></li>
                             <li><a href="#">Giới thiệu</a></li>
                             <li><a href="#">Diễn đàn</a></li>
                             <li><a href="#">Liên hệ</a></li>
@@ -56,7 +52,7 @@
 
         <!-- #banner -->
         <div id="banner">
-            <div class="jumbotron" style="background: url('/training/img/banner.jpg'); background-size: cover;">
+            <div class="jumbotron" style="background: url('img/banner.jpg'); background-size: cover;">
                 <h1>Bạn muốn trở thành lập trình viên?</h1>
                 <p>Hãy tham gia khóa học của chúng tôi!</p>
                 <a href="#" title="" class="btn btn-info btn-lg">Tham gia ngay</a>
@@ -99,7 +95,7 @@
                         <div class="course">
                             <div class="course-img">
                                 <a href="javascript:;" title="">
-                                    {{ HTML::image('training/img/html-course.png', 'HTML-COURSE', ['class' => 'img-responsive']) }}
+                                    <img src="img/html-course.png" alt="HTML-COURSE" class="img-responsive">
                                 </a>
                             </div>
                             <div class="course-info">
@@ -132,7 +128,7 @@
                         <div class="course">
                             <div class="course-img">
                                 <a href="javascript:;" title="">
-                                    {{ HTML::image('training/img/css-course.png', 'CSS-COURSE', ['class' => 'img-responsive']) }}
+                                    <img src="img/css-course.png" alt="CSS-COURSE" class="img-responsive">
                                 </a>
                             </div>
                             <div class="course-info">
@@ -168,7 +164,7 @@
                         <div class="course">
                             <div class="course-img">
                                 <a href="javascript:;" title="">
-                                    {{ HTML::image('training/img/js-course.png', 'js-course', ['class' => 'img-responsive']) }}
+                                    <img src="img/js-course.png" alt="js-course" class="img-responsive">
                                 </a>
                             </div>
                             <div class="course-info">
@@ -201,7 +197,7 @@
                         <div class="course">
                             <div class="course-img">
                                 <a href="javascript:;" title="">
-                                    {{ HTML::image('training/img/jquery-course.jpg', 'JQUERY-COURSE', ['class' => 'img-responsive']) }}
+                                    <img src="img/jquery-course.jpg" alt="JQUERY-COURSE" class="img-responsive">
                                 </a>
                             </div>
                             <div class="course-info">
@@ -236,7 +232,7 @@
                         <div class="course">
                             <div class="course-img">
                                 <a href="javascript:;" title="">
-                                    {{ HTML::image('training/img/php-course.png', 'php-course', ['class' => 'img-responsive']) }}
+                                    <img src="img/php-course.png" alt="php-course" class="img-responsive">
                                 </a>
                             </div>
                             <div class="course-info">
@@ -268,7 +264,7 @@
                         <div class="course">
                             <div class="course-img">
                                 <a href="javascript:;" title="">
-                                    {{ HTML::image('training/img/php-course.png', 'php-course', ['class' => 'img-responsive']) }}
+                                    <img src="img/php-course.png" alt="php-course" class="img-responsive">
                                 </a>
                             </div>
                             <div class="course-info">
@@ -321,7 +317,7 @@
                         </div>
 
                         <div class="image col-md-6">
-                            {{ HTML::image('training/img/tpage-slide01.jpg', 'Tpage-slide001', ['class' => 'img-responsive']) }}
+                            <img src="img/tpage-slide01.jpg" alt="" class="img-responsive"/>
                         </div>
                     </div> <!-- /.row -->
                 </div> <!-- /.container -->
@@ -331,7 +327,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="image col-md-6">
-                            {{ HTML::image('training/img/tpage-slide02.jpg', 'Tpage-slide002', ['class' => 'img-responsive']) }}
+                            <img src="img/tpage-slide02.jpg" alt="" class="img-responsive"/>
                         </div>
                         <div class="about col-md-6">
                             <h3 class="title text-uppercase">
@@ -364,7 +360,7 @@
                         </div>
 
                         <div class="image col-md-6">
-                            {{ HTML::image('training/img/tpage-slide03.jpg', 'Tpage-slide03', ['class' => 'img-responsive']) }}
+                            <img src="img/tpage-slide03.jpg" alt="" class="img-responsive"/>
                         </div>
                     </div> <!-- /.row -->
                 </div> <!-- /.container -->
@@ -461,8 +457,10 @@
             </div>
         </div>
 
-        {{ HTML::script('training/customers/js/jquery.js') }}
-        {{ HTML::script('training/bootstrap/js/bootstrap.min.js') }}
-        {{ HTML::script('training/customers/js/main.js') }}
+        <!-- jQuery, Bootstrap JavaScript -->
+        <script src="customers/js/jquery.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <!-- Customers -->
+        <script src="customers/js/main.js"></script>
     </body>
 </html>
